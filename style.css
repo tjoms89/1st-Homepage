@@ -1,0 +1,578 @@
+/*
+Theme Name: IT-Power Homepage
+Theme URI: http://localhost/worpress
+Description: IT-Power Homepage
+Author URI: http://www.it-power.org
+Author: Thomas Kleinert
+Version: 0.1
+*/
+
+
+
+#backstretch { max-width:none;}
+
+*{
+    list-style:none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+body{
+    font-family: 'Quattrocento Sans', sans-serif;
+    background: #2d438e;
+    text-rendering: optimizeLegibility;
+    font-weight: normal;
+    letter-spacing: 2px;
+    padding-left: 0;
+    padding-right: 0;
+
+}
+
+hr{
+    color: #2d438e; 
+    background-color: #FFF; 
+    border: 3px dotted  #2d438e;
+    border-style: none none dotted;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+
+            
+
+/* Navigationbar css */
+
+.navbar{
+    background: #ffffff;
+    margin: 0;
+    border: none; 
+}
+
+.navbar-default .navbar-brand{
+    color: #2d438e;
+    font-size: 12px;
+}
+
+.navbar-default .navbar-brand:hover{
+    color: #ffffff;
+    background: #2d438e;
+}
+
+.navbar .nav > li > a
+{
+    color: #2d438e;
+    font-size: 15px;
+
+}
+
+.navbar .nav > li > a:focus,
+.navbar .nav > li > a:hover
+{
+    color: #ffffff;
+    background: #2d438e;
+}
+.navbar-default .nav .active > a, .navbar-default .nav .active > a:hover, .navbar-default .nav .active > a:focus, .navbar-default .nav .current_page_item a,  .navbar-default .nav .current_page_parent a, .navbar-default .nav .current_page_parent a:hover, .navbar-default .nav .current_page_parent a:focus, .navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
+    color: #2d438e;
+    background: #E7E7E7;
+}
+
+
+.navbar .nav .hover{
+    background: #2d438e;
+    color: #FFFFFF;
+}
+.navbar .nav .hover > a{
+    color: #FFFFFF;
+    background: #2d438e;
+}
+
+
+/* subnav */
+
+#subnav{
+    position: fixed; 
+    top: 50px;
+    height: 4px;
+    width: 100%;
+    z-index: 1031;
+    background-color: #2d438e;
+    color: #FFFFFF;
+    visibility: hidden; 
+}
+
+#mainnav > li .sub-menu  {
+
+    display: none;
+    position: fixed;
+    height: 30px;
+    top: 50px;
+    width: auto;
+    z-index: 1032;
+}
+#mainnav > li .sub-menu > li {
+    list-style: none outside none;
+    top: 0;
+    float: left; 
+    width: auto;
+    z-index: 1032;
+}
+
+.navbar .nav > li .sub-menu > li > a{
+    color: #FFFFFF;
+    height: 35px;
+    line-height: 36px;
+    padding: 0 12px; 
+    text-decoration: none; 
+    width: auto;
+    background: #2d438e;
+    z-index: 1032;
+    display:table;
+}
+#mainnav > li .sub-menu > li > a:hover,
+#mainnav > li .sub-menu > li > a:focus{
+    list-style: none outside none;
+    position: relative;
+    top: 0;
+    float: left; 
+    width: auto;
+    background-color: #002240;
+    color: #FFFFFF;
+    z-index: 1032;
+}
+
+
+.customize-support #subnav{
+    top: 78px;
+}
+
+.customize-support #mainnav > li .submenu  {
+    top: 78px;
+}
+
+/* body-part css */
+
+h1,h2,h3,h4,h5 {
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+
+body #intro
+{
+    min-height: 360px;
+    z-index: 0;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+body #main
+{
+    font-family: 'Quattrocento Sans', sans-serif;
+    background: 0 0 repeat #FFFFFF;
+    position: relative; 
+    z-index: 0;
+    margin: 0;
+    padding: 0 0 20px 0;
+    color: #2d438e;
+    font-size: 14px;
+    text-align: center; 
+    height: auto !important;
+
+}
+
+body #intro-small {
+    min-height: 350px;
+    z-index: 0;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+body #posts
+{
+
+    height: auto;
+    background: 0 0 repeat #FFFFFF;
+    position: relative; 
+    z-index: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    text-align: center;
+    box-shadow: 0 5px 13px -5px black;
+
+}
+
+body #foot
+{
+    min-height: 50px;
+    background: 0 0 repeat #2d438e;
+    z-index: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+
+}
+
+body #kontakt {
+    font-family: 'Quattrocento Sans', sans-serif;
+    min-height: 400px;
+    background: 0 0 repeat #FFFFFF;
+    position: relative; 
+    z-index: 0;
+    margin: 0;
+    padding: 0;
+    text-align: center; 
+    
+}
+
+body #kunde
+{
+    font-family: 'Quattrocento Sans', sans-serif;
+    min-height: 550px;
+    background: 0 0 repeat #FFFFFF;
+    position: relative; 
+    z-index: 0;
+    margin: 0;
+    padding: 0;
+    color: #2d438e;
+    font-size: 14px;
+    text-align: center;
+    box-shadow: 0 5px 13px -5px black;
+}
+
+body #kontakt .tel{
+    visibility: visible;
+}
+
+body #kontakt .form{
+    visibility: hidden;
+}
+
+
+body #foot div{
+    top: 20px;
+    color: white; 
+}
+
+body #main ul li a{
+    color: #2d438e;
+}
+
+body #kunde hr{
+	width: 90%;
+	height: 2px;
+	border: 0;
+	background: -webkit-linear-gradient(left,  rgba(45,67,142,0) 0%,rgba(45,67,142,0.7) 50%,rgba(45,67,142,0) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  rgba(45,67,142,0) 0%,rgba(45,67,142,0.7) 50%,rgba(45,67,142,0) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  rgba(45,67,142,0) 0%,rgba(45,67,142,0.7) 50%,rgba(45,67,142,0) 100%); /* IE10+ */
+	background: linear-gradient(to right,  rgba(45,67,142,0) 0%,rgba(45,67,142,0.7) 50%,rgba(45,67,142,0) 100%); /* W3C */
+}
+
+.row {
+    visibility: visible;
+    filter: false;
+    margin-left: 5px;
+    margin-right: 5px;
+    top: 60px; 
+}
+#picture {
+    height: auto; 
+}
+
+body #intro .row {
+    padding-top: 30px;
+}
+
+body #intro-small .row {
+    padding-top: 30px;
+}
+
+/* diverse hintergründe */ 
+
+.background1{
+    display: inline-block;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAFUlEQVQImWNgQAK6zn3/SeUwMDAAAAk5B/UaXbqNAAAAAElFTkSuQmCC);
+    margin-top: 50px;
+
+}
+
+.background2{
+    display: inline-block; 
+    background: #2d438e;
+}
+.background3{
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAFUlEQVQImWNgQAK6zn3/SeUwMDAAAAk5B/UaXbqNAAAAAElFTkSuQmCC);
+    padding-bottom: 100px;
+}
+
+.background4{
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAFUlEQVQImWNgQAK6zn3/SeUwMDAAAAk5B/UaXbqNAAAAAElFTkSuQmCC);
+
+}
+.background5{
+    margin-top: 50px;
+    display: inline-block; 
+    background: #2d438e;
+}
+
+/* fonts etc */ 
+
+#intro h1 {
+    text-align: center;
+    width: 100%;
+    font-size: 16px;
+    line-height: 14px;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+#intro-small h1 {
+    text-align: center;
+    width: 100%;
+    font-size: 16px;
+    line-height: 14px;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+#main h1 {
+    text-align: center;
+    position: relative;
+    width: 100%;
+    top: 10px; 
+    font-size: 14px;
+    line-height: 16px;
+    color: #2d438e;
+    letter-spacing: 0px;
+    text-rendering: optimizeLegibility;   
+
+}
+
+#main .domtab > div {
+    text-align: left;
+
+}
+#main h3, #main h4 {
+
+    font-size: 16px; 
+}
+
+#main #text, #kunde .text{
+    display:none;     
+}
+
+p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.content{
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 16px;
+}
+
+col-md-12 {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+/* footer */ 
+
+#foot .ulfooter{
+    list-style-type: none;
+    position: relative;
+}
+
+#foot .ulfooter li a{
+    color: white; 
+}
+
+#foot .ulfooter2{
+    list-style-type: none;
+    position: relative;
+}
+
+#foot .ulfooter2 li{
+    display: inline-block;
+    float: left;
+}
+
+#foot .ulfooter2 li a{
+    color: white; 
+}
+
+/* news sidebar */ 
+
+.ulsidebar{
+    list-style-type: none;
+    position: relative;
+}
+
+
+/*  media-querries */
+
+@media (min-width: 200px){
+    .navbar-default .navbar-brand, .navbar-default .navbar-brand:hover,
+    .navbar-default .navbar-brand:focus{
+        font-size: 16px;
+    }
+
+}
+@media (min-width: 280px){
+    .navbar-default .navbar-brand, .navbar-default .navbar-brand:hover,
+    .navbar-default .navbar-brand:focus{
+        font-size: 22px;
+    }
+
+    #intro h1, #main h1, body #posts, .title, #intro-small h1 { 
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    #intro h1{
+        font-size: 17px;
+        line-height: 20px;
+    }
+
+    #main h3, #main h4{
+        font-size: 17px; 
+        line-height: 20px;
+    }
+
+    .content {
+        font-size: 15px;
+        line-height: 18px;
+    }
+
+    body #intro{
+        min-height: 450px;
+    }
+}
+@media (min-width: 380px){
+    body #intro{
+        min-height: 360px;
+    }
+
+    #intro h1, #intro-small h1{
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    #main h1, .title { 
+        font-size: 17px;
+        line-height: 30px;
+    }
+
+    #main h3, #main h4{
+        font-size: 20px; 
+        line-height: 30px;
+    }
+
+
+    .content{
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .row {
+        filter: false;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+}
+@media (min-width: 570px){
+    body #intro{
+        min-height: 420px;
+    }
+
+    body #foot{
+        min-height: 50px;
+    }
+
+    #intro h1, #intro-small h1{
+        font-size: 26px;
+        line-height: 40px;
+    }
+
+    #main h1, #main h3, .title { 
+        font-size: 25px;
+        line-height: 40px;
+    }
+
+    #main h4
+    {
+        font-size: 18px; 
+    }
+
+    .content{
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    body #kontakt .form{
+        visibility: visible;
+
+    }
+    body #kontakt {
+        min-height: 600px;
+    }
+
+}
+
+@media (min-width: 768px){
+
+    #main #text, #kunde .text{
+        display: block;
+    }
+
+    #subnav{
+        visibility: visible; 
+
+    }
+
+    .navbar .nav > li > a, .navbar-default .navbar-brand {
+        transition: background 300ms ease-in-out 0s;
+    } 
+}
+
+@media (min-width: 850px){
+
+.navbar .nav > li > a
+{
+    font-size: 17px;
+
+}
+}
+@media (min-width: 979px){
+
+    body #intro{
+        min-height: 450px;
+    }
+
+    body #posts{
+        padding-top: 80px;
+    }
+    #intro h1, #intro-small h1{   
+        top: 170px;
+    }
+
+    .row {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+} 
+
