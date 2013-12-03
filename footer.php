@@ -8,12 +8,13 @@
                 <li><a href="<?php echo get_permalink(get_page_by_path('karriere')); ?>">Karriere</a></li>
                 <li><a href="<?php echo get_permalink(get_page_by_path('kunden')); ?>">Kunden</a></li>
                 <li><a href="<?php echo get_permalink(get_page_by_path('partner')); ?>">Partner</a></li>
+                <li><a href="<?php echo get_permalink(get_page_by_path('uber')); ?>">Partner</a></li>
             </ul>
             <br>
         </div>
         <div class="col-sm-6 col-md-3">
             <ul class="ulfooter">
-                <li><a href="<?php echo get_permalink(get_page_by_path('unternehmen')); ?>">Das Unternehmen</a></li>
+                <li><a href="<?php echo get_permalink(get_page_by_path('unternehmen')); ?>">Unternehmen</a></li>
                 <li><a href="<?php echo get_permalink(get_page_by_path('consulting')); ?>">Consulting</a></li>
                 <li><a href="<?php echo get_permalink(get_page_by_path('outputmanagement')); ?>">Outputmanagement</a></li>
                 <li><a href="<?php echo get_permalink(get_page_by_path('softwareengineering')); ?>">Softwareentwicklung</a></li>
@@ -47,7 +48,7 @@
             <ul class="ulfooter2">
                 <li><a href="<?php echo get_admin_url(); ?>">Login</a></li>
                 <br>
-                <li>&copy; IT-Power 2013</li>
+                <li>&copy; IT-Power GmbH 2013</li>
 
             </ul>
             <br>
@@ -94,7 +95,9 @@ function add_this_script_footer() {
             jQuery(".eis").backstretch("<?php echo get_stylesheet_directory_uri(); ?>/assets/img/eis.jpg");
 
             jQuery(".water2").backstretch("<?php echo get_stylesheet_directory_uri(); ?>/assets/img/water2.jpg");
-
+            
+            jQuery(".water").backstretch("<?php echo get_stylesheet_directory_uri(); ?>/assets/img/water.jpg");
+            
             jQuery(".news").backstretch("<?php echo get_stylesheet_directory_uri(); ?>/assets/img/news.jpg");
 
             jQuery(".work").backstretch("<?php echo get_stylesheet_directory_uri(); ?>/assets/img/work.jpg");

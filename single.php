@@ -3,7 +3,7 @@
 
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
         <div style="height:87px; background:#fff;"></div>
-        <div id="main">        
+        <div style=" background: 0 0 repeat #FFFFFF; color: #2d438e;">        
             <div class="row">
                 <div style="text-align: left;">
                 <div class="title"><?php the_title(); ?></div>
@@ -17,6 +17,7 @@
                     </div>
                 </div>
             </div>
+            <br>
         </div>
     <?php endwhile;
 else: ?>

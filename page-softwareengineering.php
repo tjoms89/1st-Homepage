@@ -10,7 +10,7 @@
             </div>
         </div>
         </div>
-        <div id="main">
+        <div id="main"><!--
             <div class="domtab">
                 <ul class="domtabs">
                     <li><a href="#t1">Allgemein</a></li>
@@ -206,7 +206,8 @@
                     <p><a href="#top">back to menu</a></p> 
                 </div>
             </div>
-        </div>
+        </div> -->
+            <?php the_content(); ?>
         </div>
     <?php endwhile;
 else: ?>

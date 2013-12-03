@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-<!-- generator="WordPress/3.6" created="2013-12-03 08:37" -->
+<!-- generator="WordPress/3.6" created="2013-12-03 10:41" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>IT-Power</title>
 	<link>http://localhost/wordpress</link>
 	<description>IT-Power Homepage</description>
-	<pubDate>Tue, 03 Dec 2013 08:37:40 +0000</pubDate>
+	<pubDate>Tue, 03 Dec 2013 10:41:26 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>http://localhost/wordpress</wp:base_site_url>
@@ -175,7 +175,45 @@
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">https://localhost/wordpress/?page_id=19</guid>
 		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
+		<content:encoded><![CDATA[            <div class="domtab">
+                <ul class="domtabs">
+                    <li><a href="#t1">Allgemein</a></li>
+                    <li><a href="#t2">Thema 1</a></li>
+                    <li><a href="#t3">Thema 2</a></li>
+                    <li><a href="#t4">Thema 3</a></li>
+                    <li><a href="#t5">Thema n</a></li>
+                </ul>
+
+                <div>
+                    <h2><a name="t1" id="t1">Allgemein</a></h2>
+                    <p><a href="#top">back to menu</a></p>
+
+                </div>
+
+                <div>
+                    <h2><a name="t2" id="t2">Thema 1</a></h2>
+                    <p><a href="#top">back to menu</a></p> 
+                </div>
+                <div>
+                    <h2><a name="t3" id="t3">Thema 2</a></h2>
+                    <p><a href="#top">back to menu</a></p> 
+                </div>
+                <div>
+                    <h2><a name="t4" id="t4">Thema 3</a></h2>
+                    <p> Text zum Thema kommt hier hin <br><br>
+                        <b> Text1 </b><br>
+                        TexttexttextTexttexttextTexttexttextTexttexttextTexttexttexttextTexttexttexttextTexttexttexttextTexttexttext<br>
+                        TexttexttextTexttexttextTexttexttextTexttexttextTexttexttext
+                    </p>
+                    <p><a href="#top">back to menu</a></p> 
+                </div>
+                <div>
+                    <h2><a name="t5" id="t5">Thema n</a></h2>
+                    <p><a href="#top">back to menu</a></p> 
+                </div>
+
+            </div>
+        </div>]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>19</wp:post_id>
 		<wp:post_date>2013-08-29 11:41:24</wp:post_date>
@@ -201,7 +239,441 @@
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">https://localhost/wordpress/?page_id=24</guid>
 		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
+		<content:encoded><![CDATA[&nbsp;
+<div class="domtab">
+<ul class="domtabs">
+	<li><a href="#t1">Allgemein</a></li>
+	<li><a href="#t2">Projektmanagement</a></li>
+	<li><a href="#t3">Geschäftsprozessmanagement</a></li>
+	<li><a href="#t4">Qualitätsmanagement</a></li>
+	<li><a href="#t5">SAP Berechtigungswesen</a></li>
+	<li><a href="#t6">ERP</a></li>
+	<li><a href="#t7">EDM</a></li>
+	<li><a href="#t8">Business Intelligence</a></li>
+</ul>
+<div>
+<h2><a id="t1" name="t1"></a>Allgemein</h2>
+Ob Prozessberatung, Projektmanagement, Customizing oder Programmierung – wir haben für Ihre Aufgabe den richtigen Experten im Team. Als Tochter der Stadtwerke Flensburg GmbH sind wir in der komfortablen Situation, dass jeder unserer Consultants persönliche Erfahrungen im Umfeld eines Energieversorgungsunternehmens gesammelt hat. Wir legen sehr viel Wert auf eine fundierte Qualifikation und eine sinnvolle Übertragung von Projektaufgaben, um Ihnen in jeder Situation den richtigen Kollegen zur Verfügung zu stellen. Wir agieren nach unserem Leitspruch »Aus der Praxis für die Praxis«.
+
+<a href="#top">back to menu</a>
+
+</div>
+<div>
+<h2><a id="t2" name="t2"></a>Projektmanagement</h2>
+Die IT-Consultants der IT-Power unterstützen Projekte von Anfang bis Ende, sowohl als Projektleitung als auch in der Position einer Teilprojektleitung.
+
+Die Phase der Projektinitialisierung beschreibt den Weg von der Projektidee zum konkreten Projektauftrag. In dieser Phase des Projekts existiert nur eine erste Idee, eine Kundenanfrage, die in den nächsten Schritten bearbeitet bzw. weiter ausgearbeitet werden muss. Ziel dieser Phase ist deshalb die Klärung, wer die Verantwortung für die ersten Schritte im Projekt trägt und wie das Projekt organisiert wird.
+
+Ein Projekt beginnt dann mit einer Definitionsphase, hier steht am Ende ein fertiger Projektauftrag. Dabei werden Ziele geklärt, Business Cases gerechnet, Meilensteine definiert, Teams gebildet, Kostenanalysen durchgeführt und Lastenhefte erstellt.
+
+Darauf folgt die Planungsphase, hier wird das Projekt klar strukturiert. Es werden Arbeitspakete gemäß dem Pflichtenheft verteilt, der Ablauf, Ressourcen und Termine werden festgesetzt und Verantwortlichkeiten abgestimmt. Das Ergebnis dieser Phase des Projektes ist ein Projektstrukturplan mit entsprechenden Arbeitspaketen sowie einem Terminplan der alle vorhandene Ressourcen umfasst.
+
+Im Anschluss übernimmt das Projektmanagement in der Steuerungsphase die Überwachung und Regelung der tatsächlichen Umsetzung des Projektes. Der aktuelle Status wird verfolgt, Probleme behoben und Änderungen gemanagt, so dass während der Umsetzung Statusberichte erstellt werden können.
+
+Am Ende eines erfolgreichen Projektmanagements steht die Abschlussphase. Die Übergabe aller Ergebnisse erfolgt zusammen mit einem Finanzabschluss und einem Abschlussbericht. Phasenübergreifend sorgen unsere Projektmanager dafür Risiken möglichst frühzeitig zu erkennen und zu beheben. Außerdem ist es uns wichtig alle projektbeteiligten Stakeholder frühzeitig mit einzubinden, ständig zu informieren und gezielt zu unterstützen.
+
+<b>Zertifikate</b>
+
+• Zertifizierter Projektleiter (TÜV)
+
+• Projektmanagement (PRINCE2® Practitioner zertifiziert)
+
+• Projektmanagement (PRINCE2® Foundation zertifiziert)
+
+<b>Referenzen</b>
+
+E.on NESTA:
+
+Testkoordination Businesssimulation – Organisation und Koordination der Testkoordination, Schnittstelle zur Fehlerbehebung, Reporting zur Projektleitung, Vorbereitung von Entscheidungsvorlagen
+
+E.on IDOS:
+
+Zentraler Ansprechpartner für verschiedene Teilprojekte (SPoC) – Schnittstelle zwischen Kunde und Offshore Fachkräften, Verantwortlicher Ansprechpartner für verschiedene Teilprojekte, Betreuung des IDOS Gesamtprozesses auf Dienstleisterseite, Projektsteuerung und Projektcontrolling
+
+Semeco GmbH:
+
+(Teil-)Projektleitung Verbrauchsabrechnung/Vertriebsabrechnung Strom und Gas – Definition des Projektauftrages, Projektplanung, Teamzusammenstellung, Koordination des Ressourceneinsatzes, Projektkoordination, Berichtswesen, Teamführung, IST-Erhebung und Erstellung SOLL-Konzept, Umsetzung des SOLL-Konzepts
+
+<a href="#top">back to menu</a>
+
+</div>
+<div>
+<h2><a id="t3" name="t3"></a>Geschäftsprozessmanagement</h2>
+Ein Geschäftsprozess ist eine Abfolge von einzelnen Schritten bzw. Tätigkeiten mit dem Fokus der Erbringung einer Dienstleitung oder der Erstellung eines Produktes. Geschäftsprozesse stellen immer die Wertschöpfung und somit die Kundenanforderungen in den Vordergrund.
+
+Das Geschäftsprozessmanagement beschäftigt sich damit Prozesse zu identifizieren, zu definieren, das Unternehmen an diesen zu orientieren und sie im nachfolgenden kontinuierlich zu verbessern. Dazu werden Geschäftsprozesse modelliert, welche die Grundlage
+
+<b>Modellierung</b>
+
+Die Prozessmodellierung wird bei der IT-Power mit folgenden Standards (und Tools/Modellierungssprachen) durchgeführt.
+
+• BPM (BPMN 2.0 &amp; Inubit BPM Suite)
+
+• UML (Adonis &amp; Aris)
+
+durchgeführt. Im Folgenden wird die Modellierung mit dem weit verbreiteten BPM Standard näher erläutert.
+
+Business Process Management (BPM)
+
+Business Process Management bietet die Möglichkeit, kundenorientierte Prozesse in Unternehmen über ihre eigentlichen Systemgrenzen hinweg zu automatisieren, zu beschreiben und zu optimieren. Dadurch lassen sich die Reduzierung von Kosten und die Steigerung der Effizienz signifikant verbessern. BPM verbindet Geschäftsprozesse miteinander und bildet somit die Basis für organisatorische und informationstechnische Verbesserungen der Wertschöpfungskette in Unternehmen.
+
+<b>BPM-Praxis</b>
+
+Bestehende Prozesse sollen organisatorisch und informationstechnisch verbessert werden. Dabei steht die Verbesserung der Effizienz im Mittelpunkt, indem eventuelle Medienbrüche durch den Einsatz von Softwarelösungen beseitigt oder minimiert werden. Desweiteren gehört eine IT-gestützte Überwachung und kennzahlenbasierte Auswertung der Prozesse in dieses Aufgabenfeld hinein.
+
+Die Dokumentation von Prozessen, als weiteres Aufgabenfeld der BPM, hilft der Orientierung beteiligter Mitarbeiter. Auch im Rahmen juristischer Anforderungen oder zur Erlangung bestimmter Zertifizierungen nimmt die Dokumentation von Prozessen einen besonderen Stellenwert ein.
+
+Die Einführung neuer Prozesse gehört eher zu den seltenen Aufgaben. Diese ist erforderlich wenn sich Unternehmen auf geänderte Marktsituationen einstellen müssen oder zusätzliche Vertriebskanäle erschlossen werden müssen.
+
+&nbsp;
+
+<b>Zertifizierungen:</b> inubit certified professional
+
+<a href="#top">back to menu</a>
+
+</div>
+<div>
+<h2><a id="t4" name="t4"></a>Qualitätsmanagement</h2>
+<blockquote>„In 85% der Fälle, in denen Kundenanforderungen NICHT erfüllt werden, liegen die Fehlerursachen in den Prozessen und Systemen begründet…. Aber weniger in den Mitarbeitern selbst.
+
+Die Rolle des Managements muss es daher sein, die Prozesse zu verändern – anstatt einzelnen Mitarbeitern zu unterstellen, seine Sachen nicht gut genug zu machen.“
+
+Edwards W. Deming</blockquote>
+Qualitätsmanagement ist in Unternehmen zur Sicherung der Wettbewerbsfähigkeit bei der Entstehung eines Produktes oder Dienstleitung von hoher Bedeutung; von der Entwicklung bis hin zur Realisierung und Implementierung. Qualitätsmanagement richtig interpretiert, in der Praxis umgesetzt und kontinuierlich weiterentwickelt, kann zu einer dauerhaften Zukunftssicherung eines Unternehmens führen.
+
+Mit Qualitätsmanagementsystemen soll erreicht werden, dass alle Leistungen und Tätigkeiten kontinuierlich verbessert und insbesondere die Kundenzufriedenheit gesteigert wird.
+<b>Unsere Kernkompetenzen sind:</b>
+
+• Prozessaufnahme
+
+• Prozessdarstellung
+
+• Prozessverbesserung
+
+• Vorbereitungen und Unterstützungen bei der Einführung eines Qualitätsmanagementsystems sowie anschließender Zertifizierung
+
+• Durchführung Interner Audits
+
+• Projektmanagement mit Qualitätsmanagementwerkzeugen (auch Lean Six Sigma)
+
+<b>
+Zertifizierungen
+</b>
+• Interner Auditor von Qualitätsmanagementsystemen nach DIN EN ISO 9001 (TÜV Nord GmbH)
+
+• Zertifizierter Qualitätsmanagementbeauftragter (TQM Training &amp; Consulting GmbH)
+
+• Zertifizierter Six Sigma Green Belt (TQM Training &amp; Consulting GmbH)
+
+&nbsp;
+
+<b>Referenzen</b>
+
+1. OTTO Dörner Gruppe: größtes privates Entsorgungsunternehmen in Norddeutschland (Prozess und Qualitätsmanagement, Qualitätsmanagementsystem Pflege und Weiterentwicklung, Systemdokumentation, Prozessdokumentation, Prozessaufnahme, Geschäftsprozessentwicklung, Interne Audits, Projektmanagement, Unterstützung bei der Zertifizierung von QM-Systemen nach DIN EN ISO 9001:2008, Implementierung von DIN EN ISO 9001 Grundsätzen, Schulung von Mitarbeitern im Bezug auf die Qualitätsmanagementtätigkeiten, Prozessvisualisierung, interner und externer Ansprechpartner in Hinblick auf die Qualitätsmanagementsoftware.
+
+2. Ehemals Damp Holding AG, jetzt HELIOS Klinikum Schleswig: größter privater Gesundheitsversorger in Schleswig-Holstein. Implementierung und Vorbereitung auf eine Zertifizierung nach DIN EN ISO 9001:2008, Prozessaufnahme und Darstellung, Prozessdokumentation, Weiterentwicklung eines qualitätsmanagementrelevanten Dokumentenmanagementsystems, Projektmanagement mit Lean Six Sigma, Durchführung interner Audits nach DIN EN ISO 9001:2008.
+
+<a href="#top">back to menu</a>
+
+</div>
+<div>
+<h2><a id="t5" name="t5"></a>SAP-Berechtigungswesen</h2>
+Das SAP-Berechtigungswesens unterstützt die Datensicherheit in Unternehmen; es regelt und gewährleistet sowohl die
+
+<b>
+Zugangskontrolle </b>
+
+zu SAP-Systemen
+
+- Identifizierung der User gegenüber dem System
+
+- Konfiguration der Zugangskontrolle (Kennwortregeln)
+
+als auch die
+<b></b>
+
+Zugriffskontrolle
+
+auf die Funktionen und Daten innerhalb eines SAP- Systems
+
+- Vergabe von Berechtigungen
+
+- Berechtigungsprüfung beim Programm und Reportaufruf, sowie der Programmausführung.
+
+Neben der Gewährleistung des Zugriffschutzes auf Betriebssystem-, Datenbank-, Netzwerk- und Frontendebene, ist das SAP Berechtigungswesen als untrennbarer Bestandteil eines umfassenden IT- Sicherheitskonzepts innerhalb eines Unternehmens einzuordnen.
+<b></b>
+
+Schwerpunkte unserer Beratertätigkeit:
+
+&nbsp;
+
+• Geschäftsprozessanalyse und ggf. Überarbeitung von bestehenden Berechtigungskonzepten
+
+• Erstellung und Implementierung von Rollen- und Berechtigungskonzeptionen bei SAP Neueinführung oder Release Wechsel
+
+• Vorbereitung
+
+•Analyse und Konzeption
+
+•Implementierung
+
+• Qualitätssicherung und Tests
+
+• Cutover
+
+&nbsp;
+
+• Unterstützung des Basis und User- Administration innerhalb des laufenden Tagesgeschäfts
+
+• Benutzer anlegen, pflegen, sperren / entsperren, Kennwort ändern
+
+• Rollen anlegen und pflegen
+
+• Transaktionsauswahl und Berechtigungsdaten in Rollen pflegen
+
+• Berechtigungsprofile generieren
+
+• Rollen und Profile zuordnen
+
+• Transport von Rollen
+
+• Überwachung mit dem Informationssystem
+
+• Archivierung von Änderungsbelegen
+<b></b>
+
+Referenzen:
+
+&nbsp;
+
+E.ON Kundenservice GmbH
+
+Teilprojektleitung - Umsetzung einer Berechtigungskonzeption für den Geschäftsbereich Netzabrechnung
+
+nkt cables GmbH
+
+Unterstützung Tagesgeschäft - SAP® Basis- Administration / Berechtigungswesen; Ticketbearbeitung für die laufenden SAP®- Systeme 4.6C und ECC6.0; User- Bereinigung; Rollenbau/Rollenerweiterungen
+
+<a href="#top">back to menu</a>
+
+</div>
+<div>
+<h2><a id="t6" name="t6"></a>ERP - Enterprise Resource Planning</h2>
+Enterprise Resource-Planning (ERP) bezeichnet die unternehmerische Aufgabe, die in einem Unternehmen vorhandenen Ressourcen (Kapital, Betriebsmittel oder Personal) möglichst effizient für den betrieblichen Ablauf einzusetzen und somit die Steuerung von Geschäftsprozessen zu optimieren.
+
+<b>Wir arbeiten mit folgenden ERP-Systemen:</b>
+
+• MACH M1
+
+• Microsoft Navision
+
+• SAP BW/BI
+
+• SAP ERP
+
+• SAP FI-CA
+
+• SAP FI/CO
+
+• SAP IS-U
+
+• SAP ISH MED
+
+• SAP NetWeaver
+
+• SAP QM
+
+• SAP R/3
+
+• SAP Solution Manager
+<b>SAP ERP</b>
+
+Die IT-Power GmbH hat sich auf das ERP-System der SAP spezialisiert und hier vor allem auf die Branchenlösung IS-U (Utilities).
+
+SAP for Utilities (SAP IS-U = Industry Solution Utilities) ist eine branchenspezifische Softwarelösung im Rahmen des SAP-ERP-Produktes des Softwareunternehmens SAP AG für die Versorgungsindustrie, insbesondere Elektrizitäts-, Gas- und Wasserversorgungsunternehmen, und die Entsorgungsindustrie. Sie beinhaltet die Verwaltung von Kundenstammdaten, Abrechnung von Energiedienstleistungen bzw. Netznutzungsentgelten, Gerätemanagement (Strom-, Gas-, Wasserzähler), Instandhaltung und Betrieb, Verkaufsabwicklung, Kundenservice und Kontokorrentbuchhaltung.
+
+Die IS-U-Komponenten IDEX-GE und IDEX-GG (Intercompany Data Exchange Extended – German Electricity bzw. German Gas) dienen der Umsetzung der gesetzlichen Deregulierungsanforderungen im deutschen Energiemarkt. Deregulierung bedeutet für die Versorgungsindustrie die Trennung (Unbundling) der Übertragungs- und Verteilnetze eines Energieunternehmens von Erzeugung und Vertrieb und den diskriminierungsfreien Netzzugang aller Marktinteressenten.
+
+Unsere Mitarbeiter sind besonders in folgenden Bereichen ausgebildet und erfahren:
+
+• ABAP Anwendungsentwicklung
+
+• ABAP DynPRO
+
+• ABAP Reports
+
+• ABAP Workbench
+
+• Energiedatenmanagement (EDM)
+
+• Financial Accounting (FA)
+
+• IDEX-GE
+
+• IDEX-GG
+
+• IS-U Abrechnung
+
+• IS-U Customizing
+
+• IS-U Fakturierung
+
+• IS-U Stammdaten
+
+• IS-U Geräteverwaltung
+
+• IS-U Tarifierung
+
+• IS-U Vertragskontokorrent (FI/CA)
+
+• Logistik
+
+• Management Accounting (FI)
+
+• Materialwirtschaft (MM)
+
+• Produktionsplanung (PP)
+
+• Reporting
+
+• Vertrieb
+
+<a href="#top">back to menu</a>
+
+</div>
+<div>
+<h2><a id="t7" name="t7"></a>EDM - Energiedatenmanagement</h2>
+Das Energiedatenmanagement (EDM) entwickelt sich zunehmend zum Zentrum der Energieversorgung und gewinnt mehr und mehr an Bedeutung. Es reicht von der Datenbereitstellung für Prognosen und Energiebeschaffung, bis hin zur Abrechnung von Energielieferungen und der Unternehmensleitung.
+
+Durch unsere Dienstleistung unterstützen wir bei der Einhaltung der Pflichten der Bundesnetzagentur (EnWG, MaBiS, GPKE und GeLi Gas, Netzzugangs-VO, GaBi, KOV IV, WIM).
+
+Insbesondere in den MaBiS Prozessen (Marktregeln für die Durchführung der Bilanzkreisabrechnung Strom) sind wir gut aufgestellt und können auf lange Erfahrung und Kenntnisse zurückblicken.
+
+<b>Unsere Kernkompetenzen sind:</b>
+
+• MaBiS-Clearingprozess mittels der EDM-Software robotron® (eSales und eCount)
+
+• Lieferantenclearingprozesse
+
+• Stammdatenpflege
+
+• Kontrolle der Abgerechneten Mengen in der Korrekturbilanzkreisabrechnung (KBKA)
+
+<b>Erfahrungen im SAP EDM</b>
+
+• Verwaltung von Profilen innerhalb des EDM
+
+• Profilverwaltung
+
+• Ablage der Profildaten
+
+• Profilkopf anlegen und ändern
+
+• Zuordnung von Profilen zu IS-U-Datenobjekten
+
+• Profilimport und Rollen der Profilzuordnung
+
+• Profilwerte importieren, anzeigen, ändern und Versionen verwalten
+
+• Synthetische Profile
+
+• Aufbau und Verwendung synthetischer Profile
+
+• Dynamisierung von Profilen
+
+• Formelprofile
+
+• Formelzuordnung und Formelberechnung
+
+• Struktur des EDM Datenbanksystems
+
+• Kenntnisse der Schnittstellen zum EDM
+
+&nbsp;
+
+<b>Referenzen
+</b>
+1. Stadtwerke Flensburg – Energieversorger in Schleswig-Holstein (EDM-Software robotron®, Bilaterale Klärung offener Posten nach MaBiS, Bearbeitung der Liefe-rantenclearinglisten, Verhinderung der Fehlzuordnungen von Zählpunkten (anhand der vorliegenden Marktkommunikation), Vollständige Zuordnung aller Ener-giemengen zu Bilanzkreisen, Prüfung der richtigen Zuordnung der ZP zu den Ver-trägen (Stammdatenpflege), Prüfung der Daten des Netzbetreibers und Klärung der Korrekturen in der Clearingphase, Überprüfung der Strombilanzierungsmengen nach MaBiS (M+7 Monaten), Kontrolle der bereitgestellten Energiemengen innerhalb der MaBiS-Fristen
+
+<a href="#top">back to menu</a>
+
+</div>
+<div>
+<h2><a id="t8" name="t8"></a>Business Intelligence</h2>
+Ein zeitnaher Zugriff auf aktuelle und relevante Informationen ist für Unternehmen seit jeher ein erfolgsentscheidender Faktor.
+
+Durch die weitverbreitete Nutzung des Internets und den zunehmenden Einsatz unterschiedlicher Technologien zur Datensammlung wie etwa Radio Frequency Identification (RFID) und die damit steigende Zahl neuer Datenquellen ist dies noch wichtiger geworden.
+
+SAP NetWeaver Business Intelligence (SAP NetWeaver BI) gibt hier einen vollständigen Blick auf ein Unternehmen. Als Komponente der Plattform SAP NetWeaver bringt SAP NetWeaver BI eine leistungsfähige Business-Intelligence-Infrastruktur, zahlreiche Werkzeuge und Funktionen für Planung &amp; Simulationen sowie für Data-Warehousing zusammen. Bereitgestellt wird dies über eine hochentwickelte und benutzerorientierte Portaltechnologie - mit einem Wort: eine einheitliche und umfassende Lösung für jedes Unternehmen, welches z.B. auch ein SAP- System im Einsatz hat.
+
+Mit SAP NetWeaver BI können unternehmensinterne und externe Daten integriert werden und zügig in wertvolle Informationen verwandelt werden.
+
+Das Ergebnis sind fundierte Entscheidungen, zielgerichtete Aktionen und ein solider Geschäftserfolg.
+
+SAP NetWeaver BI wird den unterschiedlichen Anforderungen von Anwendern, IT-Spezialisten und Führungskräften gerecht und bietet Funktionen für:
+
+• Data Warehousing
+
+• Business Intelligence
+
+• Geschäftsinformationen
+
+• Leistungsmessung und Management
+
+• Open Hub Services
+
+• Information Broadcasting
+
+• Leistungsfähige Analysen
+
+Wir unterstützen mit unserem Know-How Unternehmen bei der Bereitstellung und Modellierung von prozessnotwendigen Informationen. Wir betreuen kontinuierlich die Datenlandschaften und überprüfen die Aktualität der Informationsanforderungen.
+
+Durch beschleunigte Planungs- und Entscheidungsprozesse ist es unseren Kunden möglich, ihre Erträge mittel- und langfristig zu steigern.
+
+Was wir machen/können:
+
+• Aufbau und Entwicklung von BW / BI Lösungen
+
+• Prozessanalyse, -beratung und -modellierung
+
+• Implementation von BW / BI Lösungen
+
+• Erstellung und Umsetzung von IT Konzeptionen
+
+• Enterprise Reporting &amp; Analyse
+
+• Enterprise Data Warehousing
+
+• Data Collection
+
+• BW Datenbeschaffung
+
+• Performance &amp; Administration
+
+• Benutzerverwaltung &amp; Berechtigungen
+
+• Integrierte Planung
+
+• Analyseprozesse &amp; Data Mining
+
+• Überführung von BW / BI Lösungen in z.B. Portalanwendungen
+
+• Auswahl und Nutzung von Werkzeugen des BusinessExplorer oder anderer Entwicklungslösungen (z.B. BusinessObjects) zum Aufbau und Design von Reports, Abfragen und Analysen
+
+&nbsp;
+
+<b>Referenzen</b>
+
+E.ON
+
+Basler AG Ahrensburg
+
+KWS SAAT AG Einbeck
+
+<a href="#top">back to menu</a>
+
+</div>
+</div>]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>24</wp:post_id>
 		<wp:post_date>2013-08-29 11:43:08</wp:post_date>
@@ -227,21 +699,41 @@
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">https://localhost/wordpress/?page_id=26</guid>
 		<description></description>
-		<content:encoded><![CDATA[<div id="intro">
- <div class="myContainer">
-    <div class="row">
+		<content:encoded><![CDATA[
+            <div class="domtab">
+                <ul class="domtabs">
+                    <li><a href="#t1">Allgemein</a></li>
+                    <li><a href="#t2">Lettershopleistungen</a></li>
+                    <li><a href="#t3">Projektunterstützung</a></li>
+                    <li><a href="#t4">Prozessberatung</a></li>
+                </ul>
 
-    </div>
- </div>
-</div>
-<div id="main">
- <div class="myContainer">
-    <div class="row">
-     </div>
-     <div class="row">
-    </div>
- </div>
-</div>]]></content:encoded>
+                <div>
+                    <h2><a name="t1" id="t1">Allgemein</a></h2>
+                    <p>In unserer Business Unit Output-Management besch&auml;ftigen wir uns mit der gesamten Korrespondenz eines Unternehmens. Output ist h&auml;ufig mehr als nur Drucken, auch die digitale Korrespondenz geh&ouml;rt zu dem Themenfeld oder die Betrachtung der Archivierungsprozesse. H&auml;ufig sind uneffektive Prozesse zum Generieren der Korrespondenz implementiert. Hier liegt ein Kosteneinsparungs- und/oder Qualit&auml;tssteigerungspotenzial, das durch kleine Prozessanpassungen gehoben werden kann.</p>
+                   <p><a href="#top">zurück zur Navigation</a></p>
+
+                </div>
+
+                <div>
+                    <h2><a name="t2" id="t2">Lettershopleistungen</a></h2>
+                    <p>Wir unterstützen Sie gern mit unseren Lettershopleistungen. Wir übernehmen hier als Full-Service-Anbieter alle Prozessschritte von der Konzeption über die Implementierung bis hin zum Betrieb Ihres Output-Management-Systems. Ihre Korrespondenz ist bei uns in guten und professionellen Händen.</p>
+                    <p><a href="#top">zurück zur Navigation</a></p> 
+                </div>
+
+                <div>
+                    <h2><a name="t3" id="t3">Projektunterstützung</a></h2>
+                    <p>Wenn Sie Ihre eigene IT-Infrastruktur im Haus betreiben wollen, unterstützen wir Sie gern bei der Ausprägung und Weiterentwicklung der Systeme. Projektunterstützung im Bereich Customer Communications Management (StreamServe), Datenbeschaffung im SAP und Gestaltung per SAP-Script und SAP Interactive Forms by Adobe sind hier unsere Schwerpunkte. Mit unseren erfahrenen Consultants unterstützen wir Sie im Projektalltag vor Ort oder remote.</p>
+                    <p><a href="#top">zurück zur Navigation</a></p> 
+                </div>
+
+                <div>
+                    <h2><a name="t4" id="t4">Prozessberatung</a></h2>
+                    <p>Wenn Sie Ihre Outputprozesse überarbeiten wollen, um mögliche Optimierungsansätze zu identifizieren, stehen wir Ihnen mit unserer Prozessberatung gern unterstützend zur Verfügung. Wir verfügen über langjährige Erfahrungen, sowohl in der Prozessanalyse und -gestaltung, als auch in der Optimierung der Korrespondenzprozesse. Wir beraten Sie bei Fragen zu Make or Buy Entscheidungen, über Ausschreibungsunterstützung bis hin zur Neukonzeption Ihrer gesamten Output-Management-Landschaft.</p>
+                    <p><a href="#top">zurück zur Navigation</a></p> 
+                </div>
+
+            </div>]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>26</wp:post_id>
 		<wp:post_date>2013-08-29 11:43:25</wp:post_date>
@@ -267,7 +759,202 @@
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">https://localhost/wordpress/?page_id=28</guid>
 		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
+		<content:encoded><![CDATA[            <div class="domtab">
+                <ul class="domtabs">
+                    <li><a href="#t1">Allgemein</a></li>
+                    <li><a href="#t2">Client-Server-Architekturen</a></li>
+                    <li><a href="#t3">Kompetenzzentrum Inubit</a></li>
+                    <li><a href="#t4">XSL Transformation</a></li>
+                    <li><a href="#t5">Gamification</a></li>
+                </ul>
+
+                <div>
+                    <h2><a name="t1" id="t1">Allgemein</a></h2>
+                    <p>Von der App bis zum firmenspezifischen Intranet, in unserer Business Unit Softwareengineering k&ouml;nnen wir f&uuml;r jede Aufgabe einen Experten zur Verf&uuml;gung stellen. Wir entwickeln und implementieren Software besonders f&uuml;r EVU-spezifische Prozesse. Unser Team kommt aus den unterschiedlichsten Bereichen und hat durch den Mutterkonzern Stadtwerke Flensburg reichlich Erfahrung mit der IT Umgebung der Energiebranche sammeln k&ouml;nnen.   Durch unser vielf&auml;ltiges Know-How bedienen wir Kunden aller Sparten, von Einrichtungen des &ouml;ffentlichen Dienstes &uuml;ber Telekommunikationsunternehmen bis hin zur Automobilindustrie.   Schwerpunkte:  Systemanalyse, -design, -umsetzung und -betreuung  Client-Server-Architekturen   JAVA-Entwicklung  Migrations-Entwicklung  Workflow-Entwicklung  Schnittstellenimplementierungen  Service Orientierte Architekturen (SOA)   Suchmaschinenoptimierung (SEO)  App-Entwicklung (Android)  Datenbankdesign  Einf&uuml;hrung von Open Source L&ouml;sungen  Anwendungsentwicklung mit State-of-the-art-Technologien </p>
+                    <p><a href="#top">back to menu</a></p>
+
+                </div>
+
+                <div>
+                    <h2><a name="t2" id="t2">Client-Server-Architekturen</a></h2>
+                    <p>
+                        Programmierung 
+                        Unsere Softwarespezialisten entwickeln maßgeschneiderte Anwendungen für Unternehmen. In den Bereichen Internet, Intranet, Anwendungsentwicklung und Applikationen wurden verschiedenste Softwareprojekte entwickelt und implementiert.
+                        Datenbanken
+                        Datenbanken sind heutzutage grundlegender  Bestandteil von jeder Unternehmenssoftware. Damit stellen sie einen wichtigen Bestandteil eines Unternehmens dar und müssen daher verlässlich, sicher und effizient funktionieren. Unsere Schwerpunkte bezüglich Datenbanken liegen in den Folgenden Bereichen:
+                        •	Datenbankdesign
+                        •	Entwicklung und Implementierung
+                        •	Relationale Datenbanken (Oracle, MS SQL-Server, MySQL, DB2)
+                        •	Performance
+                        •	Systemmanagement
+                        •	Migration
+                        •	Security
+                        •       Datenbanksysteme
+                        •	DB2
+                        •	Informix
+                        •	MS-SQL
+                        •	MySQL
+                        •	CouchDB
+                        •	MongoDB
+                        •	Oracle
+                        •	NoSQL
+
+                        Entwicklung
+                        Im Bereich der Softwareentwicklung hat sich die IT-Power GmbH besonders in den letzten Jahren vergrößert. Unsere Entwickler kommen aus verschiedenen Branchen und können ein weites Spektrum an Sprachen abdecken.
+                        Relationale Datenbanken mit Schwerpunkt Oracle, MS SQL-Server, MySQL, DB2
+                        Hochverfügbarkeitslösungen
+                        Clustertechnologien
+                        Virtualisierung
+                        SQL, PL/SQL, TSQL, Java
+                        UML, BPEL, BPM
+                        Individuelle Anpassungen
+                        Jedes Unternehmen ist anders. Damit jedes System einwandfrei funktioniert nehmen unsere IT-Spezialisten individuelle Änderungen vor und beseitigen Probleme. Auch wenn es darum geht standardisierte Systeme an ihre firmenspezifischen Gegebenheiten anzupassen oder Erweiterungen zu implementieren sind unsere IT-Spezialisten für sie da.
+                        Betrieb und Administration
+                        Performance Tuning & Trouble Shooting
+                        Durchführung von Installationen, Upgrades, Migrationen
+                        Identifizierung von Optimierungspotentialen
+                        Modellierung von Geschäftsprozessen
+                        Test & Inbetriebnahme
+                        Planung, Organisation und Durchführung von Workshops
+                        Kompetenzen
+                        -	ABAP Objects
+                        -	ABAP/4 
+                        -	AJAX
+                        -	Ansi C
+                        -	Assembler
+                        -	Bash/Shell
+                        -	Borland Delphi
+                        -	C 
+                        -	C++
+                        -	CakePHP
+                        -	COBOL
+                        -	CoffeeScript
+                        -	CSS3
+                        -	HTML5
+                        -	iBatis
+                        -	J2EE
+                        -	jade
+                        -	Java 
+                        -	Java Axis 2
+                        -	Java Digester
+                        -	Java Freemarker
+                        -	Java Portlets
+                        -	Java JSCH
+                        -	Java SOA Connector
+                        -	JavaScript
+                        -	jQuery
+                        -	JSF
+                        -	less
+                        -	Microsoft Visual Basic.NET
+                        -	Microsoft Visual Basic for Applications
+                        -	Microsoft Visual C++
+                        -	node.js
+                        -	ORM Hibernate
+                        -	Pascal
+                        -	PEAR PHP
+                        -	Perl
+                        -	PHP5
+                        -	PHP Smarty
+                        -	PL/SQL
+                        -	PostGIS
+                        -	PostgreSQL + 
+                        -	Powershell
+                        -	Python
+                        -	QBasic
+                        -	REST
+                        -	Soap
+                        -	Spring
+                        -	SQL
+                        -	Struts
+                        -	Symfony
+                        -	TurboPascal
+                        -	TYPO3
+                        -	UML
+                        -	XML
+                        -	XPath
+                        -	XSLT
+                        -	u.v.m.
+                    </p>
+                    <p><a href="#top">back to menu</a></p> 
+                </div>
+
+                <div>
+                    <h2><a name="t3" id="t3">Kompetenzzentrum Inubit</a></h2>
+                    <p>
+                        Die inubit BPM-Suite ist eine Standardsoftware für durchgängiges Business Process Management. Durch den Einsatz der inubit BPM-Suite rücken die Prozesse des Unternehmens in den Mittelpunkt und binden die fachlichen als auch die technischen Stakeholder des Unternehmens mit ein, wodurch ein vollständiges „End-to-End“-Prozessmanagement erlaubt ist. 
+                        Die inubit BPM-Suite bietet eine durchgängige und vollständig integrierte Prozessplattform. Über die Process Engine und den zentralen Enterprise Service Bus (ESB) werden die Prozesse ausgeführt und die Services aufgerufen.
+                        Die Interaktion mit Benutzern und deren Integration in die Prozesse ist ein signifikantes Element der Prozessautomatisierung. Ein leistungsstarker Portalserver bietet die Möglichkeiten das inubit Enterprise Portal einzusetzen. Das Portal fasst verschiedene Prozesse in einer Oberfläche zusammen und bietet dadurch die Möglichkeit, einzelne Prozessschritte in einer personalisierten Umgebung abzuarbeiten. Informationen über laufende Prozesse werden durch verschiedene Überwachungsfunktionen bereitgestellt.
+
+                        Anwendungsszenarien:
+                        -	Qualitätsmanagement
+                        o	Erstellung von Prozesshandbüchern
+                        o	Bereitstellung von Prozessen für alle Mitarbeiter
+                        -	Prozessautomatisierung
+                        o	Beschleunigung von Unternehmensabläufen
+                        o	Workflowgesteuerte Freigaben
+                        o	Reduzierung manueller Prozesse
+                        -	Elektronischer Datenaustausch
+                        o	Anbindung von externen Geschäftspartnern und Kunden
+                        o	Unterstützung aller gängigen Standards
+                        -	Systemanbindung
+                        o	Integration von Drittsystemen
+                        o	Einbindung unterschiedlicher Datenquellen
+                        -	Benutzerinteraktion
+                        o	Aktive Einbindung von Benutzer in die Prozesse
+                        -	Monitoring/Reporting
+                        o	Überwachung von laufenden Prozessen in Echtzeit
+                        o	Bereitstellung von Informationen über Dashboards
+                        -	Service-orientierte Architekturen
+                        o	Inubit BPM-Suite liefert umfassende SOA-Infrastruktur
+                        o	vereint alle Mechanismen um SOA IT-Landschaft zu realisieren und zu betreiben
+                        o	ermöglicht bestehende Applikationen schnell und einfach Web Service-fähig zu machen
+
+                        Zertifizierungen
+                        inubit certified professional
+
+                        <a href=""> Link zur Präsentation </a>
+
+                    </p>
+                    <p><a href="#top">back to menu</a></p> 
+                </div>
+
+                <div>
+                    <h2><a name="t4" id="t4">XSL Transformation</a></h2>
+                    <p>
+                        XSL steht für Extensible Stylesheet Language und hängt zusammen mit den XML-basierten Transformationssprachen XSLT und XSL-FO.  Diese Transformationssprachen bedienen sich  XPath, um Inhalte der XML-Dateien zu referenzieren. Sie dienen der Umwandlung von XML (Extensible Markup Language) Dokumenten.
+                        XML Dokumente basieren auf einer hierarchischen Baumstruktur in Form von Textdateien.
+                        Mit XSLT (XSL Transformation) lassen sich Stylesheets (Formatvorlagen) zur Umgestaltung und Formatierung des XML Dokuments und seinen Elementen entwerfen. XPath liefert die passende Sprache zur Navigation durch das XML Dokument. Mit ihr lassen sich gezielt Elemente auslesen, die mittels XSLT weiterverarbeitet werden können. Dabei liest ein XSLT Prozessor (diese sind in den meisten modernen Webbrowsern integriert) die XML Quelldatei und das Stylesheet ein und erstellt daraufhin ein neues Dokument in der gewünschten Struktur.
+                        XSL-FO (XSL– Formatting Objects) ist eine auf XML basierende Anwendung, die beschreibt wie grafische Elemente auf einer Seite angeordnet werden sollen. Mit einem FO-Prozessor können anhand eines XSL-FO Stylesheets aus XML Dokumenten auch PDF, RTF und ASCII Texte generiert werden.
+                        Unsere Anwendungsgebiete umfassen die komplette Integration und Entwicklung, d.h. die Erstellung von XML Dateien aus ERP Systemen (z.B. SAP) bis hin zum pdf-Outputdokument mit folgenden Sprachen: 
+                        -	XSLT 1.0 und 2.0
+                        -	XPath
+                        -	XSL-FO
+                        -	XQuery
+                        -	XSL Schemaentwicklung
+
+                    </p>
+                    <p><a href="#top">back to menu</a></p> 
+                </div>
+                <div>
+                    <h2><a name="t5" id="t5">Gamification</a></h2>
+                    <p>
+                        Wie können sie die Produktivität ihrer Mitarbeiter spielerisch fördern und neue Anreize schaffen?
+                        Im Rahmen der Gamification werden Arbeitsabläufe und Alltagsaufgaben durch kleine Spiele interessant gestaltet. Prinzipien aus Computerspielen, wie zum Beispiel das Sammeln von Münzen als Belohnung, werden in spielferne Systeme integriert. Spiele animieren Menschen zu Höchstleistungen, motivieren Sie und fördern Engagement. So können Besucher einer Webseite mit spaßigen Anreizen angehalten werden eine Webseite tatsächlich zu lesen oder Mitarbeiter erledigen Aufgaben durch Belohnung mit mehr Begeisterung und Effizienz. 
+                        Wir wenden Gamification Design auf Softwareprodukte, Intranets und Webseiten an. 
+                        Unsere Techniken basieren auf:
+                        Herausforderungen
+                        Rätseln
+                        Erfolgserlebnissen
+                        Verschiedenen Levels
+                        Virtuellen Figuren
+                        Virtuellen Währungen
+                        Echtzeit Feedback
+
+                    </p>
+                    <p><a href="#top">back to menu</a></p> 
+                </div>
+            </div>
+        </div>]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>28</wp:post_id>
 		<wp:post_date>2013-08-29 11:44:00</wp:post_date>
