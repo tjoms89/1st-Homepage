@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-<!-- generator="WordPress/3.6" created="2013-11-05 13:05" -->
+<!-- generator="WordPress/3.6" created="2013-12-03 08:37" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>IT-Power</title>
 	<link>http://localhost/wordpress</link>
 	<description>IT-Power Homepage</description>
-	<pubDate>Tue, 05 Nov 2013 13:05:35 +0000</pubDate>
+	<pubDate>Tue, 03 Dec 2013 08:37:40 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>http://localhost/wordpress</wp:base_site_url>
@@ -44,44 +44,6 @@
 
 	<generator>http://wordpress.org/?v=3.6</generator>
 
-	<item>
-		<title>Hello world!</title>
-		<link>http://localhost/wordpress/hello-world/</link>
-		<pubDate>Thu, 29 Aug 2013 06:52:12 +0000</pubDate>
-		<dc:creator>admin</dc:creator>
-		<guid isPermaLink="false">https://localhost/wordpress/?p=1</guid>
-		<description></description>
-		<content:encoded><![CDATA[Welcome to WordPress. This is your first post. Edit or delete it, then start blogging!]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>1</wp:post_id>
-		<wp:post_date>2013-08-29 06:52:12</wp:post_date>
-		<wp:post_date_gmt>2013-08-29 06:52:12</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>hello-world</wp:post_name>
-		<wp:status>publish</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>post</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="category" nicename="uncategorized"><![CDATA[Allgemein]]></category>
-		<wp:comment>
-			<wp:comment_id>1</wp:comment_id>
-			<wp:comment_author><![CDATA[Mr WordPress]]></wp:comment_author>
-			<wp:comment_author_email></wp:comment_author_email>
-			<wp:comment_author_url>http://wordpress.org/</wp:comment_author_url>
-			<wp:comment_author_IP></wp:comment_author_IP>
-			<wp:comment_date>2013-08-29 06:52:12</wp:comment_date>
-			<wp:comment_date_gmt>2013-08-29 06:52:12</wp:comment_date_gmt>
-			<wp:comment_content><![CDATA[Hi, this is a comment.
-To delete a comment, just log in and view the post&#039;s comments. There you will have the option to edit or delete them.]]></wp:comment_content>
-			<wp:comment_approved>1</wp:comment_approved>
-			<wp:comment_type></wp:comment_type>
-			<wp:comment_parent>0</wp:comment_parent>
-			<wp:comment_user_id>0</wp:comment_user_id>
-		</wp:comment>
-	</item>
 	<item>
 		<title>Home</title>
 		<link>http://localhost/wordpress/</link>
@@ -351,62 +313,6 @@ To delete a comment, just log in and view the post&#039;s comments. There you wi
 		</wp:postmeta>
 	</item>
 	<item>
-		<title>Hallo</title>
-		<link>http://localhost/wordpress/hallo/</link>
-		<pubDate>Mon, 02 Sep 2013 13:23:34 +0000</pubDate>
-		<dc:creator>admin</dc:creator>
-		<guid isPermaLink="false">https://localhost/wordpress/?p=61</guid>
-		<description></description>
-		<content:encoded><![CDATA[Willkommen]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>61</wp:post_id>
-		<wp:post_date>2013-09-02 13:23:34</wp:post_date>
-		<wp:post_date_gmt>2013-09-02 13:23:34</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>hallo</wp:post_name>
-		<wp:status>publish</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>post</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="category" nicename="uncategorized"><![CDATA[Allgemein]]></category>
-		<wp:postmeta>
-			<wp:meta_key>_edit_last</wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>Test</title>
-		<link>http://localhost/wordpress/test/</link>
-		<pubDate>Fri, 06 Sep 2013 09:57:20 +0000</pubDate>
-		<dc:creator>admin</dc:creator>
-		<guid isPermaLink="false">https://localhost/wordpress/?p=118</guid>
-		<description></description>
-		<content:encoded><![CDATA[testetsetetstetteste tsetetstettestetsetetstettes tetsetetstettestetsete tstettestet setetstetteste tsetetstett est etsetetstettestetsetet stettes tetsetetstette stetsetetste ttestetset e tstettestetset etstettes tets etetst ttestetsetets tettestetsetet stettestetsetetst ettestetsetet stettestets   etetstettes  tstettest etsetetstette stetsetetstettest  stettestetsetetstetteste tsetetstettestetset etstettes tetsetetstett estetsete tstettestetsete  tstettestetsetetstet testetsetetstettest etsetetstettestetsetetste ttestetsetetstettestetsetetstettestetset etstette  stetsetetstetteste  tsetetstettestetsetetstettestetsetets tettestetsetetstettestetsetetstettestetsetetstet testetset etstettestetsetetst ettestetsetetstettestetsetetstettestetsete   tstettestetsetetstettestetse tetstettestetsetetstettestetsetets tettestetsetetstettestet setetstettestetsetetstettest etsetetstet testetsetetstetteste tse tetstetteste tsetetstettestetsetetstett estetsetetstettestetsete tstettestetsetetstettestetsetetstettestetsetetst ettestetsete tstette stetsetet stettes tets etetstetteste tsetetstettestetsetetst ettestetsetets tettes tetsetets tetteste ts e tets tettestet setetstettestetset etstettestetse tetstette stetsetetstett estetsetetstettestet setetstettestetsetetstettestetsetetstettestetsetetstettest etsetetstettest etsetetstettestetsetetstettestetsetetstettestetsetetstet
-
-<a href="http://localhost/wordpress/wp-content/uploads/2013/09/schiff2.png"><img src="http://localhost/wordpress/wp-content/uploads/2013/09/schiff2-300x119.png" alt="schiff2" width="300" height="119" class="alignnone size-medium wp-image-261" /></a>]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>118</wp:post_id>
-		<wp:post_date>2013-09-06 11:57:20</wp:post_date>
-		<wp:post_date_gmt>2013-09-06 09:57:20</wp:post_date_gmt>
-		<wp:comment_status>closed</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>test</wp:post_name>
-		<wp:status>publish</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>post</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="category" nicename="uncategorized"><![CDATA[Allgemein]]></category>
-		<wp:postmeta>
-			<wp:meta_key>_edit_last</wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
 		<title>Impressum</title>
 		<link>http://localhost/wordpress/impressum/</link>
 		<pubDate>Thu, 19 Sep 2013 06:17:17 +0000</pubDate>
@@ -552,33 +458,6 @@ Ihr Vertrauen ist uns wichtig. Falls Sie Fragen zum Datenschutz und zur Verarbei
 		</wp:postmeta>
 	</item>
 	<item>
-		<title>kiGOa</title>
-		<link>http://localhost/wordpress/kigoa/</link>
-		<pubDate>Thu, 10 Oct 2013 07:37:14 +0000</pubDate>
-		<dc:creator>admin</dc:creator>
-		<guid isPermaLink="false">http://localhost/wordpress/?p=269</guid>
-		<description></description>
-		<content:encoded><![CDATA[blalablablag]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>269</wp:post_id>
-		<wp:post_date>2013-10-10 09:37:14</wp:post_date>
-		<wp:post_date_gmt>2013-10-10 07:37:14</wp:post_date_gmt>
-		<wp:comment_status>closed</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>kigoa</wp:post_name>
-		<wp:status>publish</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>post</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="category" nicename="uncategorized"><![CDATA[Allgemein]]></category>
-		<wp:postmeta>
-			<wp:meta_key>_edit_last</wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
 		<title>Partner</title>
 		<link>http://localhost/wordpress/partner/</link>
 		<pubDate>Fri, 18 Oct 2013 07:42:18 +0000</pubDate>
@@ -685,6 +564,233 @@ Ihr Vertrauen ist uns wichtig. Falls Sie Fragen zum Datenschutz und zur Verarbei
 		<wp:postmeta>
 			<wp:meta_key>_wp_attachment_metadata</wp:meta_key>
 			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:500;s:6:"height";i:110;s:4:"file";s:17:"2013/10/Bosch.png";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:17:"Bosch-150x110.png";s:5:"width";i:150;s:6:"height";i:110;s:9:"mime-type";s:9:"image/png";}s:6:"medium";a:4:{s:4:"file";s:16:"Bosch-300x66.png";s:5:"width";i:300;s:6:"height";i:66;s:9:"mime-type";s:9:"image/png";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Aareon</title>
+		<link>http://localhost/wordpress/partner/aareon/</link>
+		<pubDate>Wed, 06 Nov 2013 13:50:21 +0000</pubDate>
+		<dc:creator>admin</dc:creator>
+		<guid isPermaLink="false">http://localhost/wordpress/?page_id=289</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>289</wp:post_id>
+		<wp:post_date>2013-11-06 15:50:21</wp:post_date>
+		<wp:post_date_gmt>2013-11-06 13:50:21</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>aareon</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>274</wp:post_parent>
+		<wp:menu_order>15</wp:menu_order>
+		<wp:post_type>page</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Bosch</title>
+		<link>http://localhost/wordpress/partner/bosch/</link>
+		<pubDate>Mon, 25 Nov 2013 11:57:48 +0000</pubDate>
+		<dc:creator>admin</dc:creator>
+		<guid isPermaLink="false">http://localhost/wordpress/?page_id=293</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>293</wp:post_id>
+		<wp:post_date>2013-11-25 13:57:48</wp:post_date>
+		<wp:post_date_gmt>2013-11-25 11:57:48</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>bosch</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>274</wp:post_parent>
+		<wp:menu_order>15</wp:menu_order>
+		<wp:post_type>page</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Opentext</title>
+		<link>http://localhost/wordpress/partner/opentext/</link>
+		<pubDate>Mon, 25 Nov 2013 11:58:10 +0000</pubDate>
+		<dc:creator>admin</dc:creator>
+		<guid isPermaLink="false">http://localhost/wordpress/?page_id=295</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>295</wp:post_id>
+		<wp:post_date>2013-11-25 13:58:10</wp:post_date>
+		<wp:post_date_gmt>2013-11-25 11:58:10</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>opentext</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>274</wp:post_parent>
+		<wp:menu_order>16</wp:menu_order>
+		<wp:post_type>page</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Senior_SAP_IS-U_Stellenanzeige</title>
+		<link>http://localhost/wordpress/einen-senior-it-consultant-mw-schwerpunkt-sapis-u/senior_sap_is-u_stellenanzeige/</link>
+		<pubDate>Mon, 25 Nov 2013 15:08:43 +0000</pubDate>
+		<dc:creator>admin</dc:creator>
+		<guid isPermaLink="false">http://localhost/wordpress/wp-content/uploads/2013/11/Senior_SAP_IS-U_Stellenanzeige.pdf</guid>
+		<description></description>
+		<content:encoded><![CDATA[Stelle]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>313</wp:post_id>
+		<wp:post_date>2013-11-25 17:08:43</wp:post_date>
+		<wp:post_date_gmt>2013-11-25 15:08:43</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>senior_sap_is-u_stellenanzeige</wp:post_name>
+		<wp:status>inherit</wp:status>
+		<wp:post_parent>312</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>attachment</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url>http://localhost/wordpress/wp-content/uploads/2013/11/Senior_SAP_IS-U_Stellenanzeige.pdf</wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attached_file</wp:meta_key>
+			<wp:meta_value><![CDATA[2013/11/Senior_SAP_IS-U_Stellenanzeige.pdf]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Hello world!</title>
+		<link>http://localhost/wordpress/hello-world/</link>
+		<pubDate>Thu, 29 Aug 2013 06:52:12 +0000</pubDate>
+		<dc:creator>admin</dc:creator>
+		<guid isPermaLink="false">https://localhost/wordpress/?p=1</guid>
+		<description></description>
+		<content:encoded><![CDATA[Welcome to WordPress. This is your first post. Edit or delete it, then start blogging!]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>1</wp:post_id>
+		<wp:post_date>2013-08-29 06:52:12</wp:post_date>
+		<wp:post_date_gmt>2013-08-29 06:52:12</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>hello-world</wp:post_name>
+		<wp:status>trash</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>post</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="uncategorized"><![CDATA[Allgemein]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_wp_trash_meta_status</wp:meta_key>
+			<wp:meta_value><![CDATA[publish]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_trash_meta_time</wp:meta_key>
+			<wp:meta_value><![CDATA[1385382613]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_trash_meta_comments_status</wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:1;s:1:"1";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:comment>
+			<wp:comment_id>1</wp:comment_id>
+			<wp:comment_author><![CDATA[Mr WordPress]]></wp:comment_author>
+			<wp:comment_author_email></wp:comment_author_email>
+			<wp:comment_author_url>http://wordpress.org/</wp:comment_author_url>
+			<wp:comment_author_IP></wp:comment_author_IP>
+			<wp:comment_date>2013-08-29 06:52:12</wp:comment_date>
+			<wp:comment_date_gmt>2013-08-29 06:52:12</wp:comment_date_gmt>
+			<wp:comment_content><![CDATA[Hi, this is a comment.
+To delete a comment, just log in and view the post&#039;s comments. There you will have the option to edit or delete them.]]></wp:comment_content>
+			<wp:comment_approved>post-trashed</wp:comment_approved>
+			<wp:comment_type></wp:comment_type>
+			<wp:comment_parent>0</wp:comment_parent>
+			<wp:comment_user_id>0</wp:comment_user_id>
+		</wp:comment>
+	</item>
+	<item>
+		<title>Hallo</title>
+		<link>http://localhost/wordpress/hallo/</link>
+		<pubDate>Mon, 02 Sep 2013 13:23:34 +0000</pubDate>
+		<dc:creator>admin</dc:creator>
+		<guid isPermaLink="false">https://localhost/wordpress/?p=61</guid>
+		<description></description>
+		<content:encoded><![CDATA[Willkommen]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>61</wp:post_id>
+		<wp:post_date>2013-09-02 13:23:34</wp:post_date>
+		<wp:post_date_gmt>2013-09-02 13:23:34</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>hallo</wp:post_name>
+		<wp:status>trash</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>post</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="uncategorized"><![CDATA[Allgemein]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_trash_meta_status</wp:meta_key>
+			<wp:meta_value><![CDATA[publish]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_trash_meta_time</wp:meta_key>
+			<wp:meta_value><![CDATA[1385382612]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Test</title>
+		<link>http://localhost/wordpress/test/</link>
+		<pubDate>Fri, 06 Sep 2013 09:57:20 +0000</pubDate>
+		<dc:creator>admin</dc:creator>
+		<guid isPermaLink="false">https://localhost/wordpress/?p=118</guid>
+		<description></description>
+		<content:encoded><![CDATA[testetsetetstetteste tsetetstettestetsetetstettes tetsetetstettestetsete tstettestet setetstetteste tsetetstett est etsetetstettestetsetet stettes tetsetetstette stetsetetste ttestetset e tstettestetset etstettes tets etetst ttestetsetets tettestetsetet stettestetsetetst ettestetsetet stettestets   etetstettes  tstettest etsetetstette stetsetetstettest  stettestetsetetstetteste tsetetstettestetset etstettes tetsetetstett estetsete tstettestetsete  tstettestetsetetstet testetsetetstettest etsetetstettestetsetetste ttestetsetetstettestetsetetstettestetset etstette  stetsetetstetteste  tsetetstettestetsetetstettestetsetets tettestetsetetstettestetsetetstettestetsetetstet testetset etstettestetsetetst ettestetsetetstettestetsetetstettestetsete   tstettestetsetetstettestetse tetstettestetsetetstettestetsetets tettestetsetetstettestet setetstettestetsetetstettest etsetetstet testetsetetstetteste tse tetstetteste tsetetstettestetsetetstett estetsetetstettestetsete tstettestetsetetstettestetsetetstettestetsetetst ettestetsete tstette stetsetet stettes tets etetstetteste tsetetstettestetsetetst ettestetsetets tettes tetsetets tetteste ts e tets tettestet setetstettestetset etstettestetse tetstette stetsetetstett estetsetetstettestet setetstettestetsetetstettestetsetetstettestetsetetstettest etsetetstettest etsetetstettestetsetetstettestetsetetstettestetsetetstet
+
+<a href="http://localhost/wordpress/wp-content/uploads/2013/09/schiff2.png"><img src="http://localhost/wordpress/wp-content/uploads/2013/09/schiff2-300x119.png" alt="schiff2" width="300" height="119" class="alignnone size-medium wp-image-261" /></a>]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>118</wp:post_id>
+		<wp:post_date>2013-09-06 11:57:20</wp:post_date>
+		<wp:post_date_gmt>2013-09-06 09:57:20</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>test</wp:post_name>
+		<wp:status>trash</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>post</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="uncategorized"><![CDATA[Allgemein]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_trash_meta_status</wp:meta_key>
+			<wp:meta_value><![CDATA[publish]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_trash_meta_time</wp:meta_key>
+			<wp:meta_value><![CDATA[1385382612]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -823,6 +929,41 @@ This e-mail was sent from a contact form on IT-Power (https://localhost/wordpres
 		<wp:postmeta>
 			<wp:meta_key>_locale</wp:meta_key>
 			<wp:meta_value><![CDATA[en_US]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>kiGOa</title>
+		<link>http://localhost/wordpress/kigoa/</link>
+		<pubDate>Thu, 10 Oct 2013 07:37:14 +0000</pubDate>
+		<dc:creator>admin</dc:creator>
+		<guid isPermaLink="false">http://localhost/wordpress/?p=269</guid>
+		<description></description>
+		<content:encoded><![CDATA[blalablablag]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>269</wp:post_id>
+		<wp:post_date>2013-10-10 09:37:14</wp:post_date>
+		<wp:post_date_gmt>2013-10-10 07:37:14</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>kigoa</wp:post_name>
+		<wp:status>trash</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>post</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="uncategorized"><![CDATA[Allgemein]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_trash_meta_status</wp:meta_key>
+			<wp:meta_value><![CDATA[publish]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_trash_meta_time</wp:meta_key>
+			<wp:meta_value><![CDATA[1385382612]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -978,7 +1119,7 @@ This e-mail was sent from a contact form on IT-Power (https://localhost/wordpres
 		<wp:comment_status>closed</wp:comment_status>
 		<wp:ping_status>open</wp:ping_status>
 		<wp:post_name>stelle-als-blabla</wp:post_name>
-		<wp:status>publish</wp:status>
+		<wp:status>trash</wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
 		<wp:post_type>post</wp:post_type>
@@ -988,6 +1129,14 @@ This e-mail was sent from a contact form on IT-Power (https://localhost/wordpres
 		<wp:postmeta>
 			<wp:meta_key>_edit_last</wp:meta_key>
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_trash_meta_status</wp:meta_key>
+			<wp:meta_value><![CDATA[publish]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_trash_meta_time</wp:meta_key>
+			<wp:meta_value><![CDATA[1385382612]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -1009,7 +1158,7 @@ This e-mail was sent from a contact form on IT-Power (https://localhost/wordpres
 		<wp:comment_status>closed</wp:comment_status>
 		<wp:ping_status>open</wp:ping_status>
 		<wp:post_name>neuer-partner-bosch</wp:post_name>
-		<wp:status>publish</wp:status>
+		<wp:status>trash</wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
 		<wp:post_type>post</wp:post_type>
@@ -1020,6 +1169,14 @@ This e-mail was sent from a contact form on IT-Power (https://localhost/wordpres
 		<wp:postmeta>
 			<wp:meta_key>_edit_last</wp:meta_key>
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_trash_meta_status</wp:meta_key>
+			<wp:meta_value><![CDATA[publish]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_trash_meta_time</wp:meta_key>
+			<wp:meta_value><![CDATA[1385382612]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -1037,7 +1194,7 @@ This e-mail was sent from a contact form on IT-Power (https://localhost/wordpres
 		<wp:comment_status>closed</wp:comment_status>
 		<wp:ping_status>open</wp:ping_status>
 		<wp:post_name>test-stellenangebot</wp:post_name>
-		<wp:status>publish</wp:status>
+		<wp:status>trash</wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
 		<wp:post_type>post</wp:post_type>
@@ -1049,11 +1206,261 @@ This e-mail was sent from a contact form on IT-Power (https://localhost/wordpres
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
-			<wp:meta_key>_pingme</wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+			<wp:meta_key>_wp_trash_meta_status</wp:meta_key>
+			<wp:meta_value><![CDATA[publish]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
-			<wp:meta_key>_encloseme</wp:meta_key>
+			<wp:meta_key>_wp_trash_meta_time</wp:meta_key>
+			<wp:meta_value><![CDATA[1385382611]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>app4value</title>
+		<link>http://localhost/wordpress/partner/app4value/</link>
+		<pubDate>Mon, 25 Nov 2013 11:58:34 +0000</pubDate>
+		<dc:creator>admin</dc:creator>
+		<guid isPermaLink="false">http://localhost/wordpress/?page_id=297</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>297</wp:post_id>
+		<wp:post_date>2013-11-25 13:58:34</wp:post_date>
+		<wp:post_date_gmt>2013-11-25 11:58:34</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>app4value</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>274</wp:post_parent>
+		<wp:menu_order>17</wp:menu_order>
+		<wp:post_type>page</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Bosch Software Innovations GmbH und die IT-Power GmbH unterzeichnen Partnervertrag</title>
+		<link>http://localhost/wordpress/bosch-software-innovations-gmbh-und-die-it-power-gmbh-unterzeichnen-partnervertrag/</link>
+		<pubDate>Mon, 25 Nov 2013 12:31:14 +0000</pubDate>
+		<dc:creator>admin</dc:creator>
+		<guid isPermaLink="false">http://localhost/wordpress/?p=300</guid>
+		<description></description>
+		<content:encoded><![CDATA[<div data-ft="{&quot;tn&quot;:&quot;K&quot;}">
+<div>
+
+Die IT-Power GmbH bietet verstärkt Business Process Management (BPM) Lösungen für Energieversor-gungsunternehmen an.
+
+Die Bosch Software Innovations GmbH, das Software- und Systemhaus der Bosch-Gruppe, und die IT-Power GmbH haben einen Solution-Partnervertrag unterzeichnet. Beide Unternehmen wollen zukünftig ihre Expertisen bündeln und den Energieversorgungsunternehmen gemeinsam ein breiteres Portfolio anbieten.<!--more (mehr lesen...)--> „Wir freuen uns sehr, mit IT-Power einen erfahrenen Partner für den Energiemarkt zu gewinnen, welcher bereits Projekte auf Basis inubit umgesetzt hat“, so Jan Weigel, zuständig für das Geschäftsfeld Energy bei Bosch Software Innovations.
+Bosch Software Innovations bietet mit inubit, einem Bestandteil der modularen Software-Suite des Unternehmens, eine flexible Software für integriertes Business Process Management (BPM) an. Diese macht die Kernprozesse schlanker, flexibler und effizienter. Dabei unterstützt inubit die Kunden über den gesamten BPM-Lebenszyklus hinweg – alle Phasen des ganzheitlichen Prozessmanagements greifen nahtlos ineinander. So können Fachanwender, Entwickler und Systemadministrationen ideal über den gesamten Prozesszyklus hinweg zusammenarbeiten und ineffiziente Medienbrüche vermeiden.
+Die Dienstleitungen und Lösungen des Beratungsunternehmens IT-Power orientieren sich entlang der Geschäftsprozessketten der Kunden, insbesondere auf die prozessorientierte Beratung im IT-Umfeld legt IT-Power einen großen Wert. Den Vorteil von inubit sieht das Consultingunternehmen darin, kundenorientierte Prozesse in Unternehmen über ihre eigentlichen Systemgrenzen hinweg zu automatisieren, zu beschreiben und zu optimieren. Dadurch lassen sich Kosten reduzieren und die Effizienz signifikant steigern. inubit verbindet Geschäftsprozesse miteinander und bildet somit die Basis für organisatorische und informationstechnische Verbesserungen der Wertschöpfungskette in Unternehmen.
+„Es stehen Verbesserungen der Effizienz im Mittelpunkt, indem eventuelle Medienbrüche durch den Einsatz von Softwarelösungen beseitigt oder minimiert werden. Desweiteren gehört eine IT-gestützte Überwachung und kennzahlenbasierte Auswertung der Prozesse in dieses Aufgabenfeld hinein“, so Sven Ladewig, Leiter Vertrieb und Marketing bei IT-Power, der sich auf eine gute und starke Partnerschaft mit Bosch Software Innovations freut. „Die Dokumentation von Prozessen, als weiteres Aufgabenfeld von BPM, hilft der Orientierung beteiligter Mitarbeiter. Auch im Rahmen juristischer Anforderungen oder zur Erlangung bestimmter Zertifizierungen nimmt die Dokumentation von Prozessen einen besonderen Stellenwert ein“, so Ladewig.
+
+</div>
+</div>]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>300</wp:post_id>
+		<wp:post_date>2013-11-25 14:31:14</wp:post_date>
+		<wp:post_date_gmt>2013-11-25 12:31:14</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>bosch-software-innovations-gmbh-und-die-it-power-gmbh-unterzeichnen-partnervertrag</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>post</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="uncategorized"><![CDATA[Allgemein]]></category>
+		<category domain="category" nicename="partner"><![CDATA[Partner]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Stadtwerke Flensburg - Strompreis stabil, Wärme wird teurer</title>
+		<link>http://localhost/wordpress/stadtwerke-flensburg-strompreis-stabil-warme-wird-teurer/</link>
+		<pubDate>Mon, 25 Nov 2013 12:49:35 +0000</pubDate>
+		<dc:creator>admin</dc:creator>
+		<guid isPermaLink="false">http://localhost/wordpress/?p=307</guid>
+		<description></description>
+		<content:encoded><![CDATA[Stadtwerke Flensburg - Strompreis stabil, Wärme wird teurer
+
+Stark steigender Steuern und Umlagen zum Trotz: Erstmals seit Jahren versprechen die Flensburger Stadtwerke, den Strompreis 2014 nicht zu erhöhen. Dagegen steigen die Preise für Fernwärme (3,6 Prozent) und Wasser (1,8 Prozent).
+
+<a title="shz" href="http://www.shz.de/lokales/flensburger-tageblatt/strompreis-stabil-waerme-wird-teurer-id4102221.htmlhttp://">Link zu shz.de</a>]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>307</wp:post_id>
+		<wp:post_date>2013-11-25 14:49:35</wp:post_date>
+		<wp:post_date_gmt>2013-11-25 12:49:35</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>stadtwerke-flensburg-strompreis-stabil-warme-wird-teurer</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>post</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="uncategorized"><![CDATA[Allgemein]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Wir suchen einen Senior IT-Consultant (m/w) – Schwerpunkt SAP/IS-U</title>
+		<link>http://localhost/wordpress/einen-senior-it-consultant-mw-schwerpunkt-sapis-u/</link>
+		<pubDate>Mon, 25 Nov 2013 15:09:50 +0000</pubDate>
+		<dc:creator>admin</dc:creator>
+		<guid isPermaLink="false">http://localhost/wordpress/?p=312</guid>
+		<description></description>
+		<content:encoded><![CDATA[<div>
+
+Wir sind ein junges, dynamisches Tochterunternehmen der Stadtwerke Flensburg GmbH. Unsere Stärke ist die Verbindung von Prozess- und IT-Know-how. Mit umfassendem Wissen und dem Leitsatz »Aus der Praxis für die Praxis!« schaffen wir praktikable Lösungsansätze und innovative Strategien, die unseren Kunden spürbare Wettbewerbsvorteile verschaffen und das Unternehmensergebnis nachhaltig verbessern. Wir unterstützen bei der Umsetzung, Einführung und beim Betrieb von ERP-Systemen wie SAP und helfen bei der effizienten Gestaltung von Geschäftsprozessen durch integrierte Workflows – von internen Anwendungen bis hin zur Außenkommunikation mit Kunden und Lieferanten.
+
+Wir suchen zum nächstmöglichen Zeitpunkt eine/n Senior IT-Consultant mit dem Schwerpunkt SAP IS-U.
+
+<!--more (mehr lesen...)-->
+
+</div>
+<h3>Ihre Aufgaben</h3>
+<ul>
+	<li>Inhaltliche und organisatorische Projektplanung sowie Projektleitung</li>
+	<li>Beratung der Kunden (insbesondere Energieversorger)</li>
+	<li>Leitung und Realisierung von (Teil-)Projekten für SAP IS-U</li>
+	<li>Customizing</li>
+	<li>Programmierung</li>
+	<li>Workshops führen</li>
+</ul>
+<h3>Sie bieten</h3>
+<ul>
+	<li>Abgeschlossenes Studium oder vergleichbare Ausbildung</li>
+	<li>Umfangreiche Berufserfahrung (ca. 5 Jahre) im Bereich SAP IS-U</li>
+	<li>Sehr gute Kenntnisse in der Programmierung (ABAP)</li>
+	<li>Interesse am Verstehen und Implementieren betriebswirtschaftlicher Prozesse</li>
+	<li>Die Fähigkeit, komplexe Anforderungen schnell zu erfassen und strukturiert in Softwarelösungen umzusetzen</li>
+	<li>Gute Umgangsformen und ausgeprägte Fähigkeiten im Bereich</li>
+</ul>
+<h3>Kommunikation/Präsentation</h3>
+<ul>
+	<li>Teamfähigkeit, Engagement und selbständiges Arbeiten</li>
+	<li>Gute Englischkenntnisse in Wort und Schrift</li>
+	<li>Gerne Branchen-Know-How in der Energieversogung</li>
+	<li>Flexibilität und Reisebereitschaft</li>
+</ul>
+<h3>Wir bieten</h3>
+<ul>
+	<li>Ein junges motiviertes Team als Arbeitsumfeld</li>
+	<li>Anspruchsvolle Arbeitsinhalte mit hoher Eigenverantwortung</li>
+	<li>Qualifizierte Weiterbildung</li>
+</ul>
+<h3>Ihre Perspektiven</h3>
+<ul>
+	<li>Interessante Tätigkeit in einem spannenden und zukunftsträchtigen SAP-Branchenumfeld</li>
+	<li>Erlangung von Prozess- und Fachwissen in einem sehr attraktiven Branchenumfeld</li>
+	<li>Sehr gute Aus- und Weiterbildungsmöglichkeiten</li>
+</ul>
+Download als .pdf:
+
+<a href="http://localhost/wordpress/wp-content/uploads/2013/11/Senior_SAP_IS-U_Stellenanzeige.pdf">Senior_SAP_IS-U_Stellenanzeige</a>]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>312</wp:post_id>
+		<wp:post_date>2013-11-25 17:09:50</wp:post_date>
+		<wp:post_date_gmt>2013-11-25 15:09:50</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>einen-senior-it-consultant-mw-schwerpunkt-sapis-u</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>post</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="uncategorized"><![CDATA[Allgemein]]></category>
+		<category domain="category" nicename="work"><![CDATA[Stellenangebote]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>formware</title>
+		<link>http://localhost/wordpress/partner/formware/</link>
+		<pubDate>Wed, 27 Nov 2013 09:09:38 +0000</pubDate>
+		<dc:creator>admin</dc:creator>
+		<guid isPermaLink="false">http://localhost/wordpress/?page_id=317</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>317</wp:post_id>
+		<wp:post_date>2013-11-27 11:09:38</wp:post_date>
+		<wp:post_date_gmt>2013-11-27 09:09:38</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>formware</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>274</wp:post_parent>
+		<wp:menu_order>16</wp:menu_order>
+		<wp:post_type>page</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>ricoh</title>
+		<link>http://localhost/wordpress/partner/ricoh/</link>
+		<pubDate>Wed, 27 Nov 2013 09:09:53 +0000</pubDate>
+		<dc:creator>admin</dc:creator>
+		<guid isPermaLink="false">http://localhost/wordpress/?page_id=319</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>319</wp:post_id>
+		<wp:post_date>2013-11-27 11:09:53</wp:post_date>
+		<wp:post_date_gmt>2013-11-27 09:09:53</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>ricoh</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>274</wp:post_parent>
+		<wp:menu_order>17</wp:menu_order>
+		<wp:post_type>page</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>grimm</title>
+		<link>http://localhost/wordpress/partner/grimm/</link>
+		<pubDate>Wed, 27 Nov 2013 09:10:16 +0000</pubDate>
+		<dc:creator>admin</dc:creator>
+		<guid isPermaLink="false">http://localhost/wordpress/?page_id=321</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>321</wp:post_id>
+		<wp:post_date>2013-11-27 11:10:16</wp:post_date>
+		<wp:post_date_gmt>2013-11-27 09:10:16</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>grimm</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>274</wp:post_parent>
+		<wp:menu_order>18</wp:menu_order>
+		<wp:post_type>page</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
