@@ -10,7 +10,26 @@
         </div>
         </div>
         <div id="kunde">
+            <div class="row">
+                <div class="col-md-4">
+                    <br>
+                    <div id="picture" class="user"></div>
+                    <a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/deerberg.png" width="370" height="200" class="alignnone size-thumbnail wp-image-185" /></a>
+                    <br>
+                </div>
+                <div class="col-md-8">
+                    <br><br><br>
+                    <h4>Deerberg</h4>
+                    Mit einem leistungsstarken Partner wie der IT-Power an unserer Seite ist das Projekt “Intranet“ mit den Parametern time, budget und quality zu einem echten Erfolg geworden!« 
+                        
+                    <h4>- Gesche Busch, Abteilungsleiterin Kundenservicecenter</h4> 
+                    <br>
+                                        <a href="<?php echo get_permalink(get_page_by_path('kunden/deerberg')); ?>"> <p style="text-align: center; text-decoration: none;"> > mehr lesen  </p> </a>
 
+                    <br>
+                </div>
+            </div>
+            <hr>
             <div class="row">
                 <div class="col-md-4">
                     <br>

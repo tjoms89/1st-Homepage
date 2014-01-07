@@ -1,0 +1,56 @@
+div.ui-tabs{
+    padding:0 3em;
+    width:100%;
+    font-size:90%;
+}
+
+ul.ui-tabs-nav{
+    float:left;
+    width:100%;
+    margin:2em 0 0 0;
+}
+
+ul.ui-tabs-nav li{
+    float:left;
+    padding:0 .5em 0 0;
+}
+
+ul.ui-tabs-nav a:link,
+ul.ui-tabs-nav a:visited,
+ul.ui-tabs-nav a:active,
+ul.ui-tabs-nav a:hover{
+    padding:.2em 1em;
+    display:block;
+    background:#c0c6dd;
+    color:#ccc;
+    height:3em;
+    text-decoration:none;
+}
+
+html>body ul.ui-tabs-nav a:link,
+html>body ul.ui-tabs-nav a:visited,
+html>body ul.ui-tabs-nav a:active,
+html>body ul.ui-tabs-nav a:hover{
+    height:auto;
+    min-height:3em;
+}
+
+ul.ui-tabs-nav a:hover{
+    background:#e0e0e0;
+}
+
+div.ui-tabs div{
+    clear:both;
+    width:auto;
+    background:#e0e0e0;
+    color:#2d438e;
+    padding:1em 3em;
+}
+
+ul.ui-tabs-nav li.ui-tabs-active a:link,
+ul.ui-tabs-nav li.ui-tabs-active a:visited,
+ul.ui-tabs-nav li.ui-tabs-active a:active,
+ul.ui-tabs-nav li.ui-tabs-active a:hover{
+    background:#e0e0e0;
+    color:#fff;
+}

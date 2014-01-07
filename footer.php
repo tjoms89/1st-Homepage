@@ -8,7 +8,7 @@
                 <li><a href="<?php echo get_permalink(get_page_by_path('karriere')); ?>">Karriere</a></li>
                 <li><a href="<?php echo get_permalink(get_page_by_path('kunden')); ?>">Kunden</a></li>
                 <li><a href="<?php echo get_permalink(get_page_by_path('partner')); ?>">Partner</a></li>
-                <li><a href="<?php echo get_permalink(get_page_by_path('uber')); ?>">Partner</a></li>
+                <li><a href="<?php echo get_permalink(get_page_by_path('uber')); ?>">Über uns</a></li>
             </ul>
             <br>
         </div>
