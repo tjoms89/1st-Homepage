@@ -8,6 +8,7 @@ ul.ui-tabs-nav{
     float:left;
     width:100%;
     margin:2em 0 0 0;
+    list-style:none;
 }
 
 ul.ui-tabs-nav li{
