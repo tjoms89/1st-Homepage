@@ -9,7 +9,7 @@
             </div>   
         </div>
 
-        <div id="main" style="text-align: justify;>
+        <div id="main" style="text-align: justify;">
             <?php the_content(); ?>
         </div>
 
