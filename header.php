@@ -48,8 +48,31 @@
             <!-- Collapsed Navbar for use on Desktops -->
             <div class="collapse navbar-collapse navbar-ex1-collapse">
 
-                <ul id="mainnav" class="nav navbar-nav">
+                <ul id="mainnav" class="nav navbar-nav">   
+                    <?php
 
+                    $args = array(
+                        'authors' => '',
+                        'child_of' => 0,
+                        'date_format' => get_option('date_format'),
+                        'depth' => 0,
+                        'echo' => 1,
+                        'exclude' => '',
+                        'include' => '',
+                        'link_after' => '',
+                        'link_before' => '',
+                        'post_type' => 'page',
+                        'post_status' => 'publish',
+                        'show_date' => '',
+                        'sort_column' => 'menu_order',
+                        'title_li' => '',
+                        'walker' => ''
+                    );
+                    
+                    wp_list_pages( $args );
+                    ?>
+                    
+                    <?php /*
                     <li><a href="<?php echo get_permalink(get_page_by_path('news')); ?>">News</a></li>
                     <li class="expand"><a href="<?php echo get_permalink(get_page_by_path('unternehmen')); ?>">Unternehmen</a>
                         <ul class="sub-menu">

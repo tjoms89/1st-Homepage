@@ -48,7 +48,7 @@
             <ul class="ulfooter2">
                 <li><a href="<?php echo get_admin_url(); ?>">Login</a></li>
                 <br>
-                <li>&copy; IT-Power GmbH 2013</li>
+                <li>&copy; IT-Power GmbH <?php echo date("Y") ?></li>
 
             </ul>
             <br>
@@ -132,7 +132,7 @@ function add_this_script_footer() {
                     // show sub nav
                     jQuery('#subnav').css('height', '36');
                     jQuery('.navbar').css('height', '86');
-                    jQuery(this).children('.sub-menu').show();
+                    jQuery(this).children('.children').show();
 
                 }
             });
@@ -143,7 +143,7 @@ function add_this_script_footer() {
                     jQuery('.expand').removeClass('hover');
                     jQuery('#subnav').css('height', '4');
                     jQuery('.navbar').css('height', '50');
-                    jQuery(this).children('.sub-menu').hide();
+                    jQuery(this).children('.children').hide();
                 }
             });
 
