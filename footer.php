@@ -8,13 +8,14 @@
                 <li><a href="<?php echo get_permalink(get_page_by_path('karriere')); ?>">Karriere</a></li>
                 <li><a href="<?php echo get_permalink(get_page_by_path('kunden')); ?>">Kunden</a></li>
                 <li><a href="<?php echo get_permalink(get_page_by_path('partner')); ?>">Partner</a></li>
-                <li><a href="<?php echo get_permalink(get_page_by_path('uber')); ?>">Über uns</a></li>
+                <li><a href="<?php echo get_permalink(get_page_by_path('unternehmen')); ?>">Über uns</a></li>
             </ul>
             <br>
         </div>
         <div class="col-sm-6 col-md-3">
             <ul class="ulfooter">
-                <li><a href="<?php echo get_permalink(get_page_by_path('unternehmen')); ?>">Unternehmen</a></li>
+                <li><a href="<?php echo get_permalink(get_page_by_path('leistungen')); ?>">Leistungen</a></li>
+                <li><a href="<?php echo get_permalink(get_page_by_path('dienstleistungen')); ?>">Dienstleistungen</a></li>
                 <li><a href="<?php echo get_permalink(get_page_by_path('consulting')); ?>">Consulting</a></li>
                 <li><a href="<?php echo get_permalink(get_page_by_path('outputmanagement')); ?>">Outputmanagement</a></li>
                 <li><a href="<?php echo get_permalink(get_page_by_path('softwareengineering')); ?>">Softwareentwicklung</a></li>

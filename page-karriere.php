@@ -18,16 +18,17 @@
                     Wir sind immer daran interessiert, motivierte und gut ausgebildete Mitarbeiter zu finden. <br>
                     Wenn Sie gerne bei IT-Power arbeiten möchten, können Sie sich jederzeit bewerben. <br>
                     Senden Sie bitte in diesem Falle Ihre Bewerbungsunterlagen mit Ihrer Gehaltsvorstellung und dem frühestmöglichen Eintrittstermin an Herrn Sven Ladewig.
+                    <br>
                     <div class="col-md-6"><h2> Aktuelle Stellenangebote: </h2> 
                         <div id="picture"> 
                             <a class="nonhoverpic" href="<?php echo get_permalink(get_page_by_path('karriere/stellen')); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/employ.png" alt="document" width="150" height="150" class="alignnone size-thumbnail wp-image-182" /></a>
-                            <a class="hoverpic" style="display:none" href="<?php echo get_permalink(get_page_by_path('karriere/stellen')); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/employ1.png" alt="document" width="150" height="150" class="alignnone size-thumbnail wp-image-182" /></a>         
+                            <a class="hoverpic" style="display:none" href="<?php echo get_permalink(get_page_by_path('unternehmen/karriere/stellen')); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/employ1.png" alt="document" width="150" height="150" class="alignnone size-thumbnail wp-image-182" /></a>         
                         </div>
                         <br><br>
                     </div>
                     <div class="col-md-6"><h2> Mentorenprogramm: </h2>
                         <div id="picture">
-                            <a class="nonhoverpic" href="<?php echo get_permalink(get_page_by_path('karriere/mentor')); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/teach.png" alt="document" width="150" height="150" class="alignnone size-thumbnail wp-image-182" /></a>
+                            <a class="nonhoverpic" href="<?php echo get_permalink(get_page_by_path('arriere/mentor')); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/teach.png" alt="document" width="150" height="150" class="alignnone size-thumbnail wp-image-182" /></a>
                             <a class="hoverpic" style="display:none" href="<?php echo get_permalink(get_page_by_path('karriere/mentor')); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/teach1.png" alt="document" width="150" height="150" class="alignnone size-thumbnail wp-image-182" /></a>
 
                         </div>
