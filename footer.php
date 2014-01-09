@@ -4,17 +4,17 @@
         <div class="col-sm-6 col-md-3" >
             <ul class="ulfooter">
                 <li><a href="<?php echo get_permalink(get_page_by_path('homepage')); ?>">Home</a></li>
+                <li><a href="<?php echo get_permalink(get_page_by_path('unternehmen')); ?>">Unternehmen</a></li>
                 <li><a href="<?php echo get_permalink(get_page_by_path('kontakt')); ?>">Kontakt</a></li>
                 <li><a href="<?php echo get_permalink(get_page_by_path('karriere')); ?>">Karriere</a></li>
                 <li><a href="<?php echo get_permalink(get_page_by_path('kunden')); ?>">Kunden</a></li>
                 <li><a href="<?php echo get_permalink(get_page_by_path('partner')); ?>">Partner</a></li>
-                <li><a href="<?php echo get_permalink(get_page_by_path('unternehmen')); ?>">Über uns</a></li>
+
             </ul>
             <br>
         </div>
         <div class="col-sm-6 col-md-3">
             <ul class="ulfooter">
-                <li><a href="<?php echo get_permalink(get_page_by_path('leistungen')); ?>">Leistungen</a></li>
                 <li><a href="<?php echo get_permalink(get_page_by_path('dienstleistungen')); ?>">Dienstleistungen</a></li>
                 <li><a href="<?php echo get_permalink(get_page_by_path('consulting')); ?>">Consulting</a></li>
                 <li><a href="<?php echo get_permalink(get_page_by_path('outputmanagement')); ?>">Outputmanagement</a></li>
@@ -110,6 +110,8 @@ function add_this_script_footer() {
             jQuery(".pust").backstretch("<?php echo get_stylesheet_directory_uri(); ?>/assets/img/pust.jpg");
 
             jQuery(".boat").backstretch("<?php echo get_stylesheet_directory_uri(); ?>/assets/img/boat.jpg");
+            
+            jQuery(".beach").backstretch("<?php echo get_stylesheet_directory_uri(); ?>/assets/img/beach.jpg");
 
         });
         jQuery(function() {

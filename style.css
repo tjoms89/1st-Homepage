@@ -207,7 +207,7 @@ body #posts
     margin: 0;
     padding: 0;
     font-size: 12px;
-    text-align: center;
+    text-align: center !important;
     box-shadow: 0 5px 13px -5px black;
 
 }

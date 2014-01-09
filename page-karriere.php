@@ -2,7 +2,7 @@
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
 
-        <div id="intro" class="pust">
+        <div id="intro-small" class="pust">
             <div class="row">
                 <div class="col-md-12">
                     <div class="background5">
@@ -22,13 +22,13 @@
                     <div class="col-md-6"><h2> Aktuelle Stellenangebote: </h2> 
                         <div id="picture"> 
                             <a class="nonhoverpic" href="<?php echo get_permalink(get_page_by_path('karriere/stellen')); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/employ.png" alt="document" width="150" height="150" class="alignnone size-thumbnail wp-image-182" /></a>
-                            <a class="hoverpic" style="display:none" href="<?php echo get_permalink(get_page_by_path('unternehmen/karriere/stellen')); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/employ1.png" alt="document" width="150" height="150" class="alignnone size-thumbnail wp-image-182" /></a>         
+                            <a class="hoverpic" style="display:none" href="<?php echo get_permalink(get_page_by_path('karriere/stellen')); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/employ1.png" alt="document" width="150" height="150" class="alignnone size-thumbnail wp-image-182" /></a>         
                         </div>
                         <br><br>
                     </div>
                     <div class="col-md-6"><h2> Mentorenprogramm: </h2>
                         <div id="picture">
-                            <a class="nonhoverpic" href="<?php echo get_permalink(get_page_by_path('arriere/mentor')); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/teach.png" alt="document" width="150" height="150" class="alignnone size-thumbnail wp-image-182" /></a>
+                            <a class="nonhoverpic" href="<?php echo get_permalink(get_page_by_path('karriere/mentor')); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/teach.png" alt="document" width="150" height="150" class="alignnone size-thumbnail wp-image-182" /></a>
                             <a class="hoverpic" style="display:none" href="<?php echo get_permalink(get_page_by_path('karriere/mentor')); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/teach1.png" alt="document" width="150" height="150" class="alignnone size-thumbnail wp-image-182" /></a>
 
                         </div>

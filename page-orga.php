@@ -2,22 +2,25 @@
 <?php get_header(); ?>
 
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-        <div id="intro-small" style="background:url(<?php echo get_stylesheet_directory_uri(); ?>/assets/img/boat.jpg) no-repeat center; background-color: #fff;">
-        </div>
-        
-        <div id="main">        
+        <div style="height:87px; background:#fff;"></div>
+        <div style=" background: 0 0 repeat #FFFFFF; color: #2d438e;">        
             <div class="row">
-                <br>
-                <div class="col-md-12">
-                    <h1>TEST</h1>
-                    <p> bla </p>
-                <br><br>
+                <div style="text-align: left;">
+                <div class="title"><?php the_title(); ?></div>
+                </div>
             </div>
+            <br>
+            <div class="row">
+                <div class="col-md-12">
+                    <div style="text-align: left;">
+                    <?php the_content(); ?>
+                    </div>
+                </div>
+            </div>
+            <br>
         </div>
-        </div>
-    <?php endwhile;
-else: ?>
-    <p><?php _e('Tut uns Leid. Die Seite existiert nicht.'); ?></p>
-<?php endif; ?>
+	<?php endwhile; else: ?>
+		<p><?php _e('Tut uns Leid. Die Seite existiert nicht.'); ?></p>
+	<?php endif; ?>
 
 <?php get_footer(); ?>

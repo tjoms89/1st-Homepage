@@ -9,8 +9,7 @@
             <div class="row">
                 <br>
                 <div class="col-md-12">
-                    <h1>TEST</h1>
-                    <p> bla </p>
+                                        <?php the_content(); ?> 
                 <br><br>
             </div>
         </div>

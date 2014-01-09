@@ -12,7 +12,7 @@
             <br>
             <div class="row">
                 <div class="col-md-12">
-                    <div style="text-align: left;">
+                    <div>
                     <?php the_content(); ?>
                     </div>
                 </div>
