@@ -24,7 +24,7 @@
                         
                     <h4>- Gesche Busch, Abteilungsleiterin Kundenservicecenter</h4> 
                     <br>
-                                        <a href="<?php echo get_permalink(get_page_by_path('kunden/deerberg')); ?>"> <p style="text-align: center; text-decoration: none;"> > mehr lesen  </p> </a>
+                                        <a href="<?php echo get_permalink(get_page_by_path('referenzen/kunden/deerberg')); ?>"> <p style="text-align: center; text-decoration: none;"> > mehr lesen  </p> </a>
 
                     <br>
                 </div>

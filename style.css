@@ -180,7 +180,7 @@ body #main
     position: relative; 
     z-index: 0;
     margin: 0;
-    padding: 0 0 20px 0;
+    padding: 0 0 15px 0;
     color: #2d438e;
     font-size: 14px;
     text-align: center; 
@@ -576,7 +576,7 @@ col-md-12 {
     }
 
     body #posts{
-        padding-top: 80px;
+        padding-top: 40px;
     }
     #intro h1, #intro-small h1{   
         top: 170px;
