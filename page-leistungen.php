@@ -25,7 +25,7 @@
                 <div class="col-sm-6 col-md-3">
                     <div id="picture" class="user"></div>
                     <a class="nonhoverpic" href="<?php echo get_permalink(get_page_by_path('leistungen/consulting')); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/meet.png" alt="meeting" width="150" height="150" class="alignnone size-thumbnail wp-image-185" /></a>
-                    <a class="hoverpic" style="display:none" href="<?php echo get_permalink(get_page_by_path('lesitungen/consulting')); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/meet1.png" alt="meeting" width="150" height="150" class="alignnone size-thumbnail wp-image-185" /></a>
+                    <a class="hoverpic" style="display:none" href="<?php echo get_permalink(get_page_by_path('leistungen/consulting')); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/meet1.png" alt="meeting" width="150" height="150" class="alignnone size-thumbnail wp-image-185" /></a>
                     <h4>Consulting</h4>
                     <p></p>
                     <br>
@@ -34,7 +34,7 @@
                 <div id="picture" class="col-sm-6 col-md-3">
                     <div class="document nonhoverpic"></div>
                     <a class="nonhoverpic" href="<?php echo get_permalink(get_page_by_path('leistungen/Output Management')); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/document2.png" alt="document" width="150" height="150" class="alignnone size-thumbnail wp-image-182" /></a>
-                    <a class="hoverpic" style="display:none" href="<?php echo get_permalink(get_page_by_path('leistungen/Output Management')); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/document3.png" alt="document" width="150" height="150" class="alignnone size-thumbnail wp-image-182" /></a>
+                    <a class="hoverpic" style="display:none" href="<?php echo get_permalink(get_page_by_path('leistungen/outputmanagement')); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/document3.png" alt="document" width="150" height="150" class="alignnone size-thumbnail wp-image-182" /></a>
 
                     <h4>Output Management</h4>
                     <p></p>
@@ -43,7 +43,7 @@
                 <div id="picture" class="col-sm-6 col-md-3">
                     <div class="keyboard nonhoverpic"></div>
                     <a class="nonhoverpic" href="<?php echo get_permalink(get_page_by_path('leistungen/Software Engineering')); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/keyboard.png" alt="keyboard" width="150" height="150" class="alignnone size-thumbnail wp-image-183" /></a>
-                    <a class="hoverpic" style="display:none" href="<?php echo get_permalink(get_page_by_path('leistungen/Software Engineering')); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/keyboard1.png" alt="keyboard" width="150" height="150" class="alignnone size-thumbnail wp-image-183" /></a>
+                    <a class="hoverpic" style="display:none" href="<?php echo get_permalink(get_page_by_path('leistungen/sofwarengineering')); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/keyboard1.png" alt="keyboard" width="150" height="150" class="alignnone size-thumbnail wp-image-183" /></a>
 
                     <h4>Software Engineering</h4>
                     <p></p>
