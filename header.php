@@ -78,7 +78,7 @@
                         <ul class="sub-menu">
                             <li><a href="<?php echo get_permalink(get_page_by_path('unternehmen/consulting')); ?>">Consulting</a></li>
                             <li><a href="<?php echo get_permalink(get_page_by_path('unternehmen/Output Management')); ?>">Output Management</a></li>
-                            <li><a href="<?php echo get_permalink(get_page_by_path('unternehmen/softwareengineering')); ?>">Softwareengineering</a></li>
+                            <li><a href="<?php echo get_permalink(get_page_by_path('unternehmen/Software Engineering')); ?>">Software Engineering</a></li>
                             <li><a href="<?php echo get_permalink(get_page_by_path('unternehmen/infrastruktur')); ?>">IT-Infrastruktur</a></li> 
                         </ul>
                     </li>

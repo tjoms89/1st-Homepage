@@ -59,8 +59,8 @@
                                 </div>
                                 <div id="picture" class="col-sm-6 col-md-3">
                                     <div class="keyboard"></div>
-                                    <a class="nonhoverpic" href="<?php echo get_permalink(get_page_by_path('unternehmen/softwareengineering')); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/keyboard.png" alt="keyboard" width="150" height="150" class="alignnone size-thumbnail wp-image-183" /></a>
-                                    <a class="hoverpic" style="display:none" href="<?php echo get_permalink(get_page_by_path('unternehmen/softwareengineering')); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/keyboard1.png" alt="keyboard" width="150" height="150" class="alignnone size-thumbnail wp-image-183" /></a>
+                                    <a class="nonhoverpic" href="<?php echo get_permalink(get_page_by_path('unternehmen/Software Engineering')); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/keyboard.png" alt="keyboard" width="150" height="150" class="alignnone size-thumbnail wp-image-183" /></a>
+                                    <a class="hoverpic" style="display:none" href="<?php echo get_permalink(get_page_by_path('unternehmen/Software Engineering')); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/keyboard1.png" alt="keyboard" width="150" height="150" class="alignnone size-thumbnail wp-image-183" /></a>
                                     <br>
                                     <h4><b>Entwicklung</b></h3>
                                         <p>Wir entwickeln für Sie</p>
