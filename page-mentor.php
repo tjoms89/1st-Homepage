@@ -2,7 +2,18 @@
 <?php get_header(); ?>
 
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-        <div id="intro-small" style="background:url(<?php echo get_stylesheet_directory_uri(); ?>/assets/img/boat.jpg) no-repeat center; background-color: #fff;">
+
+      <div id="intro-small" class="mill">
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                    <div class="background5">
+                        <h1> Mentoring Program
+                        </h1>
+                    </div>
+                </div>
+                <div class="col-md-4"></div>
+            </div>
         </div>
         
         <div id="main">        

@@ -66,7 +66,7 @@
                             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/karsten.jpg" alt="BILD" width="150" height="100" class="alignnone size-thumbnail wp-image-182">		 	 
                             <div class="caption">	
                                 <h3>Karsten Milewsky</h3>	 	 
-                                <p style="font-weight: bold;">Leiter Outputmanagement</p>
+                                <p style="font-weight: bold;">Leiter Output Management</p>
                                 <br>
                                 <p>Tel.: +49(0)461/487 - 3439</p>
                                 <p>Fax: +49(0)461/487 - 2434</p>

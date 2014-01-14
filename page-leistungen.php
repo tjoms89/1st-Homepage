@@ -33,10 +33,10 @@
 
                 <div id="picture" class="col-sm-6 col-md-3">
                     <div class="document nonhoverpic"></div>
-                    <a class="nonhoverpic" href="<?php echo get_permalink(get_page_by_path('leistungen/outputmanagement')); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/document2.png" alt="document" width="150" height="150" class="alignnone size-thumbnail wp-image-182" /></a>
-                    <a class="hoverpic" style="display:none" href="<?php echo get_permalink(get_page_by_path('leistungen/outputmanagement')); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/document3.png" alt="document" width="150" height="150" class="alignnone size-thumbnail wp-image-182" /></a>
+                    <a class="nonhoverpic" href="<?php echo get_permalink(get_page_by_path('leistungen/Output Management')); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/document2.png" alt="document" width="150" height="150" class="alignnone size-thumbnail wp-image-182" /></a>
+                    <a class="hoverpic" style="display:none" href="<?php echo get_permalink(get_page_by_path('leistungen/Output Management')); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/document3.png" alt="document" width="150" height="150" class="alignnone size-thumbnail wp-image-182" /></a>
 
-                    <h4>Outputmanagement</h4>
+                    <h4>Output Management</h4>
                     <p></p>
                     <br>
                 </div>

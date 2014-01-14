@@ -50,10 +50,10 @@
                         <div id="picture" class="col-sm-6 col-md-3">
                             <div class="document"></div>
 
-                            <a class="nonhoverpic" href="<?php echo get_permalink(get_page_by_path('unternehmen/outputmanagement')); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/print.png" alt="document" width="150" height="150" class="alignnone size-thumbnail wp-image-182" /></a>
-                            <a class="hoverpic" style="display:none" href="<?php echo get_permalink(get_page_by_path('unternehmen/outputmanagement')); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/print1.png" alt="document" width="150" height="150" class="alignnone size-thumbnail wp-image-182" /></a>
+                            <a class="nonhoverpic" href="<?php echo get_permalink(get_page_by_path('unternehmen/Output Management')); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/print.png" alt="document" width="150" height="150" class="alignnone size-thumbnail wp-image-182" /></a>
+                            <a class="hoverpic" style="display:none" href="<?php echo get_permalink(get_page_by_path('unternehmen/Output Management')); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/print1.png" alt="document" width="150" height="150" class="alignnone size-thumbnail wp-image-182" /></a>
                             <br>
-                            <h4><b>Outputmanagement</b></h3>
+                            <h4><b>Output Management</b></h3>
                                 <p>Wir optimieren und verbessern für Sie</p>
                                 <br>
                                 </div>

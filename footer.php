@@ -17,7 +17,7 @@
             <ul class="ulfooter">
                 <li><a href="<?php echo get_permalink(get_page_by_path('dienstleistungen')); ?>">Dienstleistungen</a></li>
                 <li><a href="<?php echo get_permalink(get_page_by_path('consulting')); ?>">Consulting</a></li>
-                <li><a href="<?php echo get_permalink(get_page_by_path('outputmanagement')); ?>">Outputmanagement</a></li>
+                <li><a href="<?php echo get_permalink(get_page_by_path('Output Management')); ?>">Output Management</a></li>
                 <li><a href="<?php echo get_permalink(get_page_by_path('softwareengineering')); ?>">Softwareentwicklung</a></li>
                 <li><a href="<?php echo get_permalink(get_page_by_path('infrastruktur')); ?>">IT-Infrastruktur</a></li>
             </ul>
@@ -128,6 +128,8 @@ function add_this_script_footer() {
             jQuery(".boat").backstretch("<?php echo get_stylesheet_directory_uri(); ?>/assets/img/boat.jpg");
             
             jQuery(".beach").backstretch("<?php echo get_stylesheet_directory_uri(); ?>/assets/img/beach.jpg");
+            
+            jQuery(".mill").backstretch("<?php echo get_stylesheet_directory_uri(); ?>/assets/img/mill.png");
 
         });
         jQuery(function() {
