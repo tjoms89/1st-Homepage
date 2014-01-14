@@ -91,7 +91,7 @@
             </div>
             <div class="col-md-6">
                 <h3>Anfahrt </h3> <h4 style="font-size:14px;"> zu unserem Büro bei den Stadtwerken Flensburg GmbH</h4>
-                <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps/ms?msa=0&amp;msid=204137306007549921621.0004e84b61f705150c11a&amp;hl=en&amp;ie=UTF8&amp;t=m&amp;ll=54.805514,9.431473&amp;spn=0,0&amp;output=embed"></iframe><br /><small> <a href="https://maps.google.com/maps/ms?msa=0&amp;msid=204137306007549921621.0004e84b61f705150c11a&amp;hl=en&amp;ie=UTF8&amp;t=m&amp;ll=54.805514,9.431473&amp;spn=0,0&amp;source=embed" style="color:#0000FF;text-align:left">IT-Power GmbH</a> auf einer größeren Karte zeigen</small>
+                <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps/ms?msa=0&amp;msid=204137306007549921621.0004e84b61f705150c11a&amp;hl=en&amp;ie=UTF8&amp;t=m&amp;ll=54.805514,9.431473&amp;spn=0,0&amp;output=embed"></iframe><br /><small> <a href="https://maps.google.com/maps/ms?msa=0&amp;msid=204137306007549921621.0004e84b61f705150c11a&amp;hl=en&amp;ie=UTF8&amp;t=m&amp;ll=54.805514,9.431473&amp;spn=0,0&amp;source=embed" target="_blank" style="color:#0000FF;text-align:left">IT-Power GmbH</a> auf einer größeren Karte zeigen</small>
             </div>
         </div>
 
