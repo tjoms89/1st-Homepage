@@ -7,7 +7,7 @@
                 <div class="col-md-4"></div>
                 <div class="col-md-4">
                     <div class="background5">
-                        <h1> Usere Leistungen 
+                        <h1> Unsere Leistungen 
                         </h1>
                     </div>
                 </div>
@@ -17,7 +17,7 @@
 
         <div id="main">
             <div class="row">
-                <h3> Leistungen von Uns für Sie </h3>
+                <h3> Leistungen von uns für Sie </h3>
                 Kompetenz gebündelt an einem Ort 
             </div>
             <br><br>
