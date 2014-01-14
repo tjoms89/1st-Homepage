@@ -16,14 +16,8 @@
             </div>
         </div>
         
-        <div id="main">        
-            <div class="row">
-                <br>
-                <div class="col-md-12">
-                    <?php the_content(); ?> 
-                <br><br>
-            </div>
-        </div>
+        <div id="main" style="text-align: justify;"> 
+            <?php the_content(); ?>
         </div>
     <?php endwhile;
 else: ?>

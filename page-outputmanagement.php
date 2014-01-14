@@ -4,7 +4,7 @@
         <div id="intro-small" class="water2">
             <div class="row">
                 <div class="background5">
-                    <h1> Dienstleistungen</h1>
+                    <h1>Output Management</h1>
                 </div>
             </div>
         </div>

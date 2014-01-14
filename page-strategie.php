@@ -2,17 +2,16 @@
 <?php get_header(); ?>
 
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-        <div id="intro-small" style="background:url(<?php echo get_stylesheet_directory_uri(); ?>/assets/img/boat.jpg) no-repeat center; background-color: #fff;">
-        </div>
-        
-        <div id="main">        
+            <div id="intro-small" class="solar">
             <div class="row">
-                <br>
-                <div class="col-md-12">
-                                        <?php the_content(); ?> 
-                <br><br>
+                <div class="background5">
+                    <h1>Strategie</h1>
+                </div>
             </div>
-        </div>
+            </div>
+        
+        <div id="main" style="text-align: justify;"> 
+            <?php the_content(); ?>
         </div>
     <?php endwhile;
 else: ?>

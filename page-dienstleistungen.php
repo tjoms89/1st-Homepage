@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-        <div id="intro-small" class="beach">
+        <div id="intro-small" class="container">
             <div class="row">
                 <div class="background5">
                     <h1> Dienstleistungen</h1>

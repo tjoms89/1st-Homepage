@@ -130,6 +130,11 @@ function add_this_script_footer() {
             jQuery(".beach").backstretch("<?php echo get_stylesheet_directory_uri(); ?>/assets/img/beach.jpg");
             
             jQuery(".mill").backstretch("<?php echo get_stylesheet_directory_uri(); ?>/assets/img/mill.png");
+            
+            jQuery(".container").backstretch("<?php echo get_stylesheet_directory_uri(); ?>/assets/img/container.jpg");
+            
+            jQuery(".solar").backstretch("<?php echo get_stylesheet_directory_uri(); ?>/assets/img/solar.jpg");
+            
 
         });
         jQuery(function() {
