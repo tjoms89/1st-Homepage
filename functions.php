@@ -16,6 +16,19 @@ function load_scripts()
         wp_register_script( 'domtab', get_stylesheet_directory_uri() . '/assets/js/domtab.js');
         wp_enqueue_script( 'domtab' );
         
+         
+        wp_register_script( 'modern', get_stylesheet_directory_uri() . '/assets/js/respond.js');
+        wp_enqueue_script( 'modern' );
+        
+        wp_register_script( 'media', get_stylesheet_directory_uri() . '/assets/js/css3-mediaqueries.js');
+        wp_enqueue_script( 'media' );
+        
+        wp_register_script( 'html5', get_stylesheet_directory_uri() . '/assets/js/html5shiv.js');
+        wp_enqueue_script( 'html5' );
+        
+        wp_register_script('functions', get_stylesheet_directory_uri() . '/assets/js/functions.js', array('jquery','backstretch'));
+        wp_enqueue_script('functions');
+
 }
 function add_parent_class_nav( $css_class, $page, $depth, $args )
 {
