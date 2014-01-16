@@ -22,7 +22,7 @@ li{
 }
 
 body{
-    font-family: 'Quattrocento Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
     background: #2d438e;
     text-rendering: optimizeLegibility;
     font-weight: normal;
@@ -185,7 +185,6 @@ body #main
     font-size: 14px;
     text-align: center; 
     height: auto !important;
-    box-shadow: 0 5px 13px -5px black;
 
 }
 
@@ -208,7 +207,6 @@ body #posts
     padding: 0;
     font-size: 12px;
     text-align: center !important;
-    box-shadow: 0 5px 13px -5px black;
 
 }
 
@@ -247,7 +245,6 @@ body #kunde
     color: #2d438e;
     font-size: 14px;
     text-align: center;
-    box-shadow: 0 5px 13px -5px black;
 }
 
 body #kontakt .tel{
