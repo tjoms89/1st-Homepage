@@ -15,7 +15,8 @@
         <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/assets/css/tab.css"></link>
 
         <link href="<?php bloginfo('stylesheet_url'); ?>" rel="stylesheet"></link>
-
+        
+        <script src="https://raw.github.com/scottjehl/Respond/master/respond.min.js"></script>
         
 
         <!-- check if adminbar is showing and do some padding if its showing -->
