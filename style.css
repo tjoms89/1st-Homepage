@@ -26,7 +26,7 @@ body{
     background: #2d438e;
     text-rendering: optimizeLegibility;
     font-weight: normal;
-    letter-spacing: 1px;
+    /*letter-spacing: 1px;*/
     padding-left: 0;
     padding-right: 0;
 
