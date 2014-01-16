@@ -20,13 +20,13 @@
                 <?php get_sidebar(); ?>
             </div>
     </div>
-
+</div>
         <?php endwhile;
     else: ?>
         <p><?php _e('Sorry, there are no posts.'); ?></p>
 <?php endif; ?>
 
-</div>
+
 
 
 <?php get_footer(); ?>
