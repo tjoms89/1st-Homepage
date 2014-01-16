@@ -5,14 +5,10 @@
 
       <div id="intro-small" class="mill">
             <div class="row">
-                <div class="col-md-4"></div>
-                <div class="col-md-4">
                     <div class="background5">
                         <h1> Mentoring Program
                         </h1>
                     </div>
-                </div>
-                <div class="col-md-4"></div>
             </div>
         </div>
         

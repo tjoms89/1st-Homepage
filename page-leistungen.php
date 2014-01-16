@@ -4,14 +4,11 @@
 
         <div id="intro-small" class="ship">
             <div class="row">
-                <div class="col-md-4"></div>
-                <div class="col-md-4">
                     <div class="background5">
                         <h1> Unsere Leistungen 
                         </h1>
                     </div>
                 </div>
-                <div class="col-md-4"></div>
             </div>
         </div>
 
@@ -43,7 +40,7 @@
                 <div id="picture" class="col-sm-6 col-md-3">
                     <div class="keyboard nonhoverpic"></div>
                     <a class="nonhoverpic" href="<?php echo get_permalink(get_page_by_path('leistungen/Software Engineering')); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/keyboard.png" alt="keyboard" width="150" height="150" class="alignnone size-thumbnail wp-image-183" /></a>
-                    <a class="hoverpic" style="display:none" href="<?php echo get_permalink(get_page_by_path('leistungen/sofwarengineering')); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/keyboard1.png" alt="keyboard" width="150" height="150" class="alignnone size-thumbnail wp-image-183" /></a>
+                    <a class="hoverpic" style="display:none" href="<?php echo get_permalink(get_page_by_path('leistungen/sofwareengineering')); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/keyboard1.png" alt="keyboard" width="150" height="150" class="alignnone size-thumbnail wp-image-183" /></a>
 
                     <h4>Software Engineering</h4>
                     <p></p>
