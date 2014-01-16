@@ -12,10 +12,7 @@ function load_scripts()
         
         wp_register_script( 'fonts', '//ajax.googleapis.com/ajax/libs/webfont/1/webfont.js', 'jquery', '1.0', true);
         wp_enqueue_script( 'fonts' );
-        
-        wp_register_script( 'domtab', get_stylesheet_directory_uri() . '/assets/js/domtab.js');
-        wp_enqueue_script( 'domtab' );
-       
+
         wp_register_script( 'modern', get_stylesheet_directory_uri() . '/assets/js/respond.js');
         wp_enqueue_script( 'modern' );
         
@@ -24,9 +21,6 @@ function load_scripts()
         
         wp_register_script( 'html5', get_stylesheet_directory_uri() . '/assets/js/html5shiv.js');
         wp_enqueue_script( 'html5' );
-        
-        wp_register_script('functions', get_stylesheet_directory_uri() . '/assets/js/functions.js', array('jquery','backstretch'));
-        wp_enqueue_script('functions');
 
 }
 function add_parent_class_nav( $css_class, $page, $depth, $args )
