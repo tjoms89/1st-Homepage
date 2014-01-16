@@ -3,7 +3,7 @@
 
         <div id="intro-small" class="ice">
             <div class="row">
-                <div class="background1">
+                <div class="background5">
                     <h1> Consulting </h1>
                 </div>
             </div>   

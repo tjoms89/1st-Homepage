@@ -3,7 +3,7 @@
 
         <div id="intro-small" class="kurs">
             <div class="row">
-                <div class="background1">
+                <div class="background5">
                     <h1> Unsere Kunden sind auf Erfolgskurs</h1>
                 </div>
             </div>
