@@ -161,7 +161,7 @@ hr{
 /* body-part css */
 
 h1,h2,h3,h4,h5 {
-    font-family: 'Quattrocento Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 
 body #intro
@@ -175,7 +175,7 @@ body #intro
 
 body #main
 {
-    font-family: 'Quattrocento Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     background: 0 0 repeat #FFFFFF;
     position: relative; 
     z-index: 0;
@@ -222,7 +222,7 @@ body #foot
 }
 
 body #kontakt {
-    font-family: 'Quattrocento Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     min-height: 400px;
     background: 0 0 repeat #FFFFFF;
     position: relative; 
@@ -235,7 +235,7 @@ body #kontakt {
 
 body #kunde
 {
-    font-family: 'Quattrocento Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     min-height: 550px;
     background: 0 0 repeat #FFFFFF;
     position: relative; 

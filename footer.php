@@ -18,7 +18,7 @@
                 <li><a href="<?php echo get_permalink(get_page_by_path('leistungen/dienstleistungen')); ?>">Dienstleistungen</a></li>
                 <li><a href="<?php echo get_permalink(get_page_by_path('leistungen/consulting')); ?>">Consulting</a></li>
                 <li><a href="<?php echo get_permalink(get_page_by_path('leistungen/outputmanagement')); ?>">Output Management</a></li>
-                <li><a href="<?php echo get_permalink(get_page_by_path('leistungen/softwarengineering')); ?>">Software Engineering</a></li>
+                <li><a href="<?php echo get_permalink(get_page_by_path('leistungen/softwareengineering')); ?>">Software Engineering</a></li>
                 <li><a href="<?php echo get_permalink(get_page_by_path('leistungen/infrastruktur')); ?>">IT-Infrastruktur</a></li>
                 <li><a href="<?php echo get_permalink(get_page_by_path('impressum')); ?>">Impressum</a></li>
             </ul>
