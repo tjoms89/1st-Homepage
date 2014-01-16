@@ -15,8 +15,7 @@ function load_scripts()
         
         wp_register_script( 'domtab', get_stylesheet_directory_uri() . '/assets/js/domtab.js');
         wp_enqueue_script( 'domtab' );
-        
-         
+       
         wp_register_script( 'modern', get_stylesheet_directory_uri() . '/assets/js/respond.js');
         wp_enqueue_script( 'modern' );
         

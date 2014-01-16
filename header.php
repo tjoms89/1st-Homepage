@@ -15,9 +15,7 @@
         <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/assets/css/tab.css"></link>
 
         <link href="<?php bloginfo('stylesheet_url'); ?>" rel="stylesheet"></link>
-        
-        <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
-        <script src="<?php bloginfo('template_url'); ?>/assets/js/respond.js"></script>
+
         
 
         <!-- check if adminbar is showing and do some padding if its showing -->
