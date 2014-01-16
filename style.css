@@ -199,9 +199,9 @@ body #intro-small {
 body #posts
 {
 
-    height:0;
+    height: auto;
     background: 0 0 repeat #FFFFFF;
-    position: relative;
+    position: relative; 
     z-index: 0;
     margin: 0;
     padding: 0;
