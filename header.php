@@ -68,6 +68,7 @@
                         'sort_column' => 'menu_order',
                         'title_li' => '',
                         'walker' => ''
+                        
                     );
                     
                     wp_list_pages( $args );
