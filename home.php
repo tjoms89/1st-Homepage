@@ -10,7 +10,7 @@
 <div id="posts">
 
     <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-                <div class="col-md-4">
+                <div class="col-md-4" style="background:#c0c6dd;">
                         <?php get_sidebar(); ?>
                 </div>
                        <div class="col-md-8">
