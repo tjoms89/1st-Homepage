@@ -215,6 +215,7 @@ body #posts
     font-size: 12px;
     text-align: center !important;
     float: left; 
+    width: 60%;
 
 }
 
@@ -429,6 +430,7 @@ col-md-12 {
   margin: 10px 0 15px 0; /*controls the cutoff of the top and bottom limitations*/
   padding: 15px 10px;
   float: right; /* float right for a right aligned sidebar */
+  width: 40%;
 }
 
 .ulsidebar{
