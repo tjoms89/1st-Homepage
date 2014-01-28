@@ -214,6 +214,7 @@ body #posts
     padding: 0;
     font-size: 12px;
     text-align: center !important;
+    float: left; 
 
 }
 
@@ -423,6 +424,13 @@ col-md-12 {
 }
 
 /* news sidebar */ 
+#sidebar {
+  width: 120px;
+  min-height: 200px;
+  margin: 10px 0 15px 0; /*controls the cutoff of the top and bottom limitations*/
+  padding: 15px 10px;
+  float: right; /* float right for a right aligned sidebar */
+}
 
 .ulsidebar{
     list-style-type: none;
