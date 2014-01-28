@@ -47,7 +47,7 @@
                                 <p>Tel.: +49 (0)461 487-3424</p>
                                 <p>Fax: +49 (0)461 487-2424</p>
                                 <p><a href="mailto:service@it-power.org">service@it-power.org</a></p>
-                                <br><br>	 	 	 	 
+                                <br><br><br>	 	 	 	 
                             </div></div></div>
                 </div>
 
