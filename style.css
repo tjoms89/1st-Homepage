@@ -434,8 +434,11 @@ col-md-12 {
 }
 
 .ulsidebar{
-    list-style-type: none;
     position: relative;
+}
+
+.ulsidebar > li {
+    margin-bottom: 5px; 
 }
 
 
