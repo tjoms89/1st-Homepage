@@ -17,7 +17,7 @@
         <link href="<?php bloginfo('stylesheet_url'); ?>" rel="stylesheet"></link>
         
         <link rel="apple-touch-icon" href="<?php echo get_template_directory_uri(); ?>/assets/img/apple-touch-icon-144x144-precomposed.psd"/>
-        <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/assets/img/apple-touch-icon-144x144-precomposed.psd" type="image/x-icon">
+        <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/assets/img/favicon.ico" type="image/x-icon">
 
         <!-- check if adminbar is showing and do some padding if its showing -->
         <?php if (is_admin_bar_showing()) { ?>
