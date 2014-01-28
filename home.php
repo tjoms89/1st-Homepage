@@ -23,7 +23,7 @@
 
         <?php endwhile;
     else: ?>
-        <p><?php _e('Sorry, there are no posts.'); ?></p>
+        <p><?php _e('Keine Neuigkeiten vorhanden'); ?></p>
 <?php endif; ?>
 </div>
 
