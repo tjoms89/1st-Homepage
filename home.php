@@ -23,7 +23,7 @@
     else: ?>
         <p><?php _e('Keine Neuigkeiten vorhanden'); ?></p>
 <?php endif; ?>
-                <div class="col-md-4" style="position: fixed; margin-left: 80%; z-index: 0;">
+                <div class="col-md-4 sidebar">
                         <?php get_sidebar(); ?>
                 </div>
 </div>

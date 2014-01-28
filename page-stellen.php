@@ -23,9 +23,7 @@
         <p><?php _e('Tut Uns Leid - Zurzeit keine Angbebote'); ?></p>
 <?php endif; ?>
 
-    <div  style="position: fixed;">
-        <div class="col-md-8"></div>
-        <div class="col-md-4">
+        <div class="col-md-4 sidebar">
         <h2> Kontakt </h2>
         <div class="thumbnail">	 	 
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/sven_ladewig.jpg" alt="BILD" width="150" height="100" class="alignnone size-thumbnail wp-image-182">		 	 
@@ -42,7 +40,6 @@
             </div></div> 
 
         </div>
-    </div>
 </div>
 
 
