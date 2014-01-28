@@ -174,7 +174,7 @@ h1,h2,h3,h4,h5 {
 body #intro
 {
     min-height: 360px;
-    z-index: 0;
+    z-index: 1;
     position: relative;
     margin: 0;
     padding: 0;
@@ -197,7 +197,7 @@ body #main
 
 body #intro-small {
     min-height: 350px;
-    z-index: 0;
+    z-index: 1;
     position: relative;
     margin: 0;
     padding: 0;
@@ -220,7 +220,7 @@ body #posts
 body #foot
 {
     background: 0 0 repeat #2d438e;
-    z-index: 1;
+    z-index: 10;
     margin: 0;
     padding: 0;
     font-size: 12px;
