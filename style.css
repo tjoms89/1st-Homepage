@@ -211,7 +211,6 @@ body #posts
 
 body #foot
 {
-    min-height: 50px;
     background: 0 0 repeat #2d438e;
     z-index: 1;
     margin: 0;
