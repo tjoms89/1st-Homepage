@@ -23,10 +23,12 @@
     else: ?>
         <p><?php _e('Keine Neuigkeiten vorhanden'); ?></p>
 <?php endif; ?>
-        
-                <div class="col-md-4" style="position: fixed; ">
+        <div  style="position: fixed;">
+                <div class="col-md-8"></div>
+                <div class="col-md-4">
                         <?php get_sidebar(); ?>
                 </div>
+        </div>
 </div>
 
 
