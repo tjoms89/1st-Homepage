@@ -7,7 +7,7 @@
     </div>
 </div>
 
-<div id="posts" style="overflow: hidden;">
+<div id="posts">
 
     <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
@@ -23,7 +23,7 @@
     else: ?>
         <p><?php _e('Keine Neuigkeiten vorhanden'); ?></p>
 <?php endif; ?>
-                <div class="col-md-4 sidebar">
+                <div id="sidebar" class="col-md-4">
                         <?php get_sidebar(); ?>
                 </div>
 </div>

@@ -21,6 +21,9 @@ function load_scripts()
         
         wp_register_script( 'html5', get_stylesheet_directory_uri() . '/assets/js/html5shiv.js');
         wp_enqueue_script( 'html5' );
+        
+        wp_register_script( 'stickyMojo', get_stylesheet_directory_uri() . '/assets/js/stickyMojo.js');
+        wp_enqueue_script( 'stickyMojo' );
 
 }
 function add_parent_class_nav( $css_class, $page, $depth, $args )
