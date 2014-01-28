@@ -33,7 +33,7 @@
                                 <p>Fax: +49 (0)461 487-2434</p>
                                 <p>Mobil: +49 (0)151/14044583</p>
                                 <p><a href="mailto:lisa.dubbert@it-power.org">lisa.dubbert@it-power.org</a></p>
-                                <br>
+                                <br><br>
                             </div></div></div>	
 
 
@@ -47,7 +47,7 @@
                                 <p>Tel.: +49 (0)461 487-3424</p>
                                 <p>Fax: +49 (0)461 487-2424</p>
                                 <p><a href="mailto:service@it-power.org">service@it-power.org</a></p>
-                                <br><br><br>	 	 	 	 
+                                <br><br><br><br>	 	 	 	 
                             </div></div></div>
                 </div>
 
