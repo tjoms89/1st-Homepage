@@ -12,7 +12,7 @@
                                 <h3>Sven Ladewig</h3>	 	 
                                 <p style="font-weight: bold;">Geschäftsführer</p>
                                 <p style="font-weight: bold;">Leiter Software Engineering<p>
-                                <p style="font-weight: bold;">Leiter Vertrieb/Marketing <p>
+                                <p style="font-weight: bold;">Leiter Vertrieb / Marketing <p>
                                     <br>
                                 <p>Tel.: +49 (0)461 487-3424</p>
                                 <p>Fax: +49 (0)461 487-2424</p>
