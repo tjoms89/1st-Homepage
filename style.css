@@ -499,10 +499,6 @@ col-md-12 {
         min-height: 420px;
     }
 
-    body #foot{
-        min-height: 50px;
-    }
-
     #intro h1, #intro-small h1{
         font-size: 26px;
         line-height: 40px;
