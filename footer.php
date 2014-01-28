@@ -100,7 +100,7 @@ function add_this_script_footer() {
                 jQuery('.nonhoverpic').show();
             });
             
-            jQuery('#sidebar').stickyMojo({footerID: '#foot', contentID: '#posts'});
+            //jQuery('#sidebar').stickyMojo({footerID: '#foot', contentID: '#posts'});
 
 
             jQuery(".schiff").backstretch("<?php echo get_stylesheet_directory_uri(); ?>/assets/img/schiff2.jpg");
