@@ -21,6 +21,10 @@ li{
     text-align: -webkit-match-parent;
 }
 
+html,body{
+height:100%;
+}
+
 body{
     font-family: 'Quicksand', sans-serif;
     text-rendering: optimizeLegibility;
@@ -217,7 +221,7 @@ body #foot
     padding: 0;
     font-size: 12px;
     clear:both;
-    height: auto;
+    height: 100%;
 
 }
 
