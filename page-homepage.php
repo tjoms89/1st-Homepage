@@ -43,7 +43,7 @@
                     <a class="hoverpic" style="display:none" href="<?php echo get_permalink(get_page_by_path('leistungen/consulting')); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/user3.png" alt="user2" width="150" height="150" class="alignnone size-thumbnail wp-image-185" /></a>
 
                     
-                    <h4><b>Beratung</b></h4>
+                    <h4><b>Consulting</b></h4>
                         <p>Wir lösen Probleme für Sie</p>
                         <br>
                         </div>

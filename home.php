@@ -2,7 +2,7 @@
 <div id="intro-small" class="news">
     <div class="row">
         <div class="col-md-12">
-            <div class="background5"><h1>Neuigkeiten</h1></div>
+            <div class="background5"><h1>News</h1></div>
         </div>
     </div>
 </div>
