@@ -596,10 +596,6 @@ col-md-12 {
     #intro h1, #intro-small h1{   
         top: 170px;
     }
-    body #foot
-    {
-    height: 150px;
-    }
 
     .row {
         margin-left: 20px;
@@ -607,4 +603,11 @@ col-md-12 {
     }
 
 } 
+@media (min-width: 1000px){
 
+    body #foot
+    {
+    height: 150px;
+    }
+
+}
