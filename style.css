@@ -35,6 +35,10 @@ body{
 
 }
 
+a{
+    color: #2d438e;
+}
+
 hr{
     color: #2d438e; 
     background-color: #FFF; 
