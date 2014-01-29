@@ -67,8 +67,12 @@ hr{
     background: #2d438e;
 }
 
-.navbar-toggle {
-    border-color: #2d438e !important;
+.navbar-default .navbar-toggle {
+    border-color: #ffffff !important;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #2d438e !important;
 }
 
 .navbar .nav > li > a

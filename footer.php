@@ -49,7 +49,6 @@
 
             <ul class="ulfooter2">
                 <br>
-                <br>
                 <li>&copy; IT-Power GmbH <?php echo date("Y") ?></li>
 
             </ul>
