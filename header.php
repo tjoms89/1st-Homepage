@@ -34,6 +34,7 @@
         <!-- Mobile Navbar -->
         <div id="expandnav" class="navbar navbar-default navbar-fixed-top" role="navigation">
             <div class="navbar-header">
+                <p>Menu<p>
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
