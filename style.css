@@ -184,6 +184,7 @@ body #intro
     position: relative;
     margin: 0;
     padding: 0;
+    height: auto;
 }
 
 body #main
@@ -316,11 +317,13 @@ body #intro-small .row {
     display: inline-block;
     background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAFUlEQVQImWNgQAK6zn3/SeUwMDAAAAk5B/UaXbqNAAAAAElFTkSuQmCC);
     margin-top: 50px;
+    width: 100%;
 }
 
 .background2{
     display: inline-block; 
     background: #2d438e;
+    width: 100%;
 }
 .background3{
     background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAFUlEQVQImWNgQAK6zn3/SeUwMDAAAAk5B/UaXbqNAAAAAElFTkSuQmCC);

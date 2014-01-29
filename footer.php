@@ -137,6 +137,7 @@ function add_this_script_footer() {
             
             jQuery(".solar").backstretch("<?php echo get_stylesheet_directory_uri(); ?>/assets/img/solar.jpg");
             
+            jQuery(".mainpic").backstretch("<?php echo get_stylesheet_directory_uri(); ?>/assets/img/main.jpg");
 
         });
         jQuery(function() {

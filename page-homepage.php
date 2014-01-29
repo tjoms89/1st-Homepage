@@ -3,9 +3,10 @@
 
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-        <div id="intro" class="schiff" >
+        <div id="intro" class="mainpic" >
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-4"></div>
+                <div class="col-md-4">
                     <div class="background1">
                         <h1><b> Sie haben das Schiff, </b><br>
                             wir nutzen den Wind, <br>
@@ -16,9 +17,11 @@
                     </div>
 
                 </div>
+                <div class="col-md-4"></div>
             </div>
         </div>
 
+<!--
         <div id="main">
             <div class="row">
                 <div class="col-md-12">
@@ -78,7 +81,7 @@
                                 <div class="row">                   <div class="col-md-12" style=" opacity: 0.5; font-size:10px;">Für mehr Informationen auf ein Icon klicken</div></div>
 
                         </div>
-
+-->
 
                     <?php endwhile;
                 else: ?>
