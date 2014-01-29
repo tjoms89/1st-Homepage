@@ -49,7 +49,7 @@
                                 <p>Fax: +49 (0)461 487-2414</p>
                                 <p>Mobil: +49 (0)151/22972390</p>
                                 <p><a href="mailto:jan.ipsen@it-power.org">jan.ipsen@it-power.org</a></p>
-                                <br>
+                                <br><br>
                             </div></div></div>	 
                     <div class="col-sm-3 col-md-3">	 	
                         <div class="thumbnail">	 	 
@@ -62,7 +62,7 @@
                                 <p>Fax: +49 (0)461 487-2424</p>
                                 <p>Mobil: +49 (0)170/4504409</p>
                                 <p><a href="mailto:ingo.sack@it-power.org">ingo.sack@it-power.org</a></p>
-                                <br>
+                                <br><br>
                             </div></div></div>	 	
                     <div class="col-sm-3 col-md-3">	 	
                         <div class="thumbnail">
@@ -76,7 +76,7 @@
                                 <p>Fax: +49 (0)461 487-2434</p>
                                 <p>Mobil: +49 (0)175/4384772</p>
                                 <p><a href="mailto:karsten.milewsky@it-power.org">karsten.milewsky@it-power.org</a></p>
-                                <br>
+                                <br><br>
                             </div></div></div>
                                         
                     <div class="col-sm-3 col-md-3">	 	 
