@@ -179,7 +179,7 @@ hr{
 
 body #intro
 {
-    min-height: 360px;
+    min-height: 1080px;
     z-index: 1;
     position: relative;
     margin: 0;
@@ -305,6 +305,7 @@ hr{
 
 body #intro .row {
     padding-top: 30px;
+    position:fixed;
 }
 
 body #intro-small .row {
