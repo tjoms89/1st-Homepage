@@ -49,6 +49,7 @@
 
             <ul class="ulfooter2">
                 <br>
+
                 <li>&copy; IT-Power GmbH <?php echo date("Y") ?></li>
 
             </ul>
@@ -71,7 +72,7 @@ function add_this_script_footer() {
       _paq.push(['trackPageView']);
       _paq.push(['enableLinkTracking']);
       (function() {
-        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://localhost/piwik/";
+        var u=(("https:" === document.location.protocol) ? "https" : "http") + "://localhost/piwik/";
         _paq.push(['setTrackerUrl', u+'piwik.php']);
         _paq.push(['setSiteId', 1]);
         var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript';
@@ -182,7 +183,7 @@ function add_this_script_footer() {
     // load fonts
         WebFont.load({
             google: {
-                families: ['Quicksand', 'Lato', 'Roboto', 'Quattrocento Sans', 'Hammersmith One']
+                families: ['Quicksand', 'Lato', 'Roboto', 'Quattrocento Sans']
             }
         });
 
