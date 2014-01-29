@@ -182,7 +182,7 @@ function add_this_script_footer() {
     // load fonts
         WebFont.load({
             google: {
-                families: ['Quicksand', 'Lato', 'Roboto', 'Quattrocento Sans']
+                families: ['Quicksand', 'Lato', 'Roboto', 'Quattrocento Sans', 'Hammersmith One']
             }
         });
 

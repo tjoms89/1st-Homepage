@@ -30,7 +30,7 @@ html,body{
 }
 
 body{
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Hammersmith One', sans-serif;
     text-rendering: optimizeLegibility;
     font-weight: normal;
     /*letter-spacing: 1px;*/
@@ -192,7 +192,7 @@ body #intro
 
 body #main
 {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Hammersmith One', sans-serif;
     background: 0 0 repeat #FFFFFF;
     position: relative; 
     z-index: 0;
@@ -242,7 +242,7 @@ body #foot
 }
 
 body #kontakt {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Hammersmith One', sans-serif;
     min-height: 400px;
     background: 0 0 repeat #FFFFFF;
     position: relative; 
@@ -255,7 +255,7 @@ body #kontakt {
 
 body #kunde
 {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Hammersmith One', sans-serif;
     min-height: 550px;
     background: 0 0 repeat #FFFFFF;
     position: relative; 
@@ -345,7 +345,7 @@ body #intro-small .row {
 
 
 h1,h2,h3,h4,h5 {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Hammersmith One', sans-serif;
 }
 
 #intro h1 {
