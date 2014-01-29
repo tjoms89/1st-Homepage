@@ -178,12 +178,12 @@ hr{
 /* body-part css */
 
 body #intro
-{;
+{
     z-index: 1;
     position: relative;
     margin: 0;
     padding: 0;
-    height: auto;
+    height: 1080px;
 }
 
 body #main
