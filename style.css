@@ -178,13 +178,12 @@ hr{
 /* body-part css */
 
 body #intro
-{
-    min-height: 1080px;
+{;
     z-index: 1;
     position: relative;
     margin: 0;
     padding: 0;
-    /*height: auto;*/
+    height: auto;
 }
 
 body #main
@@ -498,14 +497,14 @@ col-md-12 {
         line-height: 18px;
     }
 
-    body #intro{
+    /*body #intro{
         min-height: 450px;
-    }
+    }*/
 }
 @media (min-width: 380px){
-    body #intro{
+    /*body #intro{
         min-height: 360px;
-    }
+    }*/
 
     #intro h1, #intro-small h1{
         font-size: 18px;
@@ -536,9 +535,9 @@ col-md-12 {
 
 }
 @media (min-width: 570px){
-    body #intro{
+    /*body #intro{
         min-height: 420px;
-    }
+    }*/
 
     #intro h1, #intro-small h1{
         font-size: 26px;
@@ -614,9 +613,9 @@ col-md-12 {
 }
 @media (min-width: 979px){
 
-    body #intro{
+    /*body #intro{
         min-height: 450px;
-    }
+    }*/
 
     body #posts{
         padding-top: 40px;
