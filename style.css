@@ -28,7 +28,7 @@ html,body{
 body{
     font-family: 'Quicksand', sans-serif;
     text-rendering: optimizeLegibility;
-    font-weight: bold;
+    font-weight: 600;
     /*letter-spacing: 1px;*/
     padding-left: 0;
     padding-right: 0;
@@ -399,7 +399,6 @@ p {
 
 .content{
     font-size: 14px;
-    font-weight: 400;
     letter-spacing: 0;
     line-height: 16px;
 }
