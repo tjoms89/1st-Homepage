@@ -455,6 +455,12 @@ col-md-12 {
 }
 
 
+/*  Contact-Form */
+
+.wpcf7-form-control{
+    border: 1px solid; 
+    border-color:#2d438e;
+}
 
 /*  media-querries */
 
@@ -578,6 +584,10 @@ col-md-12 {
     #subnav{
         visibility: visible; 
 
+    }
+    
+    .navbar{
+        border-bottom: none; 
     }
 
     .navbar .nav > li > a, .navbar-default .navbar-brand {
