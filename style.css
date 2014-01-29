@@ -458,8 +458,7 @@ col-md-12 {
 /*  Contact-Form */
 
 .wpcf7-form-control{
-    border: 1px solid; 
-    border-color:#2d438e;
+    background-color: #d5d9e8;
 }
 
 /*  media-querries */
