@@ -14,6 +14,7 @@
                 </div>
                 <div class="col-md-4"></div>
             </div>
+            <!--
             <div class="row">
                         <br><br>
                         <div class="col-sm-6 col-md-3">
@@ -62,7 +63,7 @@
                                     </div>
                             </div>
                         </div>
-
+-->
 <!--
         <div id="main">
             <div class="row">
