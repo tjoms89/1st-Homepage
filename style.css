@@ -75,6 +75,12 @@ hr{
     background-color: #2d438e !important;
 }
 
+.nav-collapse
+{
+    border-bottom: 1px solid; 
+    border-color: #2d438e;
+}
+
 .navbar .nav > li > a
 {
     color: #2d438e;
