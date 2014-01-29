@@ -12,7 +12,7 @@
     <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
                        <div class="col-md-12">
-                <h2><a href="<?php the_permalink(); ?>">
+                        <h2><a href="<?php the_permalink(); ?>">
                         <div class="title"><?php the_title(); ?></div></a>
                         <div class="content"><?php the_content(); ?></div></h2><p><em>
                         <div class="time"><?php the_time('d.m.y G:i'); ?></div></em></p>

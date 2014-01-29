@@ -49,9 +49,6 @@ hr{
     margin-right: auto; 
 }
 
-
-            
-
 /* Navigationbar css */
 
 .navbar{
@@ -144,6 +141,7 @@ hr{
     z-index: 1032;
     display:table;
 }
+
 #mainnav > li .children > li > a:hover,
 #mainnav > li .children > li > a:focus{
     list-style: none outside none;
@@ -166,10 +164,6 @@ hr{
 }
 
 /* body-part css */
-
-h1,h2,h3,h4,h5 {
-    font-family: 'Quicksand', sans-serif;
-}
 
 body #intro
 {
@@ -310,7 +304,6 @@ body #intro-small .row {
     display: inline-block;
     background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAFUlEQVQImWNgQAK6zn3/SeUwMDAAAAk5B/UaXbqNAAAAAElFTkSuQmCC);
     margin-top: 50px;
-
 }
 
 .background2{
@@ -333,6 +326,11 @@ body #intro-small .row {
 }
 
 /* fonts etc */ 
+
+
+h1,h2,h3,h4,h5 {
+    font-family: 'Quicksand', sans-serif;
+}
 
 #intro h1 {
     text-align: center;
@@ -425,6 +423,7 @@ col-md-12 {
 }
 
 /* news sidebar */ 
+
 #sidebar {
   min-height: 200px;
   margin: 10px 0 15px 0; /*controls the cutoff of the top and bottom limitations*/
@@ -440,6 +439,7 @@ col-md-12 {
 .ulsidebar > li {
     margin-bottom: 5px; 
     margin-left: 10px;
+    list-style-type:square;
 }
 
 

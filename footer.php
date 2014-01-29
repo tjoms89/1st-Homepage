@@ -48,7 +48,7 @@
             <br><br><br>
 
             <ul class="ulfooter2">
-                <li><a href="<?php echo get_admin_url(); ?>">Login</a></li>
+                <br>
                 <br>
                 <li>&copy; IT-Power GmbH <?php echo date("Y") ?></li>
 
