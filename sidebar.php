@@ -1,8 +1,9 @@
 
-<div class="col-md-12" style="background:#c0c6dd;"> 
-    <h3>Neuigkeiten <br> Übersicht</h3>
-     <ul class="ulsidebar" style="padding-left:0px; text-align: left;">
+<div class="col-md-12" style="border:2px solid #2d438e;">
+
+     <ul class="ulsidebar" id="ticker">
         <?php  wp_get_archives('type=postbypost&limit=10','format => custom','before => <li><a href="', 'after ="> </a></li>'); ?>
      </ul>
+
 </div> 
 

@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-        <div id="main">
+        <div id="main" style="text-align: center;">
             <br> 
             <div class="eis" style="padding-bottom:30px">
                 <div class="row" style="padding-top:70px">	 

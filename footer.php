@@ -20,7 +20,6 @@
                 <li><a href="<?php echo get_permalink(get_page_by_path('leistungen/outputmanagement')); ?>">Output Management</a></li>
                 <li><a href="<?php echo get_permalink(get_page_by_path('leistungen/softwareengineering')); ?>">Software Engineering</a></li>
                 <li><a href="<?php echo get_permalink(get_page_by_path('leistungen/infrastruktur')); ?>">IT-Infrastruktur</a></li>
-                <li><a href="<?php echo get_permalink(get_page_by_path('impressum')); ?>">Impressum</a></li>
             </ul>
             <br>
         </div>     
@@ -48,8 +47,7 @@
             <br><br><br>
 
             <ul class="ulfooter2">
-                <br>
-
+                <li><a href="<?php echo get_permalink(get_page_by_path('impressum')); ?>">Impressum</a></li><br>
                 <li>&copy; IT-Power GmbH <?php echo date("Y") ?></li>
 
             </ul>
@@ -83,6 +81,7 @@ function add_this_script_footer() {
 
     <script type="text/javascript">
 
+    
 
     // insert pictures with backstretch 
         jQuery(document).ready(function(jQuery) {
@@ -91,13 +90,13 @@ function add_this_script_footer() {
                 interval: 3000, cycle: true, pause: "hover"
             });
 
-            jQuery('.nonhoverpic').on('mouseenter', function() {
-                jQuery(this).hide();
-                jQuery(this).next('.hoverpic').show();
+            jQuery('#changer').on('mouseenter', function() {
+                    jQuery(this).find('.nonhoverpic').hide();
+                    jQuery(this).find('.hoverpic').show();
             });
-            jQuery('.hoverpic').on('mouseleave', function() {
-                jQuery('.hoverpic').hide();
-                jQuery('.nonhoverpic').show();
+            jQuery('#changer').on('mouseleave', function() {
+                    jQuery('.hoverpic').hide();
+                    jQuery('.nonhoverpic').show();
             });
             
             //jQuery('#sidebar').stickyMojo({footerID: '#foot', contentID: '#posts'});
@@ -138,6 +137,8 @@ function add_this_script_footer() {
             jQuery(".solar").backstretch("<?php echo get_stylesheet_directory_uri(); ?>/assets/img/solar.jpg");
             
             jQuery(".mainpic").backstretch("<?php echo get_stylesheet_directory_uri(); ?>/assets/img/main.jpg");
+            
+            jQuery(".meer").backstretch("<?php echo get_stylesheet_directory_uri(); ?>/assets/img/meer.jpg");
 
         });
         jQuery(function() {
@@ -186,6 +187,22 @@ function add_this_script_footer() {
             google: {
                 families: ['Quicksand', 'Lato', 'Roboto', 'Quattrocento Sans']
             }
+        });
+        
+        if(jQuery("#intro").height() > jQuery(window).height()) {
+            jQuery("#intro").css('height', jQuery("#intro").height());
+        }
+        else {
+            jQuery("#intro").css('height', jQuery(window).height());
+        }
+        
+        
+        
+        jQuery(function(){
+            setInterval(function(){
+                //jQuery('#ticker li:first').slideUp( function () { jQuery(this).appendTo(jQuery('#ticker')).slideDown(); });
+                jQuery('#ticker li:first').animate({'opacity':0}, 200, function () { jQuery(this).appendTo(jQuery('#ticker')).css('opacity', 1);});
+        }, 5000);
         });
 
     </script>

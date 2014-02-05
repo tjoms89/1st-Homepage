@@ -1,12 +1,21 @@
 <?php get_header(); ?>
 <div id="intro-small" class="news">
     <div class="row">
-        <div class="col-md-12">
-            <div class="background5"><h1>News</h1></div>
-        </div>
-    </div>
-</div>
 
+            <div class="background5"><h1>News</h1></div>
+
+    </div>
+
+
+</div>
+<div class="row" style="width: 60%;">
+
+        <div id="sidebar">
+            
+            <?php get_sidebar(); ?>
+        </div>
+
+</div>
 <div id="posts">
 
     <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
@@ -25,9 +34,7 @@
 <?php endif; ?>
 
 </div>
-<div id="sidebar">
-        <?php get_sidebar(); ?>
-</div>
+
 
 
 

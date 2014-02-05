@@ -3,7 +3,7 @@
 
 <div id="main">
     <div class="row">
-     <div class="col-md-12"><br>
+     <div class="col-md-12"><br><br><br><br>
 <?php the_content(); ?>
 </div></div></div>
 

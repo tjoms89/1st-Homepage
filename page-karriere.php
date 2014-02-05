@@ -4,11 +4,9 @@
 
         <div id="intro-small" class="pust">
             <div class="row">
-                <div class="col-md-12">
                     <div class="background5">
                         <h1> Segeln Sie mit uns in die Zukunft</h1>
                     </div>
-                </div>
             </div></div>
 
 

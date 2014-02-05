@@ -17,11 +17,12 @@
                         <div class="time"><?php the_time('d.m.y G:i'); ?></div></em></p>
                 <hr></div>
         
-
+    
         <?php endwhile;
     else: ?>  
-        <p><?php _e('Tut Uns Leid - Zurzeit keine Angbebote'); ?></p>
+        <p><br><b><?php _e('Derzeit haben wir keine konkreten Stellenangebote ausgeschrieben, falls ihr jedoch der Meinung sind besonders gut zu uns passen, freuen wir uns immer über eine Initiativbewerbung an Sven Ladewig'); ?></b></p>
 <?php endif; ?>
+       
 </div>
 
         <div id="sidebar">
