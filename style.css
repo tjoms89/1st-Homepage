@@ -12,8 +12,8 @@ Version: 0.1
 #backstretch { max-width:none;}
 
 *{
-    margin: 0;
-    padding: 0;
+    /*margin: 0;
+    padding: 0;*/
 }
 
 li{

@@ -5,14 +5,12 @@
         <div style="height:87px; background:#fff;"></div>
         <div style=" background: 0 0 repeat #FFFFFF; color: #2d438e;">        
             <div class="row">
-                <div style="text-align: left;">
+                <div class="col-md-12" style="margin-left: auto; margin-right: auto;">
                 <div class="title"><?php the_title(); ?></div>
-                </div>
-            </div>
-            <br>
-            <div class="row">
-                <div class="col-md-12" style="width:70%; margin-left: auto; margin-right: auto;">
+                <br>
+                <p>
                     <?php the_content(); ?>
+                </p>
                 </div>
             </div>
             <br>
