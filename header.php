@@ -11,7 +11,6 @@
 
         <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/assets/css/bootstrap.min.css"></link>
         <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/assets/css/bootstrap-theme.min.css"></link>
-        <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/assets/css/domtab.css"></link>
         <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/assets/css/tab.css"></link>
 
         <link href="<?php bloginfo('stylesheet_url'); ?>" rel="stylesheet"></link>

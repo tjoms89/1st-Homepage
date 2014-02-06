@@ -94,6 +94,15 @@ function add_this_script_footer() {
                     jQuery('.nonhoverpic').show();
             });
             
+            jQuery('.nonhoverpic').on('mouseenter', function() {
+                jQuery(this).hide();
+                jQuery(this).next('.hoverpic').show();
+            });
+            jQuery('.hoverpic').on('mouseleave', function() {
+                jQuery('.hoverpic').hide();
+                jQuery('.nonhoverpic').show();
+            });
+            
             //jQuery('#sidebar').stickyMojo({footerID: '#foot', contentID: '#posts'});
 
 
@@ -190,13 +199,6 @@ function add_this_script_footer() {
         else {
             jQuery("#intro").css('height', jQuery(window).height());
         }
-        
-        jQuery(".fenster").blurjs({
-            source: "meer",
-            radius: 7,
-            overlay: "rgba(255, 255, 255, 0.5)"
-        });
-        
         
         jQuery(function(){
             setInterval(function(){

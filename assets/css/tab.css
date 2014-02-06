@@ -17,6 +17,7 @@ blockquote p{
 
 .ui-widget-content ul li {
                 list-style-position: inside;
+                text-decoration: none !important;
 }
 
 
@@ -41,7 +42,7 @@ ul.ui-tabs-nav a:hover{
     background:#c0c6dd;
     color:#ccc;
     height:3em;
-    text-decoration:none;
+    text-decoration: none !important;
     
 }
 
@@ -51,10 +52,12 @@ html>body ul.ui-tabs-nav a:active,
 html>body ul.ui-tabs-nav a:hover{
     height:auto;
     min-height:3em;
+    text-decoration:none !important;
 }
 
 ul.ui-tabs-nav a:hover{
     background:#e0e0e0;
+    text-decoration:none !important;
 }
 
 div.ui-tabs div{
@@ -71,4 +74,5 @@ ul.ui-tabs-nav li.ui-tabs-active a:active,
 ul.ui-tabs-nav li.ui-tabs-active a:hover{
     background:#e0e0e0;
     color:#fff;
+    text-decoration:none !important;
 }

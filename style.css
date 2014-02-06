@@ -7,14 +7,113 @@ Author: Thomas Kleinert
 Version: 0.1
 */
 
+/* =WordPress Core
+-------------------------------------------------------------- */
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+
+blockquote.left {
+	margin-right: 20px;
+	text-align: right;
+	margin-left: 0;
+	width: 33%;
+	float: left;
+	}
+blockquote.right {
+	margin-left: 20px;
+	text-align: left;
+	margin-right: 0;
+	width: 33%;
+	float: right;
+	}
+
+
+
+
+/* Custom CSS */
+
+
 
 
 #backstretch { max-width:none;}
-
-*{
-    /*margin: 0;
-    padding: 0;*/
-}
 
 li{
     display: list-item;
@@ -30,11 +129,7 @@ body{
     text-rendering: optimizeLegibility;
     font-weight: 400;
     letter-spacing: 1px;
-    padding-left: 0;
-    padding-right: 0;
-    margin: 0;
     text-decoration: none;
-
 }
 
 a{
@@ -42,15 +137,7 @@ a{
     outline:none !important;
 }
 
-hr{
-    color: #2d438e; 
-    background-color: #FFF; 
-    border: 3px dotted  #2d438e;
-    border-style: none none dotted;
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto; 
-}
+
 
 /* Navigationbar css */
 
@@ -94,7 +181,6 @@ hr{
 {
     color: #2d438e;
     font-size: 11px;
-
 }
 
 .navbar .nav > li > a:focus,
@@ -108,7 +194,6 @@ hr{
     background: #E7E7E7;
 }
 
-
 .navbar .nav .hover{
     background: #2d438e;
     color: #FFFFFF;
@@ -117,6 +202,7 @@ hr{
     color: #FFFFFF;
     background: #2d438e;
 }
+
 
 
 /* subnav */
@@ -140,7 +226,10 @@ hr{
     top: 50px;
     width: auto;
     z-index: 1032;
+    padding: 0;
+    margin: 0;
 }
+
 #mainnav > li .children > li {
     list-style: none outside none;
     top: 0;
@@ -173,7 +262,6 @@ hr{
     z-index: 1032;
 }
 
-
 .customize-support #subnav{
     top: 78px;
 }
@@ -182,7 +270,9 @@ hr{
     top: 78px;
 }
 
-/* body-part css */
+
+
+/* body-parts css */
 
 body #intro
 {
@@ -191,6 +281,14 @@ body #intro
     margin: 0;
     padding: 0;
     text-align: center; 
+}
+
+body #intro-small {
+    min-height: 350px;
+    z-index: 1;
+    position: relative;
+    margin: 0;
+    padding: 0;
 }
 
 body #main
@@ -204,20 +302,10 @@ body #main
     color: #2d438e;
     font-size: 14px;
     height: auto !important;
-
-}
-
-body #intro-small {
-    min-height: 350px;
-    z-index: 1;
-    position: relative;
-    margin: 0;
-    padding: 0;
 }
 
 body #posts
 {
-
     height: auto !important;
     background: 0 0 repeat #FFFFFF;
     position: relative; 
@@ -228,7 +316,6 @@ body #posts
     width: 60%;
     margin-left: auto; 
     margin-right: auto;
-
 }
 
 body #foot
@@ -239,7 +326,7 @@ body #foot
     padding: 0;
     font-size: 12px;
     clear:both;
-    height: auto;
+    height: 100%;
 
 }
 
@@ -295,7 +382,15 @@ body #main ul li a{
     width: 100%;
 }
 
-.home-footer .pfeil{
+.home-footer-white{
+    
+    border-bottom: 20px solid #FFFFFF;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.pfeil{
     background-position: center bottom;
     background-repeat: no-repeat;
     display: block;
@@ -363,7 +458,9 @@ body #intro-small .row {
 }
 
 
-/* diverse hintergründe */ 
+
+/* diverse hintergründe */
+
 .aligncenter, .nonhoverpic, .hoverpic, .size-thumbnail{
     margin-left: auto;
     margin-right: auto;
@@ -400,8 +497,9 @@ body #intro-small .row {
     display: inline-block;
 }
 
-/* fonts etc */ 
 
+
+/* fonts etc */ 
 
 h1,h2,h3,h4,h5 {
     font-family: 'Lato', sans-serif;
@@ -410,30 +508,26 @@ h1,h2,h3,h4,h5 {
 body #main a{
     text-decoration: underline;
 }
+
 #intro h1 {
     text-align: center;
     width: 100%;
     font-size: 16px;
-    line-height: 14px;
     color: white;
     padding-left: 15px;
     padding-right: 15px;
-
 }
 
 #intro-small h1 {
     text-align: center;
     width: 100%;
     font-size: 16px;
-    line-height: 14px;
     color: white;
     padding-left: 15px;
     padding-right: 15px;
-
 }
 
 #main h3, #main h4 {
-
     font-size: 16px; 
 }
 
@@ -455,6 +549,9 @@ p {
 .col-md-12 {
     padding: 0 !important;
 }
+
+
+
 
 /* footer */ 
 
@@ -480,6 +577,9 @@ p {
 #foot .ulfooter2 li a{
     color: white; 
 }
+
+
+
 
 /* news sidebar */ 
 
@@ -510,11 +610,15 @@ p {
 }
 
 
+
 /*  Contact-Form */
 
 .wpcf7-form-control{
     background-color: #d5d9e8;
 }
+
+
+
 
 /*  media-querries */
 
@@ -533,17 +637,14 @@ p {
 
     #intro h1, #main h1, body #posts, .title, #intro-small h1 { 
         font-size: 13px;
-        line-height: 20px;
     }
 
     #intro h1{
         font-size: 17px;
-        line-height: 20px;
     }
 
     #main h3, #main h4{
         font-size: 17px; 
-        line-height: 20px;
     }
 
     .content {
@@ -562,17 +663,14 @@ p {
 
     #intro h1, #intro-small h1{
         font-size: 18px;
-        line-height: 20px;
     }
 
     #main h1, .title { 
         font-size: 17px;
-        line-height: 30px;
     }
 
     #main h3, #main h4{
         font-size: 20px; 
-        line-height: 30px;
     }
 
 
@@ -593,12 +691,10 @@ p {
 
     #intro h1, #intro-small h1{
         font-size: 26px;
-        line-height: 40px;
     }
 
     #main h1, #main h3, .title { 
         font-size: 25px;
-        line-height: 40px;
     }
 
     #main h4

@@ -3,22 +3,20 @@
 
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
     <div id="intro" class="meer">
-        <div class="fenster" style="height=100%; width=100%; z-index: 10;">
-        <div class="row">
+        <div class="row" style="width: 50%;">
 
-                    <div class="background5" style="width: 100%;">
+                    <div class="background5" style="width: 100%; height: 65px;">
                         <h1><b> Ein Strom guter Ideen</b><h1>
-                    </div><br>
+                    </div>
 
             </div>
-        </div>
-            <br>
-            <div class="row">
-                        <div id="changer" class="col-sm-6 col-md-3" style="padding-left: 0px; padding-right: 10px;">
+
+            <div class="row" style="width: 50%; padding-top: 10px; padding-bottom: 20px;">
+                        <div id="changer" class="col-sm-6 col-md-3" style="padding-left: 0px; padding-right: 5px;">
                             <a href="<?php echo get_permalink(get_page_by_path('leistungen/consulting')); ?>"><span class="links"></span></a>
                                 <div id="inner">       
-                                    <img class="nonhoverpic img-responsive" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/user.png" alt="user" width="150" height="150" class="aligncenter size-thumbnail wp-image-185" />
-                                    <img style="display:none" class="hoverpic img-responsive" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/user3.png" alt="user2" width="150" height="150" class="aligncenter size-thumbnail wp-image-185" />      
+                                    <img class="nonhoverpic" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/user.png" alt="user" width="100" height="100" class="aligncenter size-thumbnail wp-image-185" />
+                                    <img style="display:none" class="hoverpic" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/user3.png" alt="user2" width="100" height="100" class="aligncenter size-thumbnail wp-image-185" />      
                                 </div>
                                 <div id="inner2">
                                     <b style="color: #FFFFFF;">Consulting</b>
@@ -26,37 +24,37 @@
                             
                         </div>
 
-                        <div id="changer" class="col-sm-6 col-md-3" style="padding-right: 10px; padding-left: 10px;">
+                        <div id="changer" class="col-sm-6 col-md-3" style="padding-right: 5px; padding-left: 5px;">
                                 <a href="<?php echo get_permalink(get_page_by_path('leistungen/outputmanagement')); ?>"><span class="links"></span></a>
                                     <div id="inner">
-                                        <img class="nonhoverpic img-responsive" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/print.png" alt="document" width="150" height="150" class="aligncenter  size-thumbnail wp-image-182" />
-                                        <img style="display:none" class="hoverpic img-responsive" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/print1.png" alt="document" width="150" height="150" class="aligncenter  size-thumbnail wp-image-182" />
+                                        <img class="nonhoverpic" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/print.png" alt="document" width="100" height="100" class="aligncenter  size-thumbnail wp-image-182" />
+                                        <img style="display:none" class="hoverpic" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/print1.png" alt="document" width="100" height="100" class="aligncenter  size-thumbnail wp-image-182" />
                                     </div>
                                     <div id="inner2">
                                        <b style="color: #FFFFFF;">Output Management</b>
                                     </div>
                         </div>
-                        <div  id="changer" class="col-sm-6 col-md-3" style="padding-right: 10px; padding-left: 10px;">
+                        <div  id="changer" class="col-sm-6 col-md-3" style="padding-right: 5px; padding-left: 5px;">
                                 <a href="<?php echo get_permalink(get_page_by_path('leistungen/softwareengineering')); ?>"><span class="links"></span></a>
                                     <div id="inner">
-                                        <img class="nonhoverpic img-responsive" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/keyboard.png" alt="keyboard" width="150" height="150" class="aligncenter  size-thumbnail wp-image-183" />
-                                        <img class="hoverpic img-responsive" style="display:none" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/keyboard1.png" alt="keyboard" width="150" height="150" class="aligncenter  size-thumbnail wp-image-183" />
+                                        <img class="nonhoverpic" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/keyboard.png" alt="keyboard" width="100" height="100" class="aligncenter  size-thumbnail wp-image-183" />
+                                        <img class="hoverpic" style="display:none" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/keyboard1.png" alt="keyboard" width="100" height="100" class="aligncenter  size-thumbnail wp-image-183" />
                                     </div>
                                     <div id="inner2">
                                         <b style="color: #FFFFFF;">Software Engineering</b>
                                     </div>
                         </div>
-                        <div id="changer" class="col-sm-6 col-md-3" style="padding-right: 0px; padding-left: 10px;">
+                        <div id="changer" class="col-sm-6 col-md-3" style="padding-right: 0px; padding-left: 5px;">
                               <a href="<?php echo get_permalink(get_page_by_path('leistungen/infrastruktur')); ?>"><span class="links"></span></a>
                                     <div id="inner">                  
-                                        <img class="nonhoverpic img-responsive" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/network.png" alt="network" width="150" height="150" class="aligncenter  size-thumbnail wp-image-184" />
-                                        <img class="hoverpic img-responsive" style="display:none" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/network1.png" alt="network" width="150" height="150" class="aligncenter  size-thumbnail wp-image-184" />
+                                        <img class="nonhoverpic" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/network.png" alt="network" width="100" height="100" class="aligncenter  size-thumbnail wp-image-184" />
+                                        <img class="hoverpic" style="display:none" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/network1.png" alt="network" width="100" height="100" class="aligncenter  size-thumbnail wp-image-184" />
                                     </div>
                                     <div id="inner2">
                                         <b style="color: #FFFFFF;">IT-Infrastruktur</b>
                                     </div>
                         </div>
-                <br><br><br>
+                <br><br><br><br><br><br>
         </div>
             
         
