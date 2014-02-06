@@ -66,7 +66,7 @@ function add_this_script_footer() {
         <!-- Piwik -->
     <script type="text/javascript">
       var _paq = _paq || [];
-    {$options}
+    {jQuery(options)}
       _paq.push(['trackPageView']);
       _paq.push(['enableLinkTracking']);
       (function() {
@@ -75,14 +75,9 @@ function add_this_script_footer() {
         _paq.push(['setSiteId', 1]);
         var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript';
         g.defer=true; g.async=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-      })();
+      })();  
     </script>
-    <!-- End Piwik Code -->
-
     <script type="text/javascript">
-
-    
-
     // insert pictures with backstretch 
         jQuery(document).ready(function(jQuery) {
 
@@ -196,6 +191,11 @@ function add_this_script_footer() {
             jQuery("#intro").css('height', jQuery(window).height());
         }
         
+        jQuery(".fenster").blurjs({
+            source: "meer",
+            radius: 7,
+            overlay: "rgba(255, 255, 255, 0.5)"
+        });
         
         
         jQuery(function(){

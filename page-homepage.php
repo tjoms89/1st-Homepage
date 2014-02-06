@@ -3,14 +3,15 @@
 
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
     <div id="intro" class="meer">
-            <div class="row">
+        <div class="fenster" style="height=100%; width=100%; z-index: 10;">
+        <div class="row">
 
                     <div class="background5" style="width: 100%;">
                         <h1><b> Ein Strom guter Ideen</b><h1>
                     </div><br>
 
             </div>
-
+        </div>
             <br>
             <div class="row">
                         <div id="changer" class="col-sm-6 col-md-3" style="padding-left: 0px; padding-right: 10px;">

@@ -11,9 +11,11 @@
             </div>
             <br>
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-12" style="width:70%; margin-left: auto; margin-right: auto;">
                     <div>
+                        <p>
                     <?php the_content(); ?>
+                        </p>
                     </div>
                 </div>
             </div>

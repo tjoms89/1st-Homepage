@@ -203,7 +203,6 @@ body #main
     padding: 0 0 15px 0;
     color: #2d438e;
     font-size: 14px;
-    text-align: left; 
     height: auto !important;
 
 }
@@ -240,8 +239,7 @@ body #foot
     padding: 0;
     font-size: 12px;
     clear:both;
-    height: 100%;
-    bottom: 0;
+    height: auto;
 
 }
 
@@ -409,6 +407,9 @@ h1,h2,h3,h4,h5 {
     font-family: 'Lato', sans-serif;
 }
 
+body #main a{
+    text-decoration: underline;
+}
 #intro h1 {
     text-align: center;
     width: 100%;
@@ -431,23 +432,6 @@ h1,h2,h3,h4,h5 {
 
 }
 
-#main h1 {
-    text-align: center;
-    position: relative;
-    width: 100%;
-    top: 10px; 
-    font-size: 14px;
-    line-height: 16px;
-    color: #2d438e;
-    letter-spacing: 0px;
-    text-rendering: optimizeLegibility;   
-
-}
-
-#main .domtab > div {
-    text-align: left;
-
-}
 #main h3, #main h4 {
 
     font-size: 16px; 
