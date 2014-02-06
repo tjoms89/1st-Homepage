@@ -29,16 +29,16 @@
                 <div class="col-md-6"><b> Mentoring Program </b> 
                         <br><br>
                         <div id="picture">
-                            <a class="nonhoverpic" href="<?php echo get_permalink(get_page_by_path('karriere/mentor')); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/teach.png" alt="document" width="150" height="150" class="alignnone size-thumbnail wp-image-182" /></a>
-                            <a class="hoverpic" style="display:none" href="<?php echo get_permalink(get_page_by_path('karriere/mentor')); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/teach1.png" alt="document" width="150" height="150" class="alignnone size-thumbnail wp-image-182" /></a>
+                            <a class="nonhoverpic" href="<?php echo get_permalink(get_page_by_path('karriere/mentor')); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/teach.png" alt="document" width="150" height="150" class="alignnone size-thumbnail " /></a>
+                            <a class="hoverpic" style="display:none" href="<?php echo get_permalink(get_page_by_path('karriere/mentor')); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/teach1.png" alt="document" width="150" height="150" class="alignnone size-thumbnail " /></a>
 
                         </div>
                 </div>
                 <div class="col-md-6"><b> Stellenangebote </b> 
                     <br><br>
                     <div id="picture"> 
-                            <a class="nonhoverpic" href="<?php echo get_permalink(get_page_by_path('karriere/stellen')); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/employ.png" alt="document" width="150" height="150" class="alignnone size-thumbnail wp-image-182" /></a>
-                            <a class="hoverpic" style="display:none" href="<?php echo get_permalink(get_page_by_path('karriere/stellen')); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/employ1.png" alt="document" width="150" height="150" class="alignnone size-thumbnail wp-image-182" /></a>         
+                            <a class="nonhoverpic" href="<?php echo get_permalink(get_page_by_path('karriere/stellen')); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/employ.png" alt="document" width="150" height="150" class="alignnone size-thumbnail " /></a>
+                            <a class="hoverpic" style="display:none" href="<?php echo get_permalink(get_page_by_path('karriere/stellen')); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/employ1.png" alt="document" width="150" height="150" class="alignnone size-thumbnail " /></a>         
                     </div>
                 </div>
 
@@ -62,15 +62,15 @@
                     <br>
                     <div class="col-md-6"><h2> Aktuelle Stellenangebote: </h2> 
                         <div id="picture"> 
-                            <a class="nonhoverpic" href="<?php echo get_permalink(get_page_by_path('karriere/stellen')); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/employ.png" alt="document" width="150" height="150" class="alignnone size-thumbnail wp-image-182" /></a>
-                            <a class="hoverpic" style="display:none" href="<?php echo get_permalink(get_page_by_path('karriere/stellen')); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/employ1.png" alt="document" width="150" height="150" class="alignnone size-thumbnail wp-image-182" /></a>         
+                            <a class="nonhoverpic" href="<?php echo get_permalink(get_page_by_path('karriere/stellen')); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/employ.png" alt="document" width="150" height="150" class="alignnone size-thumbnail " /></a>
+                            <a class="hoverpic" style="display:none" href="<?php echo get_permalink(get_page_by_path('karriere/stellen')); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/employ1.png" alt="document" width="150" height="150" class="alignnone size-thumbnail " /></a>         
                         </div>
                         <br><br>
                     </div>
                     <div class="col-md-6"><h2> Mentorenprogramm: </h2>
                         <div id="picture">
-                            <a class="nonhoverpic" href="<?php echo get_permalink(get_page_by_path('karriere/mentor')); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/teach.png" alt="document" width="150" height="150" class="alignnone size-thumbnail wp-image-182" /></a>
-                            <a class="hoverpic" style="display:none" href="<?php echo get_permalink(get_page_by_path('karriere/mentor')); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/teach1.png" alt="document" width="150" height="150" class="alignnone size-thumbnail wp-image-182" /></a>
+                            <a class="nonhoverpic" href="<?php echo get_permalink(get_page_by_path('karriere/mentor')); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/teach.png" alt="document" width="150" height="150" class="alignnone size-thumbnail " /></a>
+                            <a class="hoverpic" style="display:none" href="<?php echo get_permalink(get_page_by_path('karriere/mentor')); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/teach1.png" alt="document" width="150" height="150" class="alignnone size-thumbnail " /></a>
 
                         </div>
                         <br><br>
@@ -79,7 +79,7 @@
                 <div class="col-md-4">
                     <h2> Kontakt </h2>
                     <div class="thumbnail">	 	 
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/sven_ladewig.jpg" alt="BILD" width="150" height="100" class="alignnone size-thumbnail wp-image-182">		 	 
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/sven_ladewig.jpg" alt="BILD" width="150" height="100" class="alignnone size-thumbnail ">		 	 
                         <div class="caption">	 	 
                             <h3>Sven Ladewig</h3>	 	 
                             <p style="font-weight: bold;">Geschäftsführer</p>

@@ -14,7 +14,7 @@
                 <div class="col-md-4">
                     <br>
                     <div id="picture" class="user"></div>
-                    <a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/deerberg.png" width="370" height="200" class="alignnone size-thumbnail wp-image-185" /></a>
+                    <a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/deerberg.png" width="370" height="200" class="alignnone size-thumbnail " /></a>
                     <br>
                 </div>
                 <div class="col-md-8">
@@ -34,7 +34,7 @@
                 <div class="col-md-4">
                     <br>
                     <div id="picture" class="user"></div>
-                    <a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/vodafone.svg" width="300" height="200" class="alignnone size-thumbnail wp-image-185" /></a>
+                    <a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/vodafone.svg" width="300" height="200" class="alignnone size-thumbnail " /></a>
                     <br>
                 </div>
                 <div class="col-md-8">
@@ -51,7 +51,7 @@
                 <div class="col-md-4">
                     <br>
                     <div id="picture" class="user"></div>
-                    <a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/flens.png" width="300" height="230" class="alignnone size-thumbnail wp-image-185" /></a>
+                    <a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/flens.png" width="300" height="230" class="alignnone size-thumbnail " /></a>
                     <br>
                 </div>
                 <div class="col-md-8">
@@ -68,7 +68,7 @@
                 <div class="col-md-4">
                     <br><br><br>
                     <div id="picture" class="user"></div>
-                    <a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/conergos.jpg" width="220" height="60" class="alignnone size-thumbnail wp-image-185" /></a>
+                    <a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/conergos.jpg" width="220" height="60" class="alignnone size-thumbnail " /></a>
                     <br>
                 </div>
                 <div class="col-md-8">
@@ -85,7 +85,7 @@
                 <div class="col-md-4">
                     <br>
                     <div id="picture" class="user"></div>
-                    <a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/bilfinger.png" width="400" height="150" class="alignnone size-thumbnail wp-image-185" /></a>
+                    <a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/bilfinger.png" width="400" height="150" class="alignnone size-thumbnail " /></a>
                     <br><br>
                 </div>
                 <div class="col-md-8">

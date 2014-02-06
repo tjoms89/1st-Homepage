@@ -1,6 +1,7 @@
 
 <div id="foot"
      <footer>
+         <div class="row">
         <div class="col-sm-6 col-md-3" >
             <ul class="ulfooter">
                 <li><a href="<?php echo get_permalink(get_page_by_path('homepage')); ?>">Home</a></li>
@@ -21,38 +22,43 @@
                 <li><a href="<?php echo get_permalink(get_page_by_path('leistungen/softwareengineering')); ?>">Software Engineering</a></li>
                 <li><a href="<?php echo get_permalink(get_page_by_path('leistungen/infrastruktur')); ?>">IT-Infrastruktur</a></li>
             </ul>
-            <br>
+            <br><br>
         </div>     
         <div class="col-sm-6 col-md-3">
+            <div class="row">
             <ul class="ulfooter2">
-                <li><a href="mailto:service@it-power.org"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/reply.png" alt="BILD" width="50" height="50" class="alignnone size-thumbnail wp-image-182"></a></li>		 	 
-                <li><a href="tel:+494614873434"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/dialup2.png" alt="BILD" width="50" height="50" class="alignnone size-thumbnail wp-image-182"></a></li>		 	 
+                <li><a href="mailto:service@it-power.org"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/reply.png" alt="BILD" width="50" height="50" class="alignnone size-thumbnail "></a></li>		 	 
+                <li><a href="tel:+494614873434"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/dialup2.png" alt="BILD" width="50" height="50" class="alignnone size-thumbnail "></a></li>		 	 
             </ul>
-            <br><br><br>   
-
+            </div>
+            <div class="row">
             <ul class="ulfooter2"> 	 	 	 
                 <li><a href="tel:+494614873434">Tel.: +49 (0)461 487-3434</a></li><br>
                 <li><a href="mailto:service@it-power.org">service@it-power.org</a></li>
             </ul>
+            </div>
             <br>
         </div>
 
 
         <div class="col-sm-6 col-md-3">
+            <div class="row">
             <ul class="ulfooter2">
-                <li> <a href="http://www.facebook.com/ITPowerGmbh" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/fb.png" alt="facebook" width="50" height="50" class="alignnone size-thumbnail wp-image-185" /></a></li>
-                <li> <a href="http://twitter.com/itpower_org" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/twit.png" alt="twitter" width="50" height="50" class="alignnone size-thumbnail wp-image-185" /></a></li>
-                <li> <a href="http://www.xing.com/companies/it-powergmbh" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/xing.png" alt="twitter" width="50" height="50" class="alignnone size-thumbnail wp-image-185" /></a></li>
+                <li> <a href="http://www.facebook.com/ITPowerGmbh" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/fb.png" alt="facebook" width="50" height="50" class="alignnone size-thumbnail" /></a></li>
+                <li> <a href="http://twitter.com/itpower_org" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/twit.png" alt="twitter" width="50" height="50" class="alignnone size-thumbnail" /></a></li>
+                <li> <a href="http://www.xing.com/companies/it-powergmbh" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/xing.png" alt="xing" width="50" height="50" class="alignnone size-thumbnail" /></a></li>
             </ul>
-            <br><br><br>
+            </div>
 
+            <div class="row">
             <ul class="ulfooter2">
                 <li><a href="<?php echo get_permalink(get_page_by_path('impressum')); ?>">Impressum</a></li><br>
                 <li>&copy; IT-Power GmbH <?php echo date("Y") ?></li>
 
             </ul>
+            </div>
             <br>
-        </div>
+        </div></div>
     </footer>
 </div>
 </div> 

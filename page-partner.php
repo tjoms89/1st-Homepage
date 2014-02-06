@@ -53,7 +53,7 @@
          <div class="row">
                 <div class="col-md-4">
                     <div id="picture" class="user"></div>
-                    <a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/aareon.jpg" width="400" height="220" class="alignnone size-thumbnail wp-image-185" /></a>
+                    <a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/aareon.jpg" width="400" height="220" class="alignnone size-thumbnail " /></a>
                     <br>
                 </div>
                 <div class="col-md-8">
@@ -73,7 +73,7 @@
                 <div class="col-md-4">
                     <div id="picture" class="user"></div>
                     <br>
-                    <a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/Bosch.png" width="400" height="90" class="alignnone size-thumbnail wp-image-185" /></a>
+                    <a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/Bosch.png" width="400" height="90" class="alignnone size-thumbnail " /></a>
                     <br><br>
                 </div>
                 <div class="col-md-8">
@@ -90,7 +90,7 @@
                 <div class="col-md-4">
                     <br>
                     <div id="picture" class="user"></div>
-                    <a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/opentext.jpg" width="400" height="130" class="alignnone size-thumbnail wp-image-185" /></a>
+                    <a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/opentext.jpg" width="400" height="130" class="alignnone size-thumbnail " /></a>
                     <br><br><br>
                 </div>
                 <div class="col-md-8">
@@ -108,7 +108,7 @@
                 <div class="col-md-4">
                     <br>
                     <div id="picture" class="user"></div>
-                    <a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/app4value.png" width="300" height="100" class="alignnone size-thumbnail wp-image-185" /></a>
+                    <a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/app4value.png" width="300" height="100" class="alignnone size-thumbnail " /></a>
                     <br><br><br>
                 </div>
                 <div class="col-md-8">
@@ -126,7 +126,7 @@
                 <div class="col-md-4">
                     <br>
                     <div id="picture" class="user"></div>
-                    <a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/formware.jpg" width="220" height="100" class="alignnone size-thumbnail wp-image-185" /></a>
+                    <a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/formware.jpg" width="220" height="100" class="alignnone size-thumbnail " /></a>
                     <br><br><br>
                 </div>
                 <div class="col-md-8">
@@ -145,7 +145,7 @@
                 <div class="col-md-4">
                     <br>
                     <div id="picture" class="user"></div>
-                    <a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/ricoh.jpg" width="400" height="130" class="alignnone size-thumbnail wp-image-185" /></a>
+                    <a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/ricoh.jpg" width="400" height="130" class="alignnone size-thumbnail " /></a>
                     <br><br><br>
                 </div>
                 <div class="col-md-8">
@@ -163,7 +163,7 @@
                 <div class="col-md-4">
                     <br>
                     <div id="picture" class="user"></div>
-                    <a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/grimm.jpg" width="150" height="150" class="alignnone size-thumbnail wp-image-185" /></a>
+                    <a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/grimm.jpg" width="150" height="150" class="alignnone size-thumbnail " /></a>
                     <br><br><br>
                 </div>
                 <div class="col-md-8">

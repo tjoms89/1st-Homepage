@@ -15,8 +15,8 @@
                         <div id="changer" class="col-sm-6 col-md-3" style="padding-left: 0px; padding-right: 5px;">
                             <a href="<?php echo get_permalink(get_page_by_path('leistungen/consulting')); ?>"><span class="links"></span></a>
                                 <div id="inner">       
-                                    <img class="nonhoverpic" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/user.png" alt="user" width="100" height="100" class="aligncenter size-thumbnail wp-image-185" />
-                                    <img style="display:none" class="hoverpic" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/user3.png" alt="user2" width="100" height="100" class="aligncenter size-thumbnail wp-image-185" />      
+                                    <img class="nonhoverpic" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/user.png" alt="user" width="100" height="100" class="aligncenter size-thumbnail " />
+                                    <img style="display:none" class="hoverpic" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/user3.png" alt="user2" width="100" height="100" class="aligncenter size-thumbnail " />      
                                 </div>
                                 <div id="inner2">
                                     <b style="color: #FFFFFF;">Consulting</b>
@@ -27,8 +27,8 @@
                         <div id="changer" class="col-sm-6 col-md-3" style="padding-right: 5px; padding-left: 5px;">
                                 <a href="<?php echo get_permalink(get_page_by_path('leistungen/outputmanagement')); ?>"><span class="links"></span></a>
                                     <div id="inner">
-                                        <img class="nonhoverpic" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/print.png" alt="document" width="100" height="100" class="aligncenter  size-thumbnail wp-image-182" />
-                                        <img style="display:none" class="hoverpic" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/print1.png" alt="document" width="100" height="100" class="aligncenter  size-thumbnail wp-image-182" />
+                                        <img class="nonhoverpic" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/print.png" alt="document" width="100" height="100" class="aligncenter  size-thumbnail " />
+                                        <img style="display:none" class="hoverpic" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/print1.png" alt="document" width="100" height="100" class="aligncenter  size-thumbnail " />
                                     </div>
                                     <div id="inner2">
                                        <b style="color: #FFFFFF;">Output Management</b>
@@ -37,8 +37,8 @@
                         <div  id="changer" class="col-sm-6 col-md-3" style="padding-right: 5px; padding-left: 5px;">
                                 <a href="<?php echo get_permalink(get_page_by_path('leistungen/softwareengineering')); ?>"><span class="links"></span></a>
                                     <div id="inner">
-                                        <img class="nonhoverpic" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/keyboard.png" alt="keyboard" width="100" height="100" class="aligncenter  size-thumbnail wp-image-183" />
-                                        <img class="hoverpic" style="display:none" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/keyboard1.png" alt="keyboard" width="100" height="100" class="aligncenter  size-thumbnail wp-image-183" />
+                                        <img class="nonhoverpic" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/keyboard.png" alt="keyboard" width="100" height="100" class="aligncenter  size-thumbnail Lato-183" />
+                                        <img class="hoverpic" style="display:none" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/keyboard1.png" alt="keyboard" width="100" height="100" class="aligncenter  size-thumbnail Lato-183" />
                                     </div>
                                     <div id="inner2">
                                         <b style="color: #FFFFFF;">Software Engineering</b>
@@ -47,8 +47,8 @@
                         <div id="changer" class="col-sm-6 col-md-3" style="padding-right: 0px; padding-left: 5px;">
                               <a href="<?php echo get_permalink(get_page_by_path('leistungen/infrastruktur')); ?>"><span class="links"></span></a>
                                     <div id="inner">                  
-                                        <img class="nonhoverpic" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/network.png" alt="network" width="100" height="100" class="aligncenter  size-thumbnail wp-image-184" />
-                                        <img class="hoverpic" style="display:none" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/network1.png" alt="network" width="100" height="100" class="aligncenter  size-thumbnail wp-image-184" />
+                                        <img class="nonhoverpic" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/network.png" alt="network" width="100" height="100" class="aligncenter  size-thumbnail Lato-184" />
+                                        <img class="hoverpic" style="display:none" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/network1.png" alt="network" width="100" height="100" class="aligncenter  size-thumbnail Lato-184" />
                                     </div>
                                     <div id="inner2">
                                         <b style="color: #FFFFFF;">IT-Infrastruktur</b>
@@ -85,8 +85,8 @@
                 <div class="col-sm-6 col-md-3">
 
                     <div class="user"> </div>
-                    <a class="nonhoverpic" href="<?php echo get_permalink(get_page_by_path('leistungen/consulting')); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/user.png" alt="user" width="150" height="150" class="alignnone size-thumbnail wp-image-185" /></a>
-                    <a class="hoverpic" style="display:none" href="<?php echo get_permalink(get_page_by_path('leistungen/consulting')); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/user3.png" alt="user2" width="150" height="150" class="alignnone size-thumbnail wp-image-185" /></a>
+                    <a class="nonhoverpic" href="<?php echo get_permalink(get_page_by_path('leistungen/consulting')); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/user.png" alt="user" width="150" height="150" class="alignnone size-thumbnail " /></a>
+                    <a class="hoverpic" style="display:none" href="<?php echo get_permalink(get_page_by_path('leistungen/consulting')); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/user3.png" alt="user2" width="150" height="150" class="alignnone size-thumbnail " /></a>
 
                     
                     <h4><b>Consulting</b></h4>
@@ -96,8 +96,8 @@
                         <div id="picture" class="col-sm-6 col-md-3">
                             <div class="document"></div>
 
-                            <a class="nonhoverpic" href="<?php echo get_permalink(get_page_by_path('leistungen/Output Management')); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/print.png" alt="document" width="150" height="150" class="alignnone size-thumbnail wp-image-182" /></a>
-                            <a class="hoverpic" style="display:none" href="<?php echo get_permalink(get_page_by_path('leistungen/outputmanagement')); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/print1.png" alt="document" width="150" height="150" class="alignnone size-thumbnail wp-image-182" /></a>
+                            <a class="nonhoverpic" href="<?php echo get_permalink(get_page_by_path('leistungen/Output Management')); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/print.png" alt="document" width="150" height="150" class="alignnone size-thumbnail " /></a>
+                            <a class="hoverpic" style="display:none" href="<?php echo get_permalink(get_page_by_path('leistungen/outputmanagement')); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/print1.png" alt="document" width="150" height="150" class="alignnone size-thumbnail " /></a>
                             <br>
                             <h4><b>Output Management</b></h3>
                                 <p>Wir optimieren und verbessern für Sie</p>
@@ -105,8 +105,8 @@
                                 </div>
                                 <div id="picture" class="col-sm-6 col-md-3">
                                     <div class="keyboard"></div>
-                                    <a class="nonhoverpic" href="<?php echo get_permalink(get_page_by_path('leistungen/Software Engineering')); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/keyboard.png" alt="keyboard" width="150" height="150" class="alignnone size-thumbnail wp-image-183" /></a>
-                                    <a class="hoverpic" style="display:none" href="<?php echo get_permalink(get_page_by_path('leistungen/softwareengineering')); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/keyboard1.png" alt="keyboard" width="150" height="150" class="alignnone size-thumbnail wp-image-183" /></a>
+                                    <a class="nonhoverpic" href="<?php echo get_permalink(get_page_by_path('leistungen/Software Engineering')); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/keyboard.png" alt="keyboard" width="150" height="150" class="alignnone size-thumbnail Lato-183" /></a>
+                                    <a class="hoverpic" style="display:none" href="<?php echo get_permalink(get_page_by_path('leistungen/softwareengineering')); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/keyboard1.png" alt="keyboard" width="150" height="150" class="alignnone size-thumbnail Lato-183" /></a>
                                     <br>
                                     <h4><b>Entwicklung</b></h3>
                                         <p>Wir entwickeln für Sie</p>
@@ -114,8 +114,8 @@
                                         </div>
                                         <div id="picture" class="col-sm-6 col-md-3">
                                             <div class="network"></div>
-                                            <a class="nonhoverpic" href="<?php echo get_permalink(get_page_by_path('leistungen/infrastruktur')); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/network.png" alt="network" width="150" height="150" class="alignnone size-thumbnail wp-image-184" /></a>
-                                            <a class="hoverpic" style="display:none" href="<?php echo get_permalink(get_page_by_path('leistungen/infrastruktur')); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/network1.png" alt="network" width="150" height="150" class="alignnone size-thumbnail wp-image-184" /></a>
+                                            <a class="nonhoverpic" href="<?php echo get_permalink(get_page_by_path('leistungen/infrastruktur')); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/network.png" alt="network" width="150" height="150" class="alignnone size-thumbnail Lato-184" /></a>
+                                            <a class="hoverpic" style="display:none" href="<?php echo get_permalink(get_page_by_path('leistungen/infrastruktur')); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/network1.png" alt="network" width="150" height="150" class="alignnone size-thumbnail Lato-184" /></a>
                                             <br>
                                             <h4><b>Infrastruktur</b> </h3>
                                                 <p>Wir verbinden Sie</p>

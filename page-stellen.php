@@ -28,7 +28,7 @@
         <div id="sidebar">
         <h2> Kontakt </h2>
         <div class="thumbnail" style="text-align: center;">	 	 
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/sven_ladewig.jpg" alt="BILD" width="150" height="100" class="alignnone size-thumbnail wp-image-182">		 	 
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/sven_ladewig.jpg" alt="BILD" width="150" height="100" class="alignnone size-thumbnail ">		 	 
             <div class="caption">	 	 
                 <h3>Sven Ladewig</h3>	 	 
                 <p style="font-weight: bold;">Geschäftsführer</p>
