@@ -69,88 +69,60 @@
 function add_this_script_footer() {
     ?>
 
-        <!-- Piwik -->
+
+    
     <script type="text/javascript">
-      var _paq = _paq || [];
-    {jQuery(options)}
-      _paq.push(['trackPageView']);
-      _paq.push(['enableLinkTracking']);
-      (function() {
-        var u=(("https:" === document.location.protocol) ? "https" : "http") + "://localhost/piwik/";
-        _paq.push(['setTrackerUrl', u+'piwik.php']);
-        _paq.push(['setSiteId', 1]);
-        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript';
-        g.defer=true; g.async=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-      })();  
-    </script>
-    <script type="text/javascript">
-    // insert pictures with backstretch 
+        
         jQuery(document).ready(function(jQuery) {
 
-            jQuery('.carousel').carousel({
-                interval: 3000, cycle: true, pause: "hover"
-            });
-
-            jQuery('#changer').on('mouseenter', function() {
-                    jQuery(this).find('.nonhoverpic').hide();
-                    jQuery(this).find('.hoverpic').show();
-            });
-            jQuery('#changer').on('mouseleave', function() {
-                    jQuery('.hoverpic').hide();
-                    jQuery('.nonhoverpic').show();
-            });
-            
-            jQuery('.nonhoverpic').on('mouseenter', function() {
-                jQuery(this).hide();
-                jQuery(this).next('.hoverpic').show();
-            });
-            jQuery('.hoverpic').on('mouseleave', function() {
-                jQuery('.hoverpic').hide();
-                jQuery('.nonhoverpic').show();
-            });
-            
-            //jQuery('#sidebar').stickyMojo({footerID: '#foot', contentID: '#posts'});
-
-
+            // insert pictures with backstretch
             jQuery(".schiff").backstretch("<?php echo get_stylesheet_directory_uri(); ?>/assets/img/schiff2.jpg");
-
             jQuery(".kurs").backstretch("<?php echo get_stylesheet_directory_uri(); ?>/assets/img/kurs.png");
-
             jQuery(".ship").backstretch("<?php echo get_stylesheet_directory_uri(); ?>/assets/img/ship.jpg");
-
             jQuery(".ice").backstretch("<?php echo get_stylesheet_directory_uri(); ?>/assets/img/ice.jpg");
-
             jQuery(".eis").backstretch("<?php echo get_stylesheet_directory_uri(); ?>/assets/img/eis.jpg");
-
-            jQuery(".water2").backstretch("<?php echo get_stylesheet_directory_uri(); ?>/assets/img/water2.jpg");
-            
-            jQuery(".water").backstretch("<?php echo get_stylesheet_directory_uri(); ?>/assets/img/water.jpg");
-            
+            jQuery(".water2").backstretch("<?php echo get_stylesheet_directory_uri(); ?>/assets/img/water2.jpg");           
+            jQuery(".water").backstretch("<?php echo get_stylesheet_directory_uri(); ?>/assets/img/water.jpg");           
             jQuery(".news").backstretch("<?php echo get_stylesheet_directory_uri(); ?>/assets/img/news.jpg");
-
             jQuery(".work").backstretch("<?php echo get_stylesheet_directory_uri(); ?>/assets/img/work.jpg");
-
             jQuery(".cabos").backstretch("<?php echo get_stylesheet_directory_uri(); ?>/assets/img/cabos.jpg");
-
             jQuery(".gras").backstretch("<?php echo get_stylesheet_directory_uri(); ?>/assets/img/gras.jpg");
-
             jQuery(".pust").backstretch("<?php echo get_stylesheet_directory_uri(); ?>/assets/img/pust.jpg");
-
-            jQuery(".boat").backstretch("<?php echo get_stylesheet_directory_uri(); ?>/assets/img/boat.jpg");
-            
-            jQuery(".beach").backstretch("<?php echo get_stylesheet_directory_uri(); ?>/assets/img/beach.jpg");
-            
-            jQuery(".mill").backstretch("<?php echo get_stylesheet_directory_uri(); ?>/assets/img/mill.png");
-            
-            jQuery(".hamburg").backstretch("<?php echo get_stylesheet_directory_uri(); ?>/assets/img/hamburg.jpg");
-            
-            jQuery(".solar").backstretch("<?php echo get_stylesheet_directory_uri(); ?>/assets/img/solar.jpg");
-            
-            jQuery(".mainpic").backstretch("<?php echo get_stylesheet_directory_uri(); ?>/assets/img/main.jpg");
-            
+            jQuery(".boat").backstretch("<?php echo get_stylesheet_directory_uri(); ?>/assets/img/boat.jpg");           
+            jQuery(".beach").backstretch("<?php echo get_stylesheet_directory_uri(); ?>/assets/img/beach.jpg");           
+            jQuery(".mill").backstretch("<?php echo get_stylesheet_directory_uri(); ?>/assets/img/mill.png");            
+            jQuery(".hamburg").backstretch("<?php echo get_stylesheet_directory_uri(); ?>/assets/img/hamburg.jpg");            
+            jQuery(".solar").backstretch("<?php echo get_stylesheet_directory_uri(); ?>/assets/img/solar.jpg");           
+            jQuery(".mainpic").backstretch("<?php echo get_stylesheet_directory_uri(); ?>/assets/img/main.jpg");           
             jQuery(".meer").backstretch("<?php echo get_stylesheet_directory_uri(); ?>/assets/img/meer.jpg");
 
+        });   
+
+        // carousel - not used
+        jQuery('.carousel').carousel({
+            interval: 3000, cycle: true, pause: "hover"
         });
+        
+        // hoverpic for icons
+        jQuery('#changer').on('mouseenter', function() {
+                jQuery(this).find('.nonhoverpic').hide();
+                jQuery(this).find('.hoverpic').show();
+        });
+        jQuery('#changer').on('mouseleave', function() {
+                jQuery('.hoverpic').hide();
+                jQuery('.nonhoverpic').show();
+        });
+
+        jQuery('.nonhoverpic').on('mouseenter', function() {
+            jQuery(this).hide();
+            jQuery(this).next('.hoverpic').show();
+        });
+        jQuery('.hoverpic').on('mouseleave', function() {
+            jQuery('.hoverpic').hide();
+            jQuery('.nonhoverpic').show();
+        });
+        
+        // height for post-page
         jQuery(function() {
             var totalHeight = 0;
             jQuery("#posts > div").each(function() {
@@ -159,46 +131,45 @@ function add_this_script_footer() {
             jQuery('#posts').css('height', totalHeight + 50);
         });
 
+        // script for second navigation layer
+        jQuery(function() {
 
-        jQuery(function($) {
-            var delay = 300;
-            var active;
-            jQuery('.expand').on('mouseenter', function(event) {
+                jQuery('.expand').on('mouseenter', function() {
 
-                if (jQuery(window).width() > 765) {
-                    // hide all other sub menus
-                    jQuery(this).siblings(this).find('ul').hide();
-                    jQuery(this).addClass('hover');
-                    // show sub nav
-                    jQuery('#subnav').css('height', '36');
-                    jQuery('.navbar').css('height', '86');
-                    jQuery(this).children('.children').show();
+                    if (jQuery(window).width() > 765) {
+                        // hide all other sub menus
+                        jQuery(this).siblings(this).find('ul').hide();
+                        jQuery(this).addClass('hover');
+                        // show sub nav
+                        jQuery('#subnav').css('height', '36');
+                        jQuery('.navbar').css('height', '86');
+                        jQuery(this).children('.children').show();
 
-                }
+                    }
             });
 
-            jQuery('.expand').on('mouseleave', function(event) {
-                if (jQuery(window).width() > 765) {
+                jQuery('.expand').on('mouseleave', function() {
+                    if (jQuery(window).width() > 765) {
 
-                    jQuery('.expand').removeClass('hover');
-                    jQuery('#subnav').css('height', '4');
-                    jQuery('.navbar').css('height', '50');
-                    jQuery(this).children('.children').hide();
-                }
+                                jQuery('.expand').removeClass('hover');
+                                jQuery('#subnav').css('height', '4');
+                                jQuery('.navbar').css('height', '50');
+                                jQuery(this).children('.children').hide();
+                            }
+                        }); 
+
+
             });
 
-
-        });
-
-
-
-    // load fonts
+        
+        // load fonts
         WebFont.load({
             google: {
                 families: ['Quicksand', 'Lato', 'Roboto', 'Quattrocento Sans']
             }
         });
         
+        // choose height for #intro
         if(jQuery("#intro").height() > jQuery(window).height()) {
             jQuery("#intro").css('height', jQuery("#intro").height());
         }
@@ -206,9 +177,9 @@ function add_this_script_footer() {
             jQuery("#intro").css('height', jQuery(window).height());
         }
         
+        // ticker for post-page
         jQuery(function(){
             setInterval(function(){
-                //jQuery('#ticker li:first').slideUp( function () { jQuery(this).appendTo(jQuery('#ticker')).slideDown(); });
                 jQuery('#ticker li:first').animate({'opacity':0}, 200, function () { jQuery(this).appendTo(jQuery('#ticker')).css('opacity', 1);});
         }, 5000);
         });

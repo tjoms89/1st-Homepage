@@ -73,37 +73,6 @@
                     wp_list_pages( $args );
                     ?>
                     
-                    <?php /*
-                    <li><a href="<?php echo get_permalink(get_page_by_path('news')); ?>">News</a></li>
-                    <li class="expand"><a href="<?php echo get_permalink(get_page_by_path('unternehmen')); ?>">Unternehmen</a>
-                        <ul class="sub-menu">
-                            <li><a href="<?php echo get_permalink(get_page_by_path('unternehmen/consulting')); ?>">Consulting</a></li>
-                            <li><a href="<?php echo get_permalink(get_page_by_path('unternehmen/Output Management')); ?>">Output Management</a></li>
-                            <li><a href="<?php echo get_permalink(get_page_by_path('unternehmen/Software Engineering')); ?>">Software Engineering</a></li>
-                            <li><a href="<?php echo get_permalink(get_page_by_path('unternehmen/infrastruktur')); ?>">IT-Infrastruktur</a></li> 
-                        </ul>
-                    </li>
-
-                    <li><a href="<?php echo get_permalink(get_page_by_path('kunden')); ?>">Kunden</a></li>
-                    <li><a href="<?php echo get_permalink(get_page_by_path('partner')); ?>">Partner</a></li>
-
-                    <li class="expand"><a href="<?php echo get_permalink(get_page_by_path('karriere')); ?>">Karriere</a>
-                        <ul class="sub-menu">
-                            <li><a href="<?php echo get_permalink(get_page_by_path('karriere/stellen')); ?>">Stellenangebote</a></li>
-                            <li><a href="<?php echo get_permalink(get_page_by_path('karriere/mentor')); ?>">Mentorenprogramm</a></li>
-                        </ul>
-                    </li>
-                    
-                   <li><a href="<?php echo get_permalink(get_page_by_path('kontakt')); ?>">Kontakt</a></li>
-                   <li><a href="<?php echo get_permalink(get_page_by_path('uber')); ?>">Über uns</a></li>
-
-                </ul>
-
-
-                <?php /*  wp_list_pages(array('include' => '15','depth' => 1,'title_li' => '')); ?>
-                  <?php wp_list_pages(array('include' => '12, 24, 26, 28, 19','depth' => 0,'title_li' => '')); ?>
-                  <?php wp_list_pages(array('include' => '17','depth' => 1,'title_li' => '')); ?>
-                  <?php wp_list_pages(array('include' => '30','depth' => 1,'title_li' => '')); */ ?>
                 </ul>
 
             </div>

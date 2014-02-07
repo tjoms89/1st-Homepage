@@ -9,8 +9,8 @@
                     </div>
             </div>
         
-        <div class="home-footer-white">
-            <a class="pfeil" href="#main"><img class="aligncenter" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/arrow2.png" alt="footer" /></a>
+        <div id="pfeil" class="home-footer-white">
+            <a class="pfeil" href="#pfeil"><img class="aligncenter" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/arrow2.png" alt="footer" /></a>
         </div>
             
         </div>
