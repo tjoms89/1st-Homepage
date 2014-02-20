@@ -29,16 +29,16 @@
                 <div class="col-md-6"><b> Mentoring Program </b> 
                         <br><br>
                         <div id="picture">
-                            <a class="nonhoverpic" href="<?php echo get_permalink(get_page_by_path('karriere/mentor')); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/teach.png" alt="document" width="150" height="150" class="alignnone size-thumbnail " /></a>
-                            <a class="hoverpic" style="display:none" href="<?php echo get_permalink(get_page_by_path('karriere/mentor')); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/teach1.png" alt="document" width="150" height="150" class="alignnone size-thumbnail " /></a>
+                            <a class="nonhoverpic" href="<?php echo get_permalink(get_page_by_path('karriere/mentor')); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/teach.png" alt="document" width="150" height="150" class="aligncenter size-thumbnail " /></a>
+                            <a class="hoverpic" style="display:none" href="<?php echo get_permalink(get_page_by_path('karriere/mentor')); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/teach1.png" alt="document" width="150" height="150" class="aligncenter size-thumbnail " /></a>
 
                         </div>
                 </div>
                 <div class="col-md-6"><b> Stellenangebote </b> 
                     <br><br>
                     <div id="picture"> 
-                            <a class="nonhoverpic" href="<?php echo get_permalink(get_page_by_path('karriere/stellen')); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/employ.png" alt="document" width="150" height="150" class="alignnone size-thumbnail " /></a>
-                            <a class="hoverpic" style="display:none" href="<?php echo get_permalink(get_page_by_path('karriere/stellen')); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/employ1.png" alt="document" width="150" height="150" class="alignnone size-thumbnail " /></a>         
+                            <a class="nonhoverpic" href="<?php echo get_permalink(get_page_by_path('karriere/stellen')); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/employ.png" alt="document" width="150" height="150" class="aligncenter size-thumbnail " /></a>
+                            <a class="hoverpic" style="display:none" href="<?php echo get_permalink(get_page_by_path('karriere/stellen')); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/employ1.png" alt="document" width="150" height="150" class="aligncenter size-thumbnail " /></a>         
                     </div>
                 </div>
 
