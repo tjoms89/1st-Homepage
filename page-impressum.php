@@ -2,7 +2,7 @@
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
 <div id="main">
-    <div class="row">
+    <div class="row" style="width: 60%;">
      <div class="col-md-12"><br><br><br><br>
 <?php the_content(); ?>
 </div></div></div>
