@@ -22,6 +22,9 @@ function load_scripts()
         wp_register_script( 'html5', get_stylesheet_directory_uri() . '/assets/js/html5shiv.js');
         wp_enqueue_script( 'html5' );
         
+        wp_register_script( 'ajax', get_stylesheet_directory_uri() . '/assets/js/ajax.js');
+        wp_enqueue_script( 'ajax' );
+        
 
 }
 function add_parent_class_nav( $css_class, $page, $depth, $args )

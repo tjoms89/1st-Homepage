@@ -9,8 +9,11 @@
             </div>
         </div>
 
+
         <div id="main" style="text-align: justify;"> 
+            <div id="content">
             <?php the_content(); ?>
+            </div>
         </div>
 
     <?php endwhile;
