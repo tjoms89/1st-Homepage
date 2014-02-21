@@ -58,8 +58,9 @@
                 </div>
                 <div class="col-md-8">
                     <br><br>
-                    <h4>Aareon</h4>
+                    <h2>Aareon</h2>
                     <p>Die IT-Power GmbH bietet im Rahmen der Rechnungserstellung f&uuml;r Wohnungsunternehmen einen Prozess in Kooperation mit Aareon zur elektronischen Rechnungserstellung. Sowohl bei der fachlichen Beratung der Rechnungsinhalte als auch der technischen Umsetzung und dem Betrieb zur Anbindung an Aareon Rechnungsservice steht Ihnen IT-Power zur Seite.</p>
+                    <br>
                     <a href="<?php echo get_permalink(get_page_by_path('referenzen/partner/aareon')); ?>"> <p style="text-align: center; text-decoration: none;"> > mehr lesen  </p> </a>
                     <!--
                     <p>Dieser Prozess kann mit strukturierten Datenstr&ouml;men oder vorformatierten Dokumenten, in der Regel PDF Dateien mit Steuerdateien, beliefert werden. Desweiteren k&ouml;nnen nat&uuml;rlich auch die im Output Management vorhandenen Prozesse wie Formularaufbereitung, Druckdienstleistung und R&uuml;ckgabe von Archivdateien realisiert werden. Die Kommunikation bei der Annahme und Weiterleitung bzw. R&uuml;ckgabe an den Kunden erfolgt dabei ausschlie&szlig;lich &uuml;ber gesicherte Kommunikationskan&auml;le. </p>
@@ -78,8 +79,9 @@
                 </div>
                 <div class="col-md-8">
                    
-                    <h4>Bosch</h4>
+                    <h2>Bosch</h2>
                     <p>Bosch Software Innovations GmbH, das Software- und Systemhaus der Bosch-Gruppe, konzipiert, entwickelt und betreibt weltweit innovative Software- und Systemlösungen, die unsere Kunden sowohl im klassischen Enterprise-Umfeld als auch im Internet of Things and Services voranbringen.</p>
+                    <br>
                     <a href="<?php echo get_permalink(get_page_by_path('referenzen/partner/bosch')); ?>"> <p style="text-align: center; text-decoration: none;"> > mehr lesen  </p> </a>      
                     <br><br>
                 </div>
@@ -95,8 +97,9 @@
                 </div>
                 <div class="col-md-8">
                     <br>
-                    <h4>OpenText</h4>
+                    <h2>OpenText</h2>
                     <p> Wir, die IT-Power GmbH, sind zertifizierter Consulting- und Reseller Partner der OpenText Software GmbH. <br> Die IT-Power GmbH hilft Ihnen, bei Ihren OpenText Projekten. </p>
+                    <br>
                     <a href="<?php echo get_permalink(get_page_by_path('referenzen/partner/opentext')); ?>"> <p style="text-align: center; text-decoration: none;"> > mehr lesen  </p> </a>         
                     <br><br><br>
                 </div>
@@ -108,13 +111,15 @@
                 <div class="col-md-4">
                     <br>
                     <div id="picture" class="user"></div>
+                    <br>
                     <a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/app4value.png" width="300" height="100" class="alignnone size-thumbnail " /></a>
                     <br><br><br>
                 </div>
                 <div class="col-md-8">
                     <br>
-                    <h4>app4value</h4>
+                    <h2>app4value</h2>
                     <p> Die app4value GmbH wurde gegründet um mittelständischen und großen Unternehmen zu helfen, den Herausforderungen des Informationszeitalters entgegen zu stehen. Seit über 10 Jahren berät sie nun in den Bereichen Enterprise Content Management und Output Management. </p>
+                    <br>
                     <a href="<?php echo get_permalink(get_page_by_path('referenzen/partner/app4value')); ?>"> <p style="text-align: center; text-decoration: none;"> > mehr lesen  </p> </a>         
                     <br><br><br>
                 </div>
@@ -126,13 +131,15 @@
                 <div class="col-md-4">
                     <br>
                     <div id="picture" class="user"></div>
+                    <br>
                     <a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/formware.jpg" width="220" height="100" class="alignnone size-thumbnail " /></a>
                     <br><br><br>
                 </div>
                 <div class="col-md-8">
                     <br>
-                    <h4>Formware</h4>
+                    <h2>Formware</h2>
                     <p>Die Formware GmbH bietet, mit Hilfe ihrer Tochter M3 GmbH gemeinsam mit der IT-Power Dienstleistungen und L&ouml;sungen f&uuml;r die Produktion von Dokumenten z.B. f&uuml;r die Druckvorstufe und den Dokumenten-Versand in elektronischer- oder Papierform an.</p>
+                    <br>
                     <a href="<?php echo get_permalink(get_page_by_path('referenzen/partner/formware')); ?>"> <p style="text-align: center; text-decoration: none;"> > mehr lesen  </p> </a>         
                     <br><br><br>
                 </div>
@@ -145,13 +152,15 @@
                 <div class="col-md-4">
                     <br>
                     <div id="picture" class="user"></div>
+                    <br>
                     <a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/ricoh.jpg" width="400" height="130" class="alignnone size-thumbnail " /></a>
                     <br><br><br>
                 </div>
                 <div class="col-md-8">
                     <br>
-                    <h4>Ricoh</h4>
+                    <h2>Ricoh</h2>
                     <p>Gegenstand der Kooperation ist die gemeinsame Entwicklung und der gemeinsame Vertrieb von Produkten und Leistungen. Dabei handelt es sich insbesondere um Beratungsleistungen im SAP-Umfeld, der Dokumententwicklung mit OpenText sowie um multimediale Tagespostanwendungen.</p>
+                    <br>
                     <a href="<?php echo get_permalink(get_page_by_path('referenzen/partner/ricoh')); ?>"> <p style="text-align: center; text-decoration: none;"> > mehr lesen  </p> </a>         
                     <br><br><br>
                 </div>
@@ -163,13 +172,15 @@
                 <div class="col-md-4">
                     <br>
                     <div id="picture" class="user"></div>
+                    <br>
                     <a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/grimm.jpg" width="150" height="150" class="alignnone size-thumbnail " /></a>
                     <br><br><br>
                 </div>
                 <div class="col-md-8">
                     <br>
-                    <h4>grimm data</h4>
+                    <h2>grimm data</h2>
                     <p>Gegenstand der Kooperation mit der grimm data Team GmbH sind die gemeinsame Ausbildung und Qualifizierung von Mitarbeitern im Bereich energiewirtschaftliche Prozesse und IT.</p>
+                    <br>
                     <a href="<?php echo get_permalink(get_page_by_path('referenzen/partner/grimm')); ?>"> <p style="text-align: center; text-decoration: none;"> > mehr lesen  </p> </a>         
                     <br><br><br>
                 </div>

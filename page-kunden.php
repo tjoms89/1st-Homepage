@@ -19,11 +19,11 @@
                 </div>
                 <div class="col-md-8">
                     <br><br><br>
-                    <h4>Deerberg</h4>
+                    <h2>Deerberg</h2>
                     Mit einem leistungsstarken Partner wie der IT-Power an unserer Seite ist das Projekt “Intranet“ mit den Parametern time, budget und quality zu einem echten Erfolg geworden!« 
-                        
-                    <h4>- Gesche Busch, Abteilungsleiterin Kundenservicecenter</h4> 
-                    <br>
+                    <br><br>
+                    <b>- Gesche Busch, Abteilungsleiterin Kundenservicecenter</b>
+                    <br><br>
                                         <a href="<?php echo get_permalink(get_page_by_path('referenzen/kunden/deerberg')); ?>"> <p style="text-align: center; text-decoration: none;"> > mehr lesen  </p> </a>
 
                     <br>
@@ -39,11 +39,12 @@
                 </div>
                 <div class="col-md-8">
                     <br><br><br>
-                    <h4>Vodafone</h4>
+                    <h2>Vodafone</h2>
                     »Ich habe die IT-Power als kompetenten Partner kennengelernt. Projekte sind professionell besetzt und werden in-time sowie in-budget realisiert. Ein Lieferant wie er einem Kunden gefällt.«
-                    <h4>
-                        - Peter Plank, Leiter Finanzen Region Nord</h4>                         
-                    <br>
+                    <br><br>
+                    <b>
+                        - Peter Plank, Leiter Finanzen Region Nord</b>                         
+                    <br><br>
                 </div>
             </div>
             <hr>
@@ -56,11 +57,12 @@
                 </div>
                 <div class="col-md-8">
                     <br><br><br>
-                    <h4>Flensburger Brauerei</h4>
+                    <h2>Flensburger Brauerei</h2>
                     »Wir haben uns mit der IT-Power bewusst für einen regionalen Partner entschieden. Unsere Ansprechpartner sitzen vor Ort, die Produkte werden individuell gestaltet und der Service ist ausgezeichnet.«
-                    <h4>
-                        - Helmut Horn, IT-Leitung</h4>                     
-                    <br>
+                    <br><br>
+                    <b>
+                        - Helmut Horn, IT-Leitung</b>                     
+                    <br><br>
                 </div>
             </div>
             <hr>
@@ -73,11 +75,12 @@
                 </div>
                 <div class="col-md-8">
                     <br>
-                    <h4>Conergos</h4>
+                    <h2>Conergos</h2>
                     <p>»Wir schätzen die Mitarbeiter der IT-Power GmbH seit vielen Jahren als kompetente Partner für die Formularentwicklung sowohl im StreamServe Umfeld sowie bei der Betreuung und Umsetzung komplexer Output-Management-Lösungen im Umfeld der Verbrauchsabrechnung mit SAP IS-U. Die Unterstützung der Outputprozesse in der IT-Landschaft für mehrere Energieversorger wird seit Jahren begleitet und gemeinsam stetig verbessert. Die IT-Power überzeugt durch lösungsorientierte Arbeitsweise und kooperative Zusammenarbeit.«</p>
-                    <h4>- Axel Falge, Leiter Technologie
-                    </h4>                     
-                    <br>
+                    <br><br>
+                    <b>- Axel Falge, Leiter Technologie
+                    </b>                     
+                    <br><br>
                 </div>
             </div>
             <hr>
@@ -90,10 +93,11 @@
                 </div>
                 <div class="col-md-8">
                     <br>
-                    <h4>Bilfinger GreyLogix</h4>
+                    <h2>Bilfinger GreyLogix</h2>
                     <p>»Eine zuverlässige Datenkommunikation ist in unserem Unternehmen sehr wichtig. Unsere Kunden kommen aus aller Welt und unsere Standorte befinden sich in ganz Europa. Mit dem Glasfaseranschluss und Internet-Access von IT-Power kommunizieren wir sicher und zuverlässig.«</p>
-                    <h4>- Lars Malter, Managing Director
-                    </h4>                     
+                    <br><br>
+                    <b>- Lars Malter, Managing Director
+                    </b>                     
                     <br><br>
                 </div>
             </div>

@@ -88,8 +88,7 @@ function add_this_script_footer() {
             jQuery(".cabos").backstretch("<?php echo get_stylesheet_directory_uri(); ?>/assets/img/cabos.jpg");
             jQuery(".gras").backstretch("<?php echo get_stylesheet_directory_uri(); ?>/assets/img/gras.jpg");
             jQuery(".pust").backstretch("<?php echo get_stylesheet_directory_uri(); ?>/assets/img/pust.jpg");
-            jQuery(".boat").backstretch("<?php echo get_stylesheet_directory_uri(); ?>/assets/img/boat.jpg");           
-            jQuery(".beach").backstretch("<?php echo get_stylesheet_directory_uri(); ?>/assets/img/beach.jpg");           
+            jQuery(".boat").backstretch("<?php echo get_stylesheet_directory_uri(); ?>/assets/img/boat.jpg");             
             jQuery(".mill").backstretch("<?php echo get_stylesheet_directory_uri(); ?>/assets/img/mill.png");            
             jQuery(".hamburg").backstretch("<?php echo get_stylesheet_directory_uri(); ?>/assets/img/hamburg.jpg");            
             jQuery(".solar").backstretch("<?php echo get_stylesheet_directory_uri(); ?>/assets/img/solar.jpg");           
