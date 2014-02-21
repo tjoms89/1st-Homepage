@@ -2,7 +2,7 @@
 <?php get_header(); ?>
 
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-    <div id="intro" class="meer">
+    <div id="intro" class="kurs">
         <div class="row" style="width: 50%;">
 
                     <div class="background5" style="width: 100%; height: 65px;">
