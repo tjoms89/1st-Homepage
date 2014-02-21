@@ -110,6 +110,15 @@ blockquote.right {
 
 /* Custom CSS */
 
+.children
+{ display: none; }
+
+.current_page_item .children,
+.current_page_ancestor .children,
+.current_page_parent .children
+
+{ display: block; }
+
 
 
 
