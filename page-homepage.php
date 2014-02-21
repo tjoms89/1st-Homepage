@@ -6,7 +6,7 @@
         <div class="row" style="width: 50%;">
 
                     <div class="background5" style="width: 100%; height: 65px;">
-                        <h1><b> Ein Strom guter Ideen</b><h1>
+                        <h1><b> Ein Strom guter Ideen</b></h1>
                     </div>
 
             </div>

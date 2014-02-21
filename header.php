@@ -39,7 +39,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="<?php echo get_permalink(get_page_by_path('homepage')); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/itplogo.gif" alt="logo" width="235" height="30" class="alignnew"/></a>
+                <a class="navbar-brand" href="<?php echo get_permalink(get_page_by_path('homepage')); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/itplogo2.png" alt="logo" width="235" height="30" class="alignnew"/></a>
             </div>
 
             <div id="subnav" style="overflow:visible;">
