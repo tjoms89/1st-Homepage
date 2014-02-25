@@ -110,16 +110,6 @@ blockquote.right {
 
 /* Custom CSS */
 
-.children
-{ display: none; }
-
-.current_page_item .children,
-.current_page_ancestor .children,
-.current_page_parent .children
-
-{ display: block; }
-
-
 
 
 #backstretch { max-width:none;}
@@ -287,6 +277,36 @@ a{
     top: 78px;
 }
 
+/* on page navigation */
+
+.content-navigation li {
+  display: inline;            
+  list-style-type: none;      
+  margin-right: 30px;
+  height: 100%;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none !important;
+}
+
+.content-navigation li a{
+  text-decoration: none !important;
+}
+
+
+.content-navigation {                         
+  border:2px solid #2d438e;
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: none !important;
+}
+
+.content-navigation li a:hover
+{
+    background-color: #c0c6dd;
+}
+
+
 
 
 /* body-parts css */
@@ -315,10 +335,13 @@ body #main
     position: relative; 
     z-index: 0;
     margin: 0;
-    padding: 0 0 15px 0;
+    padding: 0;
     color: #2d438e;
     font-size: 14px;
     height: auto !important;
+    width: 60%;
+    margin-left: auto; 
+    margin-right: auto;
 }
 
 body #posts
