@@ -10,7 +10,7 @@
             </div>
             </div>
         
-        <div id="main" style="width: 60%;"> 
+        <div id="main" class="width1"> 
             <br>
             <?php the_content(); ?>
             <br>

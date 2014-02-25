@@ -12,7 +12,7 @@ Template Name: Outputmanagement Template
                 </div>
             </div>
         </div>
-       <div class="row" style="width: 60%;">
+       <div class="row width1">
             <div class="col-md-12"  style="padding: 20px 0 !important;"> 
     
                     <ul class="content-navigation" >
@@ -23,7 +23,7 @@ Template Name: Outputmanagement Template
         </div>
 
 
-        <div id="main" style="width: 60%;">
+        <div id="main" class="width1>
             <div class="col-md-12">
                 <br>
                     <?php the_content(); ?>
