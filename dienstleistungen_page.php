@@ -16,8 +16,9 @@ Template Name: Dienstleistungen Template
             <div class="col-md-12"  style="padding: 20px 0 !important;"> 
     
                     <ul class="content-navigation" >
+                        <li id="0"><a href="<?php echo get_permalink(get_page_by_path('leistungen/dienstleistungen')); ?>">Allgemein</a></li>  
                         <li id="1"><a href="<?php echo get_permalink(get_page_by_path('leistungen/dienstleistungen/aareon-schnittstelle')); ?>">Aareon Schnittstelle</a></li>
-                        <li id="2"><a href="<?php echo get_permalink(get_page_by_path('leistungen/dienstleistungen/facilitymanager')); ?>">Facility Access Manager</a></li><br>
+                        <li id="2"><a href="<?php echo get_permalink(get_page_by_path('leistungen/dienstleistungen/facilitymanager')); ?>">Facility Access Manager</a></li>
                         <li id="3"><a href="<?php echo get_permalink(get_page_by_path('leistungen/dienstleistungen/kundenselbstablesung')); ?>">Kundenselbstablesung</a></li>
                     </ul>
                 </div>
