@@ -12,7 +12,7 @@
             </div>
         </div>
         
-        <div id="main" style="width: 60%;"> 
+        <div id="main width1"> 
             <br>
             <?php the_content(); ?>
             <br>
