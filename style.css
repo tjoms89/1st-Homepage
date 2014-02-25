@@ -536,7 +536,7 @@ body #intro-small .row {
     margin-top: 100px;
     background: #2d438e;
     opacity: 0.96;
-    width: 50%;
+    width: auto;
     display: inline-block;
 }
 
@@ -672,7 +672,7 @@ p {
     border: 0;
     overflow: auto;
     position: relative;
-    height: 40px;
+    height: 35px;
 }
 
 
