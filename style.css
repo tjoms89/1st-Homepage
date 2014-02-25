@@ -280,13 +280,15 @@ a{
 /* on page navigation */
 
 .content-navigation li {
-  display: inline;            
-  list-style-type: square;      
+  float: left;            
   margin-right: 30px;
   height: 100%;
   font-size: 18px;
   text-align: center;
   text-decoration: none !important;
+  list-style-type:square;
+  list-style-position: inside;
+  color: #2d438e;
 }
 
 .content-navigation li a{
@@ -294,11 +296,14 @@ a{
 }
 
 
-.content-navigation {                         
+.content-navigation {     
   border:2px solid #2d438e;
   margin-left: auto;
   margin-right: auto;
   text-decoration: none !important;
+  list-style-type:square;
+  list-style-position: inside;
+  overflow:auto;
 }
 
 .content-navigation li a:hover
