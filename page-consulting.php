@@ -8,11 +8,6 @@
                 </div>
             </div>   
         </div>
-        <div class="row" style="width: 60%;">
-            
-            <li><a href="<?php echo get_permalink(get_page_by_path('leistungen/consulting/projektmanagement')); ?>">Projektmanagement</a></li>
-            
-        </div>
         <div id="main">
             <div class="col-md-12">
                 <br>
