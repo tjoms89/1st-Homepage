@@ -12,7 +12,7 @@
             </div>
         </div>
         
-        <div id="main width1"> 
+        <div id="main" class="width1"> 
             <br>
             <?php the_content(); ?>
             <br>
