@@ -660,7 +660,15 @@ p {
     background-color: #d5d9e8;
 }
 
-
+.wpcf7-submit{
+    width: 100%;
+    outline: none;
+    background-color: #2d438e;
+    color: #ffffff;
+    border: 0;
+    overflow: auto;
+    position: relative;
+}
 
 
 /*  media-querries */
