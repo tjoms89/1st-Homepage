@@ -23,7 +23,7 @@ Template Name: Consulting Template
                         <li id="5"><a href="<?php echo get_permalink(get_page_by_path('leistungen/consulting/qualitätsmanagement')); ?>">Qualitätsmanagement</a></li><br>
                         <li id="6"><a href="<?php echo get_permalink(get_page_by_path('leistungen/consulting/sap-berechtigungswesen')); ?>">SAP Berechtigungswesen</a></li>
                         <li id="7"><a href="<?php echo get_permalink(get_page_by_path('leistungen/consulting/erp')); ?>">ERP</a></li>
-                        <li id="8"><a href="<?php echo get_permalink(get_page_by_path('leistungen/consulting/energiedatenmanagement')); ?>">Energiedatenmanagement</a></li>
+                        <li id="8"><a href="<?php echo get_permalink(get_page_by_path('leistungen/consulting/energiedatenmanagement')); ?>">Energiedatenmanagement</a></li><br>
                         <li id="9"><a href="<?php echo get_permalink(get_page_by_path('leistungen/consulting/business-intelligence')); ?>">Business Intelligence</a></li>
                        
                     </ul>
