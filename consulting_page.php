@@ -20,7 +20,7 @@ Template Name: Consulting Template
                         <li id="2"><a href="<?php echo get_permalink(get_page_by_path('leistungen/consulting/geschaftsprozessmanagement')); ?>">Geschäftsprozessmanagement</a></li><br>
                         <li id="3"><a href="<?php echo get_permalink(get_page_by_path('leistungen/consulting/requirements-engineering')); ?>">Requirements Engineering</a></li>
                         <li id="4"><a href="<?php echo get_permalink(get_page_by_path('leistungen/consulting/change-management')); ?>">Change Management</a></li>
-                        <li id="5"><a href="<?php echo get_permalink(get_page_by_path('leistungen/consulting/qualitätsmanagement')); ?>">Qualitätsmanagement</a></li><br>
+                        <li id="5"><a href="<?php echo get_permalink(get_page_by_path('leistungen/consulting/qualitatsmanagement')); ?>">Qualitätsmanagement</a></li><br>
                         <li id="6"><a href="<?php echo get_permalink(get_page_by_path('leistungen/consulting/sap-berechtigungswesen')); ?>">SAP Berechtigungswesen</a></li>
                         <li id="7"><a href="<?php echo get_permalink(get_page_by_path('leistungen/consulting/erp')); ?>">ERP</a></li>
                         <li id="8"><a href="<?php echo get_permalink(get_page_by_path('leistungen/consulting/energiedatenmanagement')); ?>">Energiedatenmanagement</a></li><br>
@@ -29,7 +29,7 @@ Template Name: Consulting Template
                     </ul>
                 </div>
         </div>
-        <div id="main">
+        <div id="main" style="width: 60%;">
             <div class="col-md-12">
 
                 <br>

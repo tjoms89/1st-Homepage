@@ -14,7 +14,7 @@ Template Name: Outputmanagement Template
         </div>
 
 
-        <div id="main">
+        <div id="main" style="width: 60%;">
             <div class="col-md-12">
                 <br>
                     <?php the_content(); ?>

@@ -16,7 +16,7 @@ Template Name: Softwareengineering Template
 
 
 
-        <div id="main">
+        <div id="main" style="width: 60%;">
             <div class="col-md-12">
                 <br>
                     <?php the_content(); ?>
