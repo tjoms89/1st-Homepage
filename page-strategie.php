@@ -11,7 +11,9 @@
             </div>
         
         <div id="main" style="width: 60%;"> 
+            <br>
             <?php the_content(); ?>
+            <br>
         </div>
     <?php endwhile;
 else: ?>

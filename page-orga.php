@@ -3,7 +3,7 @@
 
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
         <div style="height:87px; background:#fff;"></div>
-        <div style=" background: 0 0 repeat #FFFFFF; color: #2d438e; margin-left: auto; margin-right: auto; width: 80%;">        
+        <div style=" background: 0 0 repeat #FFFFFF; color: #2d438e; margin-left: auto; margin-right: auto; width: 90%;">        
             <div class="row">
                 <div style="text-align: left;">
                 <div class="title"><?php the_title(); ?></div>
