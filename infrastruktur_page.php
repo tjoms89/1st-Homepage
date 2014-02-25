@@ -20,6 +20,7 @@ Template Name: Infrastruktur Template
 
                 <br>
                     <?php the_content(); ?>
+                <br>
             </div>
         </div>
     <?php endwhile;

@@ -10,7 +10,7 @@
             </div>
             </div>
         
-        <div id="main" style="text-align: justify;"> 
+        <div id="main" style="width: 60%;"> 
             <?php the_content(); ?>
         </div>
     <?php endwhile;

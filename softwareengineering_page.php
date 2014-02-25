@@ -33,6 +33,7 @@ Template Name: Softwareengineering Template
             <div class="col-md-12">
                 <br>
                     <?php the_content(); ?>
+                <br>
             </div>
         </div>
     <?php endwhile;

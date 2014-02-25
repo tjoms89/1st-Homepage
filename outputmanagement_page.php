@@ -17,7 +17,7 @@ Template Name: Outputmanagement Template
     
                     <ul class="content-navigation" >
                         <li id="0"><a href="<?php echo get_permalink(get_page_by_path('leistungen/outputmanagament')); ?>">Allgemein</a></li>
-                        <li id="1"><a href="<?php echo get_permalink(get_page_by_path('leistungen/outputmanagament/rechenzentrumsdienste')); ?>">Rechenzentrumsdienste</a></li>
+                        <li id="1"><a href="<?php echo get_permalink(get_page_by_path('leistungen/outputmanagament/rechenzentrum')); ?>">Rechenzentrumsdienste</a></li>
                     </ul>
                 </div>
         </div>
@@ -27,6 +27,7 @@ Template Name: Outputmanagement Template
             <div class="col-md-12">
                 <br>
                     <?php the_content(); ?>
+                <br>
             </div>
         </div>
 

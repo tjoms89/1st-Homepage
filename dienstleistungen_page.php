@@ -28,6 +28,7 @@ Template Name: Dienstleistungen Template
             <div class="col-md-12">
                 <br>
                     <?php the_content(); ?>
+                <br>
             </div>
         </div>
 
