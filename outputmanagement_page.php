@@ -23,7 +23,7 @@ Template Name: Outputmanagement Template
         </div>
 
 
-        <div id="main" class="width1>
+        <div id="main" class="width1">
             <div class="col-md-12">
                 <br>
                     <?php the_content(); ?>
