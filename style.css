@@ -656,8 +656,12 @@ p {
 
 /*  Contact-Form */
 
+
 .wpcf7-form-control{
     background-color: #d5d9e8;
+    border: 0;
+    padding: 0 !important;
+    width: 100%;
 }
 
 .wpcf7-submit{
@@ -668,6 +672,7 @@ p {
     border: 0;
     overflow: auto;
     position: relative;
+    height: 40px;
 }
 
 
