@@ -43,8 +43,8 @@ $results_count = $wp_query->found_posts;
                 <?php endwhile; ?>
 
                 <ul class="pager">
-                    <li><?php next_posts_link('<i class="icon-chevron-left"></i>&nbsp; Older Results') ?></li>
-                    <li><?php previous_posts_link('Newer Results &nbsp;<i class="icon-chevron-right"></i>') ?></li>
+                    <li style="text-decoration: none;"><?php next_posts_link('<i class="icon-chevron-left"></i>&nbsp; älter') ?></li>
+                    <li style="text-decoration: none;"><?php previous_posts_link('neuer &nbsp;<i class="icon-chevron-right"></i>') ?></li>
                 </ul>
 
             <?php else : // No Results ?>
