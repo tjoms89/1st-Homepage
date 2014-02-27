@@ -23,8 +23,8 @@ $results_count = $wp_query->found_posts;
     </div>
 </div>
 
-<div id="main" class="width1">
-    <div class="row">
+<div id="main">
+    <div class="row width1">
                 <br>
             <?php if (have_posts()) : // Results Found ?>
 
