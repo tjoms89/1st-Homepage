@@ -6,6 +6,6 @@
             the_content();
         }
     }else{
-    echo 'nothing found';
+    echo 'nichts gefunden';
     }
 ?>

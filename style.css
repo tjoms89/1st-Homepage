@@ -189,7 +189,7 @@ a{
     background: #2d438e;
 }
 
-.navbar-default .nav .active > a, .navbar-default .nav .active > a:hover, .navbar-default .nav .active > a:focus, .navbar-default .nav .current_page_item a,  .navbar-default .nav .current_page_parent a, .navbar-default .nav .current_page_parent a:hover, .navbar-default .nav .current_page_parent a:focus, .navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
+.navbar-default .nav .active > a, .navbar-default .nav .active > a:hover, .navbar-default .nav .active > a:focus, .navbar-default .nav .current_page_item a, .navbar-default .nav .current_page_ancestor a,  .navbar-default .nav .current_page_parent a, .navbar-default .nav .current_page_parent a:hover, .navbar-default .nav .current_page_parent a:focus, .navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
     color: #2d438e;
     background: #E7E7E7;
 }
