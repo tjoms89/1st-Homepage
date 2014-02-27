@@ -59,6 +59,14 @@
             </div>
             <br>
         </div></div>
+         <br>
+
+         <div class="row">
+             <br>
+             <div class="col-md-3" style="padding-left: 55px !important;">
+             <?php get_search_form(); ?>
+             </div>
+         </div>
     </footer>
 </div>
 </div> 
