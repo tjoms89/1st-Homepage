@@ -24,7 +24,7 @@ $results_count = $wp_query->found_posts;
 </div>
 
 <div id="main">
-    <div class="row width1">
+    <div class="row width1" style="word-wrap: break-word;">
                 <br>
             <?php if (have_posts()) : // Results Found ?>
 
