@@ -11,15 +11,17 @@ Template Name: Dienstleistungen Template
                     <h1>Dienstleistungen</h1>
                 </div>
             </div>
+            <br><br><br><br>
+            <div id="inhalt"></div>
         </div>
         <div class="row width1">
             <div class="col-md-12"  style="padding: 20px 0 !important;"> 
     
                     <ul class="content-navigation" >
-                        <li id="0"><a href="<?php echo get_permalink(get_page_by_path('leistungen/dienstleistungen')); ?>">Allgemein</a></li>  
-                        <li id="1"><a href="<?php echo get_permalink(get_page_by_path('leistungen/dienstleistungen/aareon-schnittstelle')); ?>">Aareon Schnittstelle</a></li>
-                        <li id="2"><a href="<?php echo get_permalink(get_page_by_path('leistungen/dienstleistungen/facilitymanager')); ?>">Facility Access Manager</a></li>
-                        <li id="3"><a href="<?php echo get_permalink(get_page_by_path('leistungen/dienstleistungen/kundenselbstablesung')); ?>">Kundenselbstablesung</a></li>
+                        <li id="0"><a href="<?php echo get_permalink(get_page_by_path('leistungen/dienstleistungen')); ?>#inhalt">Allgemein</a></li>  
+                        <li id="1"><a href="<?php echo get_permalink(get_page_by_path('leistungen/dienstleistungen/aareon-schnittstelle')); ?>#inhalt">Aareon Schnittstelle</a></li>
+                        <li id="2"><a href="<?php echo get_permalink(get_page_by_path('leistungen/dienstleistungen/facilitymanager')); ?>#inhalt">Facility Access Manager</a></li>
+                        <li id="3"><a href="<?php echo get_permalink(get_page_by_path('leistungen/dienstleistungen/kundenselbstablesung')); ?>#inhalt">Kundenselbstablesung</a></li>
                     </ul>
                 </div>
         </div>

@@ -91,7 +91,7 @@
                                 <p>Fax: +49 (0)461 487-2434</p>
                                 <p>Mobil: +49 (0)151/14044583</p>
                                 <p><a href="mailto:lisa.dubbert@it-power.org">lisa.dubbert@it-power.org</a></p>
-                                
+                                <br>
                             </div></div></div>	
 
                 </div>
