@@ -16,7 +16,7 @@ Template Name: Dienstleistungen Template
         </div>
         <br>
         <div class="row width1" style="border:2px solid #2d438e;">
-            <div class="col-md-12"  style="padding: 20px 0 !important;"> 
+            <div class="col-md-12"  style="padding: 10px 0 !important;"> 
     
                     <ul class="content-navigation" >
                         <li id="0"><a href="<?php echo get_permalink(get_page_by_path('leistungen/dienstleistungen')); ?>#inhalt">Allgemein</a></li>  

@@ -16,7 +16,7 @@ Template Name: Consulting Template
         </div>
 <br>
         <div class="row width1" style="border:2px solid #2d438e;">
-            <div class="col-md-6"  style="padding: 20px 0 !important;"> 
+            <div class="col-md-6"  style="padding: 10px 0 !important;"> 
     
                     <ul class="content-navigation" >
                         <li id="0"><a href="<?php echo get_permalink(get_page_by_path('leistungen/consulting')); ?>#inhalt" >Allgemein</a></li>
@@ -26,7 +26,7 @@ Template Name: Consulting Template
                         <li id="4"><a href="<?php echo get_permalink(get_page_by_path('leistungen/consulting/change-management')); ?>#inhalt">Change Management</a></li>
                     </ul>
             </div>
-            <div class="col-md-6"  style="padding: 20px 0 !important;"> 
+            <div class="col-md-6"  style="padding: 10px 0 !important;"> 
                     <ul class="content-navigation" >
                         <li id="5"><a href="<?php echo get_permalink(get_page_by_path('leistungen/consulting/qualitatsmanagement')); ?>#inhalt">Qualitätsmanagement</a></li>
                         <li id="6"><a href="<?php echo get_permalink(get_page_by_path('leistungen/consulting/sap-berechtigungswesen')); ?>#inhalt">SAP Berechtigungswesen</a></li>

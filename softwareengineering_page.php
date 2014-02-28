@@ -17,7 +17,7 @@ Template Name: Softwareengineering Template
         </div>
 <br>
         <div class="row" style="width: 60%;" style="border:2px solid #2d438e;">
-            <div class="col-md-6"  style="padding: 20px 0 !important;"> 
+            <div class="col-md-6"  style="padding: 10px 0 !important;"> 
     
                     <ul class="content-navigation" >
                         <li id="0"><a href="<?php echo get_permalink(get_page_by_path('leistungen/softwareengineering')); ?>#inhalt">Allgemein</a></li>
@@ -25,7 +25,7 @@ Template Name: Softwareengineering Template
                         <li id="2"><a href="<?php echo get_permalink(get_page_by_path('leistungen/softwareengineering/open-source')); ?>#inhalt">Open Source Implementierung</a></li>
                     </ul>
             </div>
-             <div class="col-md-6"  style="padding: 20px 0 !important;">    
+             <div class="col-md-6"  style="padding: 10px 0 !important;">    
                     <ul class="content-navigation" >
                         <li id="3"><a href="<?php echo get_permalink(get_page_by_path('leistungen/softwareengineering/webentwicklung')); ?>#inhalt">Webentwicklung</a></li>
                         <li id="4"><a href="<?php echo get_permalink(get_page_by_path('leistungen/softwareengineering/inubit')); ?>#inhalt">Kompetenzzentrum Inubit</a></li>
