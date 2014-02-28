@@ -288,6 +288,7 @@ a{
   list-style-type:square;
   list-style-position: inside;
   color: #2d438e;
+
 }
 
 .content-navigation li a{
@@ -303,6 +304,8 @@ a{
   list-style-type:square;
   list-style-position: inside;
   overflow:auto;
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
 .content-navigation li a:hover
