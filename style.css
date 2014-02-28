@@ -105,11 +105,9 @@ blockquote.right {
 	float: right;
 	}
 
-
-
-
+        
+        
 /* Custom CSS */
-
 
 
 #backstretch { max-width:none;}
@@ -135,8 +133,6 @@ a{
     color: #2d438e;
     outline:none !important;
 }
-
-
 
 /* Navigationbar css */
 
@@ -233,8 +229,7 @@ a{
 
 .navbar .nav > li .children > li > a{
     color: #818ebb;
-    padding: 0 12px; 
-    text-decoration: none; 
+    padding: 0 12px;  
     background: #FFFFFF;
     z-index: 1032;
     font-size: 10px;
@@ -272,6 +267,7 @@ a{
     background: #2d438e;
     z-index: 1032;
     display:table;
+    font-size: 12px;
 }
 
 .navbar .nav > li .children > li > a .current_page_item{
