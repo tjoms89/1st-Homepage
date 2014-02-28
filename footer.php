@@ -141,6 +141,11 @@ function add_this_script_footer() {
         // script for second navigation layer
         jQuery(function() {
 
+                if (jQuery(window).width() < 765) {
+                        jQuery('.expand').children('.children').show();
+                    
+                }
+                
                 jQuery('.expand').on('mouseenter', function() {
 
                     if (jQuery(window).width() > 765) {
@@ -153,17 +158,21 @@ function add_this_script_footer() {
                         jQuery(this).children('.children').show();
 
                     }
+                    
             });
 
                 jQuery('.expand').on('mouseleave', function() {
+                    
                     if (jQuery(window).width() > 765) {
 
                                 jQuery('.expand').removeClass('hover');
                                 jQuery('#subnav').css('height', '4');
                                 jQuery('.navbar').css('height', '50');
                                 jQuery(this).children('.children').hide();
-                            }
-                        }); 
+                    }
+                    
+                  }); 
+                    
 
 
             });
