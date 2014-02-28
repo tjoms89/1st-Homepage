@@ -14,19 +14,24 @@ Template Name: Consulting Template
             <br><br><br><br>
             <div id="inhalt"></div>
         </div>
-        <div class="row width1" >
-            <div class="col-md-12"  style="padding: 20px 0 !important;"> 
+<br>
+        <div class="row width1" style="border:2px solid #2d438e;">
+            <div class="col-md-6"  style="padding: 20px 0 !important;"> 
     
                     <ul class="content-navigation" >
                         <li id="0"><a href="<?php echo get_permalink(get_page_by_path('leistungen/consulting')); ?>#inhalt" >Allgemein</a></li>
                         <li id="1"><a href="<?php echo get_permalink(get_page_by_path('leistungen/consulting/projektmanagement')); ?>#inhalt">Projektmanagement</a></li>
-                        <li id="2"><a href="<?php echo get_permalink(get_page_by_path('leistungen/consulting/geschaftsprozessmanagement')); ?>#inhalt">Geschäftsprozessmanagement</a></li><br>
+                        <li id="2"><a href="<?php echo get_permalink(get_page_by_path('leistungen/consulting/geschaftsprozessmanagement')); ?>#inhalt">Geschäftsprozessmanagement</a></li>
                         <li id="3"><a href="<?php echo get_permalink(get_page_by_path('leistungen/consulting/requirements-engineering')); ?>#inhalt">Requirements Engineering</a></li>
                         <li id="4"><a href="<?php echo get_permalink(get_page_by_path('leistungen/consulting/change-management')); ?>#inhalt">Change Management</a></li>
-                        <li id="5"><a href="<?php echo get_permalink(get_page_by_path('leistungen/consulting/qualitatsmanagement')); ?>#inhalt">Qualitätsmanagement</a></li><br>
+                    </ul>
+            </div>
+            <div class="col-md-6"  style="padding: 20px 0 !important;"> 
+                    <ul class="content-navigation" >
+                        <li id="5"><a href="<?php echo get_permalink(get_page_by_path('leistungen/consulting/qualitatsmanagement')); ?>#inhalt">Qualitätsmanagement</a></li>
                         <li id="6"><a href="<?php echo get_permalink(get_page_by_path('leistungen/consulting/sap-berechtigungswesen')); ?>#inhalt">SAP Berechtigungswesen</a></li>
                         <li id="7"><a href="<?php echo get_permalink(get_page_by_path('leistungen/consulting/erp')); ?>#inhalt">ERP</a></li>
-                        <li id="8"><a href="<?php echo get_permalink(get_page_by_path('leistungen/consulting/energiedatenmanagement')); ?>#inhalt">Energiedatenmanagement</a></li><br>
+                        <li id="8"><a href="<?php echo get_permalink(get_page_by_path('leistungen/consulting/energiedatenmanagement')); ?>#inhalt">Energiedatenmanagement</a></li>
                         <li id="9"><a href="<?php echo get_permalink(get_page_by_path('leistungen/consulting/business-intelligence')); ?>#inhalt">Business Intelligence</a></li>
                        
                     </ul>
@@ -38,7 +43,21 @@ Template Name: Consulting Template
                 <br>
             <?php the_content(); ?>
                 <br>
-            </div>
+                
+                <script type="text/javascript">
+                    
+                    function openWin()
+                    {
+                        var php_var = "<?php echo the_content(); ?>";
+                        myWindow=window.open('','','width=200,height=100');
+                        myWindow.document.write(php_var);
+                        myWindow.focus();
+                        myWindow.print(); 
+                    }
+                </script>
+                
+                                <button onClick="openWin();">druck mich</button>
+             </div>
         </div>
 
     <?php endwhile;

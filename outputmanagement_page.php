@@ -14,7 +14,8 @@ Template Name: Outputmanagement Template
             <br><br><br><br>
             <div id="inhalt"></div>
         </div>
-       <div class="row width1">
+<br>
+       <div class="row width1" style="border:2px solid #2d438e;">
             <div class="col-md-12"  style="padding: 20px 0 !important;"> 
     
                     <ul class="content-navigation" >

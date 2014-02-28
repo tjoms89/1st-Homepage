@@ -15,19 +15,24 @@ Template Name: Softwareengineering Template
             <br><br><br><br>
             <div id="inhalt"></div>
         </div>
-        <div class="row" style="width: 60%;">
-            <div class="col-md-12"  style="padding: 20px 0 !important;"> 
+<br>
+        <div class="row" style="width: 60%;" style="border:2px solid #2d438e;">
+            <div class="col-md-6"  style="padding: 20px 0 !important;"> 
     
                     <ul class="content-navigation" >
                         <li id="0"><a href="<?php echo get_permalink(get_page_by_path('leistungen/softwareengineering')); ?>#inhalt">Allgemein</a></li>
                         <li id="1"><a href="<?php echo get_permalink(get_page_by_path('leistungen/softwareengineering/software-architektur')); ?>#inhalt">Software Architektur</a></li>
                         <li id="2"><a href="<?php echo get_permalink(get_page_by_path('leistungen/softwareengineering/open-source')); ?>#inhalt">Open Source Implementierung</a></li>
+                    </ul>
+            </div>
+             <div class="col-md-6"  style="padding: 20px 0 !important;">    
+                    <ul class="content-navigation" >
                         <li id="3"><a href="<?php echo get_permalink(get_page_by_path('leistungen/softwareengineering/webentwicklung')); ?>#inhalt">Webentwicklung</a></li>
                         <li id="4"><a href="<?php echo get_permalink(get_page_by_path('leistungen/softwareengineering/inubit')); ?>#inhalt">Kompetenzzentrum Inubit</a></li>
                         <li id="5"><a href="<?php echo get_permalink(get_page_by_path('leistungen/softwareengineering/gamification')); ?>#inhalt">Produktivität durch Gamification</a></li>
                    
                     </ul>
-                </div>
+             </div>
         </div>
 
 

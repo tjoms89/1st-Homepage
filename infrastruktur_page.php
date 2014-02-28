@@ -16,7 +16,6 @@ Template Name: Infrastruktur Template
             <div id="inhalt"></div>
         </div>
 
-
         <div id="main" class="width1">
             <div class="col-md-12">
 
