@@ -16,7 +16,7 @@ Template Name: Softwareengineering Template
             <div id="inhalt"></div>
         </div>
 <br>
-        <div class="row" style="width: 60%;" style="border:2px solid #2d438e;">
+        <div class="row width1" style="border:2px solid #2d438e;">
             <div class="col-md-6"  style="padding: 10px 0 !important;"> 
     
                     <ul class="content-navigation" >
