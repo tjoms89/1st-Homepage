@@ -110,7 +110,7 @@ function add_this_script_footer() {
             interval: 3000, cycle: true, pause: "hover"
         });
         
-        // hoverpic for icons
+        /* hoverpic for icons - not working properly 
         jQuery('#changer').on('mouseenter', function() {
                 jQuery(this).find('.nonhoverpic').hide();
                 jQuery(this).find('.hoverpic').show();
@@ -128,7 +128,8 @@ function add_this_script_footer() {
             jQuery('.hoverpic').hide();
             jQuery('.nonhoverpic').show();
         });
-        
+        */
+       
         // height for post-page
         jQuery(function() {
             var totalHeight = 0;
