@@ -84,6 +84,7 @@ Template Name: Consulting Template
                         myWindow.document.write('<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/itplogo2.png" alt="logo" width="235" height="30" class="alignnew"/>');
                         myWindow.document.write(escaped);
                         myWindow.document.write('</div>');
+                        myWindow.document.close();
                         myWindow.focus();
                         myWindow.print(); 
                     });
