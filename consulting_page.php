@@ -73,7 +73,9 @@ Template Name: Consulting Template
                                       .replace(/\\t/g, "")
                                       .replace(/\\b/g, "")
                                       .replace(/\\f/g, "")
-                                      .replace('"', '');
+                                      .replace('"', '')
+                                      .replace(/<a\b[^>]*>/i,"")
+                                      .replace(/<\/a>/i, "");
 
                         myWindow=window.open('','','width=auto,height=auto');
                         myWindow.document.write('<div style="width:60%; margin-left:auto; margin-right:auto;">');
@@ -81,7 +83,7 @@ Template Name: Consulting Template
                         myWindow.document.write(escaped);
                         myWindow.document.write('</div>');
                         myWindow.focus();
-                        //myWindow.print(); 
+                        myWindow.print(); 
                     });
                     });
             </script>
