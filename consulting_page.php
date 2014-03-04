@@ -75,7 +75,10 @@ Template Name: Consulting Template
                                       .replace(/\\f/g, "")
                                       .replace('"', '')
                                       .replace(/<a\b[^>]*>/i,"")
-                                      .replace(/<\/a>/i, "");
+                                      .replace(/<\/a>/i, "")
+                                      .replace("Bei Fragen können Sie uns jederzeit gerne kontaktieren.", "");
+                              
+                         escaped = escaped.substring(0, escaped.length - 1);
 
                         myWindow=window.open('','','width=auto,height=auto');
                         myWindow.document.write('<div style="width:60%; margin-left:auto; margin-right:auto;">');
