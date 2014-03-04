@@ -43,21 +43,40 @@ Template Name: Consulting Template
                 <br>
             <?php the_content(); ?>
                 <br>
-                
-                <script type="text/javascript">
+                 <br>
+                <input id="btntest" type="button" value="druck mich" style="height: 25px; border:none;  background-color: #2d438e; color: #FFFFFF;"/>
+                <br>
+                 <br>
+                  <br>
+            
+            </div>
+            
+            <script>
+                            
+            jQuery(function(){
                     
-                    function openWin()
-                    {
-                        var php_var = "<?php echo the_content(); ?>";
-                        myWindow=window.open('','','width=200,height=100');
-                        myWindow.document.write(php_var);
+                     jQuery('#btntest').on('click', function() {
+                        var php1 = JSON.stringify(
+                                                    <?php
+                                                        $jsonpost = array();
+                                                        $jsonpost[content] = apply_filters('the_content', get_the_content());
+                                                        echo json_encode($jsonpost[content]); 
+                                                    ?>
+                         );
+                         
+                        var newphp = php1.replace('"','');
+                        newphp = newphp.substring(0, newphp.length - 3);
+                        
+                        myWindow=window.open('','','width=auto,height=auto');
+                        myWindow.document.write('<div style="width:60%; margin-left:auto; margin-right:auto;">');
+                        myWindow.document.write('<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/itplogo2.png" alt="logo" width="235" height="30" class="alignnew"/>');
+                        myWindow.document.write(newphp);
+                        myWindow.document.write('</div>');
                         myWindow.focus();
                         myWindow.print(); 
-                    }
-                </script>
-                
-                                <button onClick="openWin();">druck mich</button>
-             </div>
+                    });
+                    });
+            </script>
         </div>
 
     <?php endwhile;
