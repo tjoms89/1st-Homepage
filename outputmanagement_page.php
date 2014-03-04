@@ -31,7 +31,52 @@ Template Name: Outputmanagement Template
                 <br>
                     <?php the_content(); ?>
                 <br>
+                             <br>
+                <input id="btntest" type="button" value="drucken" style="height: 25px; border:none;  background-color: #2d438e; color: #FFFFFF;"/>
+                <br>
+                 <br>
+                  <br>
+            
             </div>
+            
+            <script>
+                            
+            jQuery(function(){
+                    
+                     jQuery('#btntest').on('click', function() {
+                        var php = JSON.stringify(
+                                                    <?php
+                                                        $string = array();
+                                                        $string[content] = apply_filters('the_content', get_the_content());
+
+                                                        echo json_encode($string[content]);
+                                                    ?>
+                         );
+                             
+                         var escaped = php.replace(/\\n/g, "")
+                                      .replace(/\\'/g, "")
+                                      .replace(/\\"/g, '')
+                                      .replace(/\\&/g, "")
+                                      .replace(/\\r/g, "")
+                                      .replace(/\\t/g, "")
+                                      .replace(/\\b/g, "")
+                                      .replace(/\\f/g, "")
+                                      .replace('"', '')
+                                      .replace(/<a\b[^>]*>/i,"")
+                                      .replace(/<\/a>/i, "");
+                              
+                         escaped = escaped.substring(0, escaped.length - 1);
+
+                        myWindow=window.open('','','width=auto,height=auto');
+                        myWindow.document.write('<div style="width:60%; margin-left:auto; margin-right:auto;">');
+                        myWindow.document.write('<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/itplogo2.png" alt="logo" width="235" height="30" class="alignnew"/>');
+                        myWindow.document.write(escaped);
+                        myWindow.document.write('</div>');
+                        myWindow.focus();
+                        myWindow.print(); 
+                    });
+                    });
+            </script>
         </div>
 
     <?php endwhile;
