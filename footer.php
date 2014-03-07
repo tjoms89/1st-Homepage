@@ -201,8 +201,8 @@ function add_this_script_footer() {
         }, 5000);
         });
         
-                        
-            jQuery(function(){
+        // print function              
+        jQuery(function(){
                     
                      jQuery('#btntest').on('click', function() {
                         var php = JSON.stringify(
@@ -239,7 +239,7 @@ function add_this_script_footer() {
                         myWindow.focus();
                         myWindow.print(); 
                     });
-                    });
+           });
 
     </script>
     <?php
