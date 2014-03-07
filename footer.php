@@ -200,6 +200,46 @@ function add_this_script_footer() {
                 jQuery('#ticker li:first').animate({'opacity':0}, 200, function () { jQuery(this).appendTo(jQuery('#ticker')).css('opacity', 1);});
         }, 5000);
         });
+        
+                        
+            jQuery(function(){
+                    
+                     jQuery('#btntest').on('click', function() {
+                        var php = JSON.stringify(
+                                                    <?php
+                                                        $string = array();
+                                                        $string[content] = apply_filters('the_content', get_the_content());
+
+                                                        echo json_encode($string[content]);
+                                                    ?>
+                         );
+                             
+                         var escaped = php.replace(/\\n/g, "")
+                                      .replace(/\\'/g, "")
+                                      .replace(/\\"/g, '')
+                                      .replace(/\\&/g, "")
+                                      .replace(/\\r/g, "")
+                                      .replace(/\\t/g, "")
+                                      .replace(/\\b/g, "")
+                                      .replace(/\\f/g, "")
+                                      .replace('"', '')
+                                      .replace(/<a\b[^>]*>/i,"")
+                                      .replace(/<\/a>/i, "");
+                              
+                         escaped = escaped.substring(0, escaped.length - 1);
+                         
+                         
+
+                        myWindow=window.open('','','width=auto,height=auto,scrollbars=1');
+                        myWindow.document.write('<div style="width:80%; margin-left:auto; margin-right:auto;">');
+                        myWindow.document.write('<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/itplogo2.png" alt="logo" width="235" height="30" class="alignnew"/>');
+                        myWindow.document.write(escaped);
+                        myWindow.document.write('</div>');
+                        myWindow.document.close();
+                        myWindow.focus();
+                        myWindow.print(); 
+                    });
+                    });
 
     </script>
     <?php
