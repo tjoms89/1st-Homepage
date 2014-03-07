@@ -21,7 +21,17 @@ function load_scripts()
         
         wp_register_script( 'html5', get_stylesheet_directory_uri() . '/assets/js/html5shiv.js');
         wp_enqueue_script( 'html5' );
+
+
 }
+
+function add_parent_class_nav( $css_class, $page, $depth, $args )
+{
+    if (!empty($args['has_children']))
+        $css_class[] = 'expand';
+    return $css_class;
+}
+add_filter( 'page_css_class', 'add_parent_class_nav', 10, 4 );
 
 add_action( 'wp_enqueue_scripts', 'load_scripts' );
 
