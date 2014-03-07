@@ -84,9 +84,10 @@ function add_this_script_footer() {
         jQuery(document).ready(function(jQuery) {
 
             // insert pictures with backstretch
-            jQuery(".schiff").backstretch("<?php echo get_stylesheet_directory_uri(); ?>/assets/img/schiff2.jpg");
+            // 
+            //jQuery(".schiff").backstretch("<?php echo get_stylesheet_directory_uri(); ?>/assets/img/schiff2.jpg");
             jQuery(".kurs").backstretch("<?php echo get_stylesheet_directory_uri(); ?>/assets/img/kurs.png");
-            jQuery(".ship").backstretch("<?php echo get_stylesheet_directory_uri(); ?>/assets/img/ship.jpg");
+            //jQuery(".ship").backstretch("<?php echo get_stylesheet_directory_uri(); ?>/assets/img/ship.jpg");
             jQuery(".ice").backstretch("<?php echo get_stylesheet_directory_uri(); ?>/assets/img/ice.jpg");
             jQuery(".eis").backstretch("<?php echo get_stylesheet_directory_uri(); ?>/assets/img/eis.jpg");
             jQuery(".water2").backstretch("<?php echo get_stylesheet_directory_uri(); ?>/assets/img/water2.jpg");           
@@ -96,16 +97,16 @@ function add_this_script_footer() {
             jQuery(".cabos").backstretch("<?php echo get_stylesheet_directory_uri(); ?>/assets/img/cabos.jpg");
             jQuery(".gras").backstretch("<?php echo get_stylesheet_directory_uri(); ?>/assets/img/gras.jpg");
             jQuery(".pust").backstretch("<?php echo get_stylesheet_directory_uri(); ?>/assets/img/pust.jpg");
-            jQuery(".boat").backstretch("<?php echo get_stylesheet_directory_uri(); ?>/assets/img/boat.jpg");             
+            //jQuery(".boat").backstretch("<?php echo get_stylesheet_directory_uri(); ?>/assets/img/boat.jpg");             
             jQuery(".mill").backstretch("<?php echo get_stylesheet_directory_uri(); ?>/assets/img/mill.png");            
             jQuery(".hamburg").backstretch("<?php echo get_stylesheet_directory_uri(); ?>/assets/img/hamburg.jpg");            
             jQuery(".solar").backstretch("<?php echo get_stylesheet_directory_uri(); ?>/assets/img/solar.jpg");           
-            jQuery(".mainpic").backstretch("<?php echo get_stylesheet_directory_uri(); ?>/assets/img/main.jpg");           
+            //jQuery(".mainpic").backstretch("<?php echo get_stylesheet_directory_uri(); ?>/assets/img/main.jpg");           
             jQuery(".meer").backstretch("<?php echo get_stylesheet_directory_uri(); ?>/assets/img/meer.jpg");
 
         });   
 
-        // carousel - not used
+        /* carousel - not used
         jQuery('.carousel').carousel({
             interval: 3000, cycle: true, pause: "hover"
         });
@@ -228,7 +229,9 @@ function add_this_script_footer() {
                               
                          escaped = escaped.substring(0, escaped.length - 1);
                          
-                         
+                         var kontakt = 'E-Mail: service@it-power.org - Tel.:+49 (0)461 487-3434';
+                  
+                         var escaped = escaped.concat(kontakt);
 
                         myWindow=window.open('','','width=auto,height=auto,scrollbars=1');
                         myWindow.document.write('<div style="width:80%; margin-left:auto; margin-right:auto;">');
