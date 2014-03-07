@@ -14,6 +14,11 @@
             <br>
             <?php the_content(); ?>
             <br>
+                 <br>
+                <input id="btntest" type="button" value="drucken" style="height: 25px; border:none;  background-color: #2d438e; color: #FFFFFF;"/>
+                <br>
+                 <br>
+                  <br>
         </div>
     <?php endwhile;
 else: ?>
