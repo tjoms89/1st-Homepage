@@ -11,9 +11,9 @@
 
             </div>
 
-            <div class="row" style="width: 50%; padding-top: 10px; padding-bottom: 20px; vertical-align:middle;">
+            <div class="row" style="width: 50%; padding-top: 10px; padding-bottom: 20px; vertical-align:middle; ">
                         <div class="col-sm-6 col-md-3 changer" style="padding-left: 0px; padding-right: 5px;">
-                            <a href="<?php echo get_permalink(get_page_by_path('leistungen/consulting')); ?>"><span class="links"></span>
+                            <a href="<?php echo get_permalink(get_page_by_path('leistungen/consulting')); ?>" style=" text-decoration: none !important;"><span class="links"></span>
                                 <div id="inner">       
                                     <img class="nonhoverpic" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/user.png" alt="user" width="100" height="100" class="aligncenter size-thumbnail " />
                                     <img style="display:none" class="hoverpic" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/user3.png" alt="user2" width="100" height="100" class="aligncenter size-thumbnail " />      
@@ -26,7 +26,7 @@
                 
 
                         <div class="col-sm-6 col-md-3 changer" style="padding-right: 5px; padding-left: 5px;">
-                                <a href="<?php echo get_permalink(get_page_by_path('leistungen/outputmanagement')); ?>"><span class="links"></span>
+                                <a href="<?php echo get_permalink(get_page_by_path('leistungen/outputmanagement')); ?>" style=" text-decoration: none !important;"><span class="links"></span>
                                     <div id="inner">
                                         <img class="nonhoverpic" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/print.png" alt="document" width="100" height="100" class="aligncenter  size-thumbnail " />
                                         <img style="display:none" class="hoverpic" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/print1.png" alt="document" width="100" height="100" class="aligncenter  size-thumbnail " />
@@ -36,7 +36,7 @@
                                     </div></a>
                         </div>
                         <div class="col-sm-6 col-md-3 changer" style="padding-right: 5px; padding-left: 5px;">
-                                <a href="<?php echo get_permalink(get_page_by_path('leistungen/softwareengineering')); ?>"><span class="links"></span>
+                                <a href="<?php echo get_permalink(get_page_by_path('leistungen/softwareengineering')); ?>" style=" text-decoration: none !important;"><span class="links"></span>
                                     <div id="inner">
                                         <img class="nonhoverpic" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/keyboard.png" alt="keyboard" width="100" height="100" class="aligncenter  size-thumbnail Lato-183" />
                                         <img class="hoverpic" style="display:none" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/keyboard1.png" alt="keyboard" width="100" height="100" class="aligncenter  size-thumbnail Lato-183" />
@@ -46,7 +46,7 @@
                                     </div></a>
                         </div>
                         <div class="col-sm-6 col-md-3 changer" style="padding-right: 0px; padding-left: 5px;">
-                              <a href="<?php echo get_permalink(get_page_by_path('leistungen/infrastruktur')); ?>"><span class="links"></span>
+                              <a href="<?php echo get_permalink(get_page_by_path('leistungen/infrastruktur')); ?>" style=" text-decoration: none !important;"><span class="links"></span>
                                     <div id="inner">                  
                                         <img class="nonhoverpic" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/network.png" alt="network" width="100" height="100" class="aligncenter  size-thumbnail Lato-184" />
                                         <img class="hoverpic" style="display:none" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/network1.png" alt="network" width="100" height="100" class="aligncenter  size-thumbnail Lato-184" />
