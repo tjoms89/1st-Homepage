@@ -119,6 +119,7 @@ li{
 
 html,body{
     height:100%;
+
 }
 
 body{
@@ -456,11 +457,11 @@ body #main ul li a{
 }
 
 .pfeil{
-    background-position: center bottom;
-    background-repeat: no-repeat;
-    display: block;
-    height: 21px;
-    z-index: 300;
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        display: block;
+        height: 21px;
+        z-index: 300;
 }
 
 hr{
@@ -866,7 +867,7 @@ p {
     }
     body #foot
     {
-    height: 300px;
+    height: 350px;
     }
 
 }

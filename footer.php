@@ -109,18 +109,18 @@ function add_this_script_footer() {
         /* carousel - not used
         jQuery('.carousel').carousel({
             interval: 3000, cycle: true, pause: "hover"
-        });
+        }); */
         
-        /* hoverpic for icons - not working properly 
-        jQuery('#changer').on('mouseenter', function() {
+        // hoverpic for icons - not working properly 
+        jQuery('.changer').on('mouseenter', function() {
                 jQuery(this).find('.nonhoverpic').hide();
                 jQuery(this).find('.hoverpic').show();
         });
-        jQuery('#changer').on('mouseleave', function() {
+        jQuery('.changer').on('mouseleave', function() {
                 jQuery('.hoverpic').hide();
                 jQuery('.nonhoverpic').show();
         });
-
+        /*
         jQuery('.nonhoverpic').on('mouseenter', function() {
             jQuery(this).hide();
             jQuery(this).next('.hoverpic').show();
@@ -128,8 +128,8 @@ function add_this_script_footer() {
         jQuery('.hoverpic').on('mouseleave', function() {
             jQuery('.hoverpic').hide();
             jQuery('.nonhoverpic').show();
-        });
-        */
+        }); */
+        
        
         // height for post-page
         jQuery(function() {

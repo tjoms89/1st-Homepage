@@ -48,23 +48,43 @@
                 </div>
             </div>
             <hr>
+            <!--
             <div class="row">
                 <div class="col-md-4">
                     <br>
                     <div id="picture" class="user"></div>
-                    <a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/flens.png" width="300" height="230" class="alignnone size-thumbnail " /></a>
+                    <a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/mpibp.jpg" width="300" height="200" class="alignnone size-thumbnail " /></a>
                     <br>
                 </div>
                 <div class="col-md-8">
                     <br><br><br>
-                    <h2>Flensburger Brauerei</h2>
-                    »Wir haben uns mit der IT-Power bewusst für einen regionalen Partner entschieden. Unsere Ansprechpartner sitzen vor Ort, die Produkte werden individuell gestaltet und der Service ist ausgezeichnet.«
+                    <h2>Max-Planck-Institut für Biophysik</h2>
+                    »Hier fehlt text«
                     <br><br>
                     <b>
-                        - Helmut Horn, IT-Leitung</b>                     
+                        - </b>                     
                     <br><br>
                 </div>
             </div>
+            <hr>   
+           <div class="row">
+                <div class="col-md-4">
+                    <br>
+                    <div id="picture" class="user"></div>
+                    <a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/FUBerlin.jpg" width="600" height="160" class="alignnone size-thumbnail " /></a>
+                    <br>
+                </div>
+                <div class="col-md-8">
+                    <br><br><br>
+                    <h2>Freie Universität Berlin</h2>
+                    »Hier fehlt text«
+                    <br><br>
+                    <b>
+                        - </b>                     
+                    <br><br>
+                </div>
+            </div>
+            -->
             <hr>
             <div class="row">
                 <div class="col-md-4">
