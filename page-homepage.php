@@ -11,7 +11,7 @@
 
             </div>
 
-            <div class="row" style="width: 50%; padding-top: 10px; padding-bottom: 20px;">
+            <div class="row" style="width: 50%; padding-top: 10px; padding-bottom: 20px; vertical-align:middle;">
                         <div class="col-sm-6 col-md-3 changer" style="padding-left: 0px; padding-right: 5px;">
                             <a href="<?php echo get_permalink(get_page_by_path('leistungen/consulting')); ?>"><span class="links"></span>
                                 <div id="inner">       
