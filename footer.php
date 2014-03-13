@@ -140,25 +140,33 @@ function add_this_script_footer() {
             jQuery('#posts').css('height', totalHeight + 50);
         });
 
-        // script for second navigation layer
+        // script for second navigation layer´
         jQuery(function() {
 
                 if (jQuery(window).width() < 765) {
-                        jQuery('.expand').children('.children').show();
-                    
+                        jQuery('.expand').children('.children').css('height','35');
+                        jQuery('.expand').children('.children').css('line-height','1');
+                        jQuery('.navbar').css('height','auto');         
                 }
                 
                 jQuery('.expand').on('mouseenter', function() {
 
                     if (jQuery(window).width() > 765) {
                         // hide all other sub menus
-                        jQuery(this).siblings(this).find('ul').hide();
+                        //jQuery(this).siblings(this).find('ul').hide();
                         jQuery(this).addClass('hover');
                         // show sub nav
+                        jQuery('#subnav').css('height', '72');
+                        jQuery('.navbar').css('height', '122');
+                        jQuery(this).children('.children').css('height','70');
+                        jQuery(this).children('.children').css('line-height','36');
+
+                    }
+                    if (jQuery(window).width() > 980) {
                         jQuery('#subnav').css('height', '36');
                         jQuery('.navbar').css('height', '86');
-                        jQuery(this).children('.children').show();
-
+                        
+                        jQuery(this).children('.children').css('height','35');
                     }
                     
             });
@@ -170,7 +178,9 @@ function add_this_script_footer() {
                                 jQuery('.expand').removeClass('hover');
                                 jQuery('#subnav').css('height', '4');
                                 jQuery('.navbar').css('height', '50');
-                                jQuery(this).children('.children').hide();
+                                //jQuery(this).children('.children').hide();
+                                jQuery(this).children('.children').css('height','0');
+                                jQuery(this).children('.children').css('line-height','0');
                     }
                     
                   }); 

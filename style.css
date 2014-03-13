@@ -143,6 +143,11 @@ a{
     border-bottom: 1px solid; 
     border-color: #2d438e;
     box-shadow: none;
+    transition:  all 0.5s;
+    -webkit-transition:  all 0.5s;
+    -moz-transition:  all 0.5s;
+    -o-transition:  all 0.5s;
+    height:50px;
 }
 
 .navbar-default .navbar-brand{
@@ -176,7 +181,11 @@ a{
 .navbar .nav > li > a
 {
     color: #2d438e;
-    font-size: 11px;
+    font-size: 9px;
+    transition:  all 0.5s;
+    -webkit-transition:  all 0.5s;
+    -moz-transition:  all 0.5s;
+    -o-transition:  all 0.5s;
 }
 
 .navbar .nav > li > a:focus,
@@ -202,6 +211,8 @@ a{
 
 
 
+
+
 /* subnav */
 
 #subnav{
@@ -213,18 +224,34 @@ a{
     background-color: #2d438e;
     color: #FFFFFF;
     visibility: hidden; 
+    transition:  all 0.5s;
+    -webkit-transition:  all 0.5s;
+    -moz-transition:  all 0.5s;
+    -o-transition:  all 0.5s;
 }
 
 #mainnav > li .children {
+    
+    line-height:0;
+    height: 0;
+    overflow: hidden;
 
-    display: none;
     z-index: 1032;
+    transition:  all 0.5s;
+    -webkit-transition:  all 0.5s;
+    -moz-transition:  all 0.5s;
+    -o-transition:  all 0.5s;
+
 }
 
 #mainnav > li .children > li {
     list-style: none outside none;
     z-index: 1032;
     display: inline;
+    transition:  all 0.5s;
+    -webkit-transition:  all 0.5s;
+    -moz-transition:  all 0.5s;
+    -o-transition:  all 0.5s;
 
 }
 
@@ -234,20 +261,26 @@ a{
     background: #FFFFFF;
     z-index: 1032;
     font-size: 10px;
+    transition:  all 0.5s;
+    -webkit-transition:  all 0.5s;
+    -moz-transition:  all 0.5s;
+    -o-transition:  all 0.5s;
 }
 
 
 @media (min-width: 765px){
 #mainnav > li .children {
 
-    display: none;
-    position: fixed;
-    height: 30px;
+    position: fixed;   
     top: 50px;
     width: auto;
     z-index: 1032;
     padding: 0;
     margin: 0;
+    transition:  all 0.5s;
+    -webkit-transition:  all 0.5s;
+    -moz-transition:  all 0.5s;
+    -o-transition:  all 0.5s;
 }
 
 #mainnav > li .children > li {
@@ -256,6 +289,10 @@ a{
     float: left; 
     width: auto;
     z-index: 1032;
+    transition:  all 0.5s;
+    -webkit-transition:  all 0.5s;
+    -moz-transition:  all 0.5s;
+    -o-transition:  all 0.5s;
 }
 
 .navbar .nav > li .children > li > a{
@@ -269,11 +306,21 @@ a{
     z-index: 1032;
     display:table;
     font-size: 12px;
+    transition:  all 0.5s;
+    -webkit-transition:  all 0.5s;
+    -moz-transition:  all 0.5s;
+    -o-transition:  all 0.5s;
 }
+
+
 
 .navbar .nav > li .children > li > a .current_page_item{
     color: #2d438e;
     background: #E7E7E7;
+    transition:  all 0.5s;
+    -webkit-transition:  all 0.5s;
+    -moz-transition:  all 0.5s;
+    -o-transition:  all 0.5s;
 }
 
 #mainnav > li .children > li > a:hover,
@@ -286,9 +333,12 @@ a{
     background-color: #002240;
     color: #FFFFFF;
     z-index: 1032;
+    transition:  all 0.5s;
+    -webkit-transition:  all 0.5s;
+    -moz-transition:  all 0.5s;
+    -o-transition:  all 0.5s;
 }
 }
-
 
 .customize-support #subnav{
     top: 78px;
@@ -770,6 +820,8 @@ p {
 }
 @media (min-width: 570px){
     
+
+    
     body #posts, .width1
     {
         width: 60%;
@@ -804,6 +856,7 @@ p {
 }
 
 @media (min-width: 768px){
+
 
 
     body #foot

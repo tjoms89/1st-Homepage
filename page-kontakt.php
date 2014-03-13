@@ -68,7 +68,7 @@
                         <div class="thumbnail">
 
                             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/karsten.png" alt="BILD" width="145" height="96" class="alignnone size-thumbnail ">		 	 
-                            <div class="caption">	
+                            <div class="caption">	<br>
                                 <h3>Karsten Milewsky</h3>	 	 
                                 <p style="font-weight: bold;">Leiter Output Management</p>
                                 <br>
@@ -76,7 +76,7 @@
                                 <p>Fax: +49 (0)461 487-2434</p>
                                 <p>Mobil: +49 (0)175/4384772</p>
                                 <p><a href="mailto:karsten.milewsky@it-power.org">karsten.milewsky@it-power.org</a></p>
-                                <br><br><br>
+                                <br><br>
                             </div></div></div>
                                         
                     <div class="col-sm-3 col-md-3">	 	 
