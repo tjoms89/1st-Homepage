@@ -65,10 +65,10 @@
                                 <p>Mobil: +49 (0)170/4504409</p>
                                 <p><a href="mailto:ingo.sack@it-power.org">ingo.sack@it-power.org</a></p>
                                 <br><br>
-                            </div></div></div>	 	
+                            </div></div></div>	 -->
+                    
                     <div class="col-sm-3 col-md-3">	 	
                         <div class="thumbnail">
-                    -->
                             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/karsten.png" alt="BILD" width="145" height="96" class="alignnone size-thumbnail ">		 	 
                             <div class="caption">	<br>
                                 <h3>Karsten Milewsky</h3>	 	 
