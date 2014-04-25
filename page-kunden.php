@@ -47,8 +47,9 @@
                     <br><br>
                 </div>
             </div>
+            
+            
             <hr>
-            <!--
             <div class="row">
                 <div class="col-md-4">
                     <br>
@@ -84,7 +85,7 @@
                     <br><br>
                 </div>
             </div>
-            -->
+            
             <hr>
             <div class="row">
                 <div class="col-md-4">

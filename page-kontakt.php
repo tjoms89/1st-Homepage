@@ -12,7 +12,7 @@
                                 <h3>Sven Ladewig</h3>	 	 
                                 <p style="font-weight: bold;">Geschäftsführer</p>
                                 <p style="font-weight: bold;">Leiter Vertrieb / Marketing   <p>
-                                <p style="font-weight: bold;">Leiter Software Engineering<p>
+                                    <br>
                                     <br>
                                 <p>Tel.: +49 (0)461 487-3424</p>
                                 <p>Fax: +49 (0)461 487-2424</p>
@@ -38,12 +38,13 @@
 
                 <div class="row">
                     <br>
-                    <div class="col-sm-3 col-md-3">	 	 
+                    <div class="col-sm-6 col-md-6">	 	 
                         <div class="thumbnail">	 	 
                             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/jan_ipsen.jpg" alt="BILD" width="150" height="100" class="alignnone size-thumbnail ">		 	 
                             <div class="caption">	 	 
                                 <h3>Jan Ipsen</h3>	 	 
                                 <p style="font-weight: bold;">Leiter IT-Infrastruktur</p>
+                                <p style="font-weight: bold;">Leiter Software-Engineering</p>
                                 <br>
                                 <p>Tel.: +49 (0)461 487-3415</p>
                                 <p>Fax: +49 (0)461 487-2414</p>
@@ -51,6 +52,7 @@
                                 <p><a href="mailto:jan.ipsen@it-power.org">jan.ipsen@it-power.org</a></p>
                                 <br><br>
                             </div></div></div>	 
+                    <!--
                     <div class="col-sm-3 col-md-3">	 	
                         <div class="thumbnail">	 	 
                             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/ingo_sack.jpg" alt="BILD" width="150" height="100" class="alignnone size-thumbnail ">		 	 
@@ -66,7 +68,7 @@
                             </div></div></div>	 	
                     <div class="col-sm-3 col-md-3">	 	
                         <div class="thumbnail">
-
+                    -->
                             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/karsten.png" alt="BILD" width="145" height="96" class="alignnone size-thumbnail ">		 	 
                             <div class="caption">	<br>
                                 <h3>Karsten Milewsky</h3>	 	 
