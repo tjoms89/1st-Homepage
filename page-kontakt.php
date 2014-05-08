@@ -39,7 +39,7 @@
 
                 <div class="row">
                     <br>
-                    <div class="col-sm-6 col-md-6">	 	 
+                    <div class="col-sm-4 col-md-4">	 	 
                         <div class="thumbnail">	 	 
                             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/jan_ipsen.jpg" alt="BILD" width="150" height="100" class="alignnone size-thumbnail ">		 	 
                             <div class="caption">	 	 
@@ -68,7 +68,7 @@
                                 <br><br>
                             </div></div></div>	 -->
                     
-                    <div class="col-sm-3 col-md-3">	 	
+                    <div class="col-sm-4 col-md-4">	 	
                         <div class="thumbnail">
                             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/karsten.png" alt="BILD" width="145" height="96" class="alignnone size-thumbnail ">		 	 
                             <div class="caption">	<br>
@@ -82,7 +82,7 @@
                                 <br><br><br>
                             </div></div></div>
                                         
-                    <div class="col-sm-3 col-md-3">	 	 
+                    <div class="col-sm-4 col-md-4">	 	 
                         <div class="thumbnail">	 	 
                             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/lisa.png" alt="BILD" width="145" height="96" class="alignnone size-thumbnail ">		 	 
                             <div class="caption">	 	 
