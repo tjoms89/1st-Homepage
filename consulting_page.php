@@ -5,7 +5,7 @@ Template Name: Consulting Template
 ?>
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-        <div id="intro-small" class="ice">
+        <div id="intro-small" class="water3">
             <div class="row">
                 <div class="background5">
                     <h1> Consulting </h1>
