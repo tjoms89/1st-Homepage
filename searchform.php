@@ -11,7 +11,7 @@
         <span class="input-group-btn">
             <!--<button type="submit" class="btn" style="background-color: #2d438e !important; background-image: none; color: #FFFFFF !important; border: 1px solid #FFFFFF !important;" ><i class="icon-search">Suche</i></button>
             -->
-            <button type="submit" class="btn" style="background-color: #FFFFFF !important; background-image: none; color: #2d438e !important; border-bottom: 1px solid #2d438e !important; border-top: 1px solid #2d438e !important; border-right: 1px solid #2d438e !important; height: 19px;" ><i class="icon-search">Suche</i></button>
+            <button type="submit" class="btn" style="background-color: #FFFFFF !important; background-image: none; color: #2d438e !important; border-bottom: 1px solid #2d438e !important; border-top: 1px solid #2d438e !important; border-right: 1px solid #2d438e !important; height: 34px;" ><i class="icon-search">Suche</i></button>
         
         </span>
     </div> <!-- .input-group -->
