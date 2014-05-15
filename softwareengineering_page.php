@@ -49,12 +49,13 @@ Template Name: Softwareengineering Template
                  <br>
                   <br>
             
-            </div></div>
+            </div></div></div>
+<br>
     <div class="col-md-1"></div>
     <div class="col-md-3 ">
         <?php get_sidebar("software"); ?>
             </div>
-</div></div></div>
+</div>
 <br>
 <br>
     <?php endwhile;

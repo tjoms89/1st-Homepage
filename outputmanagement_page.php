@@ -39,13 +39,13 @@ Template Name: Outputmanagement Template
                  <br>
                   <br>
             
-            </div></div>
+            </div></div></div>
+<br>
     <div class="col-md-1"></div>
     <div class="col-md-3 ">
         <?php get_sidebar("consulting"); ?>
             </div>
-</div></div>
-<br>
+</div>
 <br>
 
     <?php endwhile;
