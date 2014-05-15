@@ -8,7 +8,7 @@
 
 
 </div>
-<div class="row width1">
+<div class="row width2">
 
         <div id="sidebar">
             
@@ -16,7 +16,7 @@
         </div>
 
 </div>
-<div id="posts" class="width1">
+<div id="posts" class="width2">
 
     <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 

@@ -15,7 +15,7 @@ Template Name: Dienstleistungen Template
             <div id="inhalt"></div>
         </div>
         <br>
-        <div class="row width1" style="border:2px solid #2d438e;">
+        <div class="row width2" style="border:2px solid #2d438e;">
             <div class="col-md-12"  style="padding: 10px 0 !important;"> 
     
                     <ul class="content-navigation" >
