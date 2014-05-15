@@ -42,7 +42,7 @@ Template Name: Outputmanagement Template
             </div></div></div>
     <div class="col-md-1"></div>
     <div class="col-md-3 ">
-        <?php get_sidebar("consulting"); ?>
+        <?php get_sidebar("output"); ?>
             </div>
 </div>
 <br><br>
