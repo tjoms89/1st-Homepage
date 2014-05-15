@@ -1,8 +1,8 @@
 
-<div class="col-md-12" style="border:2px solid #2d438e;">
+<div class="col-md-12 scroll" style="border:2px solid #2d438e;">
 
                     <div class="thumbnail">	 	 
-                            <img style="border: 1px solid;" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/jan_ipsen.jpg" alt="BILD" width="150" height="100" class="alignnone size-thumbnail ">		 	 
+                            <img class="showup" style="border: 1px solid;" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/jan_ipsen.jpg" alt="BILD" width="150" height="100" class="alignnone size-thumbnail ">		 	 
                             <div class="caption">	 	 
                                 <h3>Jan Ipsen</h3>	 	 
                                 <p style="font-weight: bold;">Leiter IT-Infrastruktur</p>

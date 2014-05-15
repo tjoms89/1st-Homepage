@@ -1,6 +1,6 @@
 
-<div id="foot"
-     <footer>
+<div id="foot" >
+     <footer style="z-index: 10;">
          <div class="row">
         <div class="col-sm-6 col-md-3" >
             <ul class="ulfooter">
@@ -132,6 +132,33 @@ function add_this_script_footer() {
         }); */
         
        
+
+        var stickyTop = jQuery('.scroll').offset().top; // returns number   
+        var stickybot = jQuery('#foot').height();
+
+        jQuery(window).scroll(function(){ // scroll event
+ 
+            var windowTop = jQuery(window).scrollTop() + 55; // returns number
+             
+            if (stickybot < windowTop ) {
+               jQuery('.scroll').css({ position: 'fixed' });
+
+            if (stickyTop < windowTop ) {
+                jQuery('.scroll').css({ position: 'fixed', top: 55 });
+                jQuery('.showup').hide();
+            }
+
+            else {
+                jQuery('.scroll').css('position','static');
+            }
+                        }
+            else {
+                jQuery('.scroll').css('position','static');
+                jQuery('.showup').show();
+            }
+            });
+ 
+
         // height for post-page
         jQuery(function() {
             var totalHeight = 0;
