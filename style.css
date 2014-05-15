@@ -750,7 +750,8 @@ p {
     border: 0;
     padding: 0 !important;
     width: 100%;
-    border: #2d438e solid;
+    border: 1px solid;
+    border-color: #2d438e;
 }
 
 .wpcf7-submit{
