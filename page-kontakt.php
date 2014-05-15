@@ -15,9 +15,9 @@
                                 <p style="font-weight: bold;">Leiter Consulting  <p>
                                     <br>
          
-                                <p>Tel.: +49 (0)461 487-3424</p>
-                                <p>Fax: +49 (0)461 487-2424</p>
-                                <p>Mobil: +49 (0)171/5533629</p>
+                                <p>Tel.: +49  461 487-3424</p>
+                                <p>Fax: +49  461 487-2424</p>
+                                <p>Mobil: +49  171/5533629</p>
                                 <p><a href="mailto:sven.ladewig@it-power.org">sven.ladewig@it-power.org</a></p>
                                 <br>
                             </div></div></div>	
@@ -30,8 +30,8 @@
                                 <h3>Maik Render</h3>	 	 
                                 <p style="font-weight: bold;" >Geschäftsführer</p>
                                 <br>
-                                <p>Tel.: +49 (0)461 487-3424</p>
-                                <p>Fax: +49 (0)461 487-2424</p>
+                                <p>Tel.: +49  461 487-3424</p>
+                                <p>Fax: +49  461 487-2424</p>
                                 <p><a href="mailto:service@it-power.org">service@it-power.org</a></p>
                                 <br><br><br><br>	 	 	 	 
                             </div></div></div>
@@ -47,9 +47,9 @@
                                 <p style="font-weight: bold;">Leiter IT-Infrastruktur</p>
                                 <p style="font-weight: bold;">Leiter Software-Engineering</p>
                                 <br>
-                                <p>Tel.: +49 (0)461 487-3415</p>
-                                <p>Fax: +49 (0)461 487-2414</p>
-                                <p>Mobil: +49 (0)151/22972390</p>
+                                <p>Tel.: +49  461 487-3415</p>
+                                <p>Fax: +49  461 487-2414</p>
+                                <p>Mobil: +49  151/22972390</p>
                                 <p><a href="mailto:jan.ipsen@it-power.org">jan.ipsen@it-power.org</a></p>
                                 <br><br>
                             </div></div></div>	 
@@ -61,9 +61,9 @@
                                 <h3>Ingo Sack</h3>	 	 
                                 <p style="font-weight: bold;">Leiter Consulting</p>
                                 <br>
-                                <p>Tel.: +49 (0)461 487-3434</p>
-                                <p>Fax: +49 (0)461 487-2424</p>
-                                <p>Mobil: +49 (0)170/4504409</p>
+                                <p>Tel.: +49  461 487-3434</p>
+                                <p>Fax: +49  461 487-2424</p>
+                                <p>Mobil: +49  170/4504409</p>
                                 <p><a href="mailto:ingo.sack@it-power.org">ingo.sack@it-power.org</a></p>
                                 <br><br>
                             </div></div></div>	 -->
@@ -75,9 +75,9 @@
                                 <h3>Karsten Milewsky</h3>	 	 
                                 <p style="font-weight: bold;">Leiter Output Management</p>
                                 <br>
-                                <p>Tel.: +49 (0)461 487-3439</p>
-                                <p>Fax: +49 (0)461 487-2434</p>
-                                <p>Mobil: +49 (0)175/4384772</p>
+                                <p>Tel.: +49  461 487-3439</p>
+                                <p>Fax: +49  461 487-2434</p>
+                                <p>Mobil: +49  175/4384772</p>
                                 <p><a href="mailto:karsten.milewsky@it-power.org">karsten.milewsky@it-power.org</a></p>
                                 <br><br><br>
                             </div></div></div>
@@ -90,9 +90,9 @@
                                 <p style="font-weight: bold;">Leiterin Backoffice &</p>
                                 <p style="font-weight: bold;">Assistentin der Geschäftsführung<p>
                                     <br>
-                                <p>Tel: +49 (0) 461 487-3434</p>
-                                <p>Fax: +49 (0)461 487-2434</p>
-                                <p>Mobil: +49 (0)151/14044583</p>
+                                <p>Tel: +49   461 487-3434</p>
+                                <p>Fax: +49  461 487-2434</p>
+                                <p>Mobil: +49  151/14044583</p>
                                 <p><a href="mailto:lisa.dubbert@it-power.org">lisa.dubbert@it-power.org</a></p>
                                 <br><br>
                             </div></div></div>	
@@ -106,8 +106,8 @@
                 <h4>
                     Batteriestraße 48 <br>
                     D - 24939 Flensburg <br>
-                    Tel.: +49(0)461/487 - 3434  <br>
-                    Fax: +49(0)461/487 - 2434  <br>
+                    Tel.: +49 461/487 - 3434  <br>
+                    Fax: +49 461/487 - 2434  <br>
                     <a href="mailto:service@it-power.org">service@it-power.org</a></h4>  <br>	 
                 <h3>Kontaktformular: </h3>
                 <div class="form"><?php the_content(); ?></div>

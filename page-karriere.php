@@ -86,9 +86,9 @@
                             <p style="font-weight: bold;">Leiter Software Engineering<p>
                             <p style="font-weight: bold;">Leiter Vertrieb / Marketing   <p>
                                 <br>
-                            <p>Tel.: +49 (0)461 487-3424</p>
-                            <p>Fax: +49 (0)461 487-2424</p>
-                            <p>Mobil: +49 (0)171/5533629</p>
+                            <p>Tel.: +49  461 487-3424</p>
+                            <p>Fax: +49  461 487-2424</p>
+                            <p>Mobil: +49  171/5533629</p>
                             <p><a href="mailto:">sven.ladewig@it-power.org</a></p>
                         </div></div></div>    
             </div>

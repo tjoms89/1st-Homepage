@@ -33,7 +33,7 @@
             </div>
             <div class="row">
             <ul class="ulfooter2"> 	 	 	 
-                <li><a href="tel:+494614873434">Tel.: +49 (0)461 487-3434</a></li><br>
+                <li><a href="tel:+494614873434">Tel.: +49  461 487-3434</a></li><br>
                 <li><a href="mailto:service@it-power.org">service@it-power.org</a></li>
             </ul>
             </div>
@@ -240,7 +240,7 @@ function add_this_script_footer() {
                               
                          escaped = escaped.substring(0, escaped.length - 1);
                          
-                         var kontakt = 'E-Mail: service@it-power.org - Tel.:+49 (0)461 487-3434';
+                         var kontakt = 'E-Mail: service@it-power.org - Tel.:+49  461 487-3434';
                   
                          var escaped = escaped.concat(kontakt);
 
