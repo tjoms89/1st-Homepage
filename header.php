@@ -75,7 +75,7 @@
                     wp_list_pages( $args );
                     ?>
                     
-                    <li style="text-align: right; margin-left: 50px; margin-top: 10px;"><?php get_search_form(); ?></li>
+                    <li class="collapse" style="text-align: right; margin-left: 150px; margin-top: 10px;"><?php get_search_form(); ?></li>
                     
                 </ul>
                 <!--      
