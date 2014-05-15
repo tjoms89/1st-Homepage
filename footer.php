@@ -257,9 +257,10 @@ function add_this_script_footer() {
                         myWindow.focus();
                         myWindow.print(); 
                     });
-                    
-                            var stickyTop = jQuery('.scroll').offset().top; // returns number   
-                            var stickybot = jQuery('#foot').height();
+                            var stickyTop = 0;
+                            var stickybot = 0;
+                            stickyTop = jQuery('.scroll').offset().top; // returns number   
+                            stickybot = jQuery('#foot').height();
 
                             jQuery(window).scroll(function(){ // scroll event
  
