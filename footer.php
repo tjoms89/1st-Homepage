@@ -203,7 +203,7 @@ function add_this_script_footer() {
             jQuery("#intro").css('height', jQuery("#intro").height());
         }
         else {
-            jQuery("#intro").css('height', jQuery(window).height());
+            jQuery("#intro").css('height', jQuery(window).height() - 150);
         }
         
         // ticker for post-page
