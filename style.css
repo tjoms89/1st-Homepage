@@ -750,6 +750,7 @@ p {
     border: 0;
     padding: 0 !important;
     width: 100%;
+    border: #2d438e solid;
 }
 
 .wpcf7-submit{
