@@ -770,6 +770,10 @@ p {
     {
           width: 90%;
     }
+        body #posts, .width2
+    {
+          width: 90%;
+    }
  
 }
 
@@ -842,6 +846,11 @@ p {
     body #posts, .width1
     {
            margin-left: 20% !important;
+
+    }
+        body #posts, .width2
+    {
+           width: 60%;
 
     }
 
