@@ -768,8 +768,9 @@ p {
 @media (min-width: 10px){
     body #posts, .width1
     {
-        width: 90%;
+          width: 90%;
     }
+ 
 }
 
 @media (min-width: 200px){
@@ -840,7 +841,8 @@ p {
     
     body #posts, .width1
     {
-        width: 60%;
+           margin-left: 20% !important;
+
     }
 
     #intro h1, #intro-small h1{
@@ -939,4 +941,17 @@ p {
     height: 350px;
     }
 
+
+}
+
+@media (max-width: 1300px){
+     .hider{
+        visibility: hidden;
+        width: 0px;
+        height: 0px;
+    }
+}
+@media (min-width: 1300px){    
+    .navbar-collapse > ul{ margin-right:120px;}
+   
 }

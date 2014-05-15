@@ -16,6 +16,8 @@ Template Name: Softwareengineering Template
             <div id="inhalt"></div>
         </div>
 <br>
+<div id="row">
+    <div class="col-md-8">
         <div class="row width1" style="border:2px solid #2d438e;">
             <div class="col-md-6"  style="padding: 10px 0 !important;"> 
     
@@ -48,8 +50,13 @@ Template Name: Softwareengineering Template
                   <br>
             
             </div>
-            
-        </div>
+    <div class="col-md-1"></div>
+    <div class="col-md-3 ">
+        <?php get_sidebar("software"); ?>
+            </div>
+</div></div></div>
+<br>
+<br>
     <?php endwhile;
 else: ?>
     <p><?php _e('Tut uns Leid. Die Seite existiert nicht.'); ?></p>

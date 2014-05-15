@@ -15,6 +15,8 @@ Template Name: Consulting Template
             <div id="inhalt"></div>
         </div>
 <br>
+<div class="row">
+    <div class="col-md-8">
         <div class="row width1" style="border:2px solid #2d438e;">
             <div class="col-md-6"  style="padding: 10px 0 !important;"> 
     
@@ -37,7 +39,7 @@ Template Name: Consulting Template
                     </ul>
                 </div>
         </div>
-        <div id="main" class="width1">
+        <div id="main" class="width1" >
             <div class="col-md-12">
 
                 <br>
@@ -46,12 +48,20 @@ Template Name: Consulting Template
                  <br>
                 <input id="btntest" type="button" value="drucken" style="height: 25px; border:none;  background-color: #2d438e; color: #FFFFFF;"/>
                 <br>
-                 <br>
-                  <br>
+                 
             
             </div>
 
         </div>
+    </div>
+    <div class="col-md-1"></div>
+    <div class="col-md-3 ">
+        <?php get_sidebar("consulting"); ?>
+            </div>
+
+</div>
+            <br>
+            <br>
 
     <?php endwhile;
 else:

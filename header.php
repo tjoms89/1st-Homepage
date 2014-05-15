@@ -75,9 +75,10 @@
                     wp_list_pages( $args );
                     ?>
                     
-                    <li class="collapse" style="text-align: right; margin-left: 200px; margin-top: 10px;"><?php get_search_form(); ?></li>
+
                     
                 </ul>
+                <div class="hider" style="margin-top: 8px;"><?php get_search_form(); ?></div>
                 <!--      
                 <div class="col-xs-5 col-sm-3 pull-right">
                     <form class="navbar-form" role="search" style="border: none !important;" > 

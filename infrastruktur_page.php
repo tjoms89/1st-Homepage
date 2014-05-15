@@ -15,7 +15,8 @@ Template Name: Infrastruktur Template
             <br><br><br><br>
             <div id="inhalt"></div>
         </div>
-
+<div id="row">
+    <div class="col-md-8">
         <div id="main" class="width1">
             <div class="col-md-12">
 
@@ -31,6 +32,13 @@ Template Name: Infrastruktur Template
             </div>
             
         </div>
+    <div class="col-md-1"></div>
+    <div class="col-md-3 ">
+        <?php get_sidebar("infrastruktur"); ?>
+            </div>
+</div></div>
+<br>
+<br>
     <?php endwhile;
 else: ?>
     <p><?php _e('Tut uns Leid. Die Seite existiert nicht.'); ?></p>
