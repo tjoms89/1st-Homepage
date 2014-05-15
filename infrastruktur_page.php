@@ -32,7 +32,7 @@ Template Name: Infrastruktur Template
             </div>
             
         </div></div>
-<br>
+
     <div class="col-md-1"></div>
     <div class="col-md-3 ">
         <?php get_sidebar("infrastruktur"); ?>
