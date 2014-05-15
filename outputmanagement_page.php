@@ -36,8 +36,8 @@ Template Name: Outputmanagement Template
                              <br>
                 <input id="btntest" type="button" value="drucken" style="height: 25px; border:none;  background-color: #2d438e; color: #FFFFFF;"/>
                 <br>
-     
-                
+                <br>
+                <br>
             
             </div></div></div>
     <div class="col-md-1"></div>
