@@ -257,8 +257,7 @@ function add_this_script_footer() {
                         myWindow.focus();
                         myWindow.print(); 
                     });
-                            var stickyTop = 0;
-                            var stickybot = 0;
+                          if (jQuery(".scroll").length){
                             stickyTop = jQuery('.scroll').offset().top; // returns number   
                             stickybot = jQuery('#foot').height();
 
@@ -282,7 +281,7 @@ function add_this_script_footer() {
                                 jQuery('.scroll').css('position','static');
                                 jQuery('.showup').show();
                             }
-                            });
+                            });}
            });
 
     </script>
