@@ -14,7 +14,7 @@
         </div>
             
         </div>
-        <div id="main" style="text-align: center;" class="width1">
+        <div id="main" style="text-align: center;" class=" width2">
             <div class="row">
                 <br><br>
                 <div class="col-md-12"><p>

@@ -5,7 +5,7 @@ $results_count = $wp_query->found_posts;
 ?>
 <div>
     <br><br><br><br>
-    <div class="row width1" style="border:2px solid #2d438e;">
+    <div class="row  width2" style="border:2px solid #2d438e;">
     <div class="row" style="width:90%;" >
         <h1>Suche <span class="keyword">&ldquo;<?php the_search_query(); ?>&rdquo;</span></h1>
         <?php if ($results_count == '' || $results_count == 0) { // No Results ?>
@@ -24,7 +24,7 @@ $results_count = $wp_query->found_posts;
 </div>
 
 <div id="main">
-    <div class="row width1" style="word-wrap: break-word;">
+    <div class="row  width2" style="word-wrap: break-word;">
                 <br>
             <?php if (have_posts()) : // Results Found ?>
 

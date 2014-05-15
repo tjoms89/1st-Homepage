@@ -5,7 +5,7 @@
         <div id="intro-small" style="background:url(<?php echo get_stylesheet_directory_uri(); ?>/assets/img/formware.jpg) no-repeat center; background-color: #fff;">
         </div>
         
-        <div id="main" class="width1">        
+        <div id="main" class=" width2">        
             <div class="row">
                 <br>
                 <div class="col-md-12">
