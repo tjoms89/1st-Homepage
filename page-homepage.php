@@ -59,9 +59,9 @@
         </div>
             
         
-        <div class="home-footer">
+        <!--<div class="home-footer">
             <a class="pfeil" href="#foot"><img class="aligncenter" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/arrow.png" alt="footer" /></a>
-        </div>
+        </div> -->
     </div>
 
 
