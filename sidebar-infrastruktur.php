@@ -13,6 +13,6 @@
                                 <p>Fax: +49  461 487-2414</p>
                                 <p>Mobil: +49  151/22972390</p>
                                 <p><a href="mailto:jan.ipsen@it-power.org">jan.ipsen@it-power.org</a></p>
-                                <br><br>
+                                <br>
                             </div></div>
 </div> 

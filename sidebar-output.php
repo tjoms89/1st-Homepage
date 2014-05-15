@@ -12,6 +12,6 @@
                                 <p>Fax: +49  461 487-2434</p>
                                 <p>Mobil: +49  175/4384772</p>
                                 <p><a href="mailto:karsten.milewsky@it-power.org">karsten.milewsky@it-power.org</a></p>
-                                <br><br><br>
+                                <br>
                             </div></div>
 </div> 
