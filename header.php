@@ -75,6 +75,8 @@
                     wp_list_pages( $args );
                     ?>
                     
+                    <li style="text-align: right;"><?php get_search_form(); ?></li>
+                    
                 </ul>
                 <!--      
                 <div class="col-xs-5 col-sm-3 pull-right">
