@@ -263,13 +263,13 @@ function add_this_script_footer() {
 
                             jQuery(window).scroll(function(){ // scroll event
  
-                            var windowTop = jQuery(window).scrollTop() + 55; // returns number
+                            var windowTop = jQuery(window).scrollTop() + 65; // returns number
              
                             if (stickybot < windowTop ) {
                             jQuery('.scroll').css({ position: 'fixed' });
 
                             if (stickyTop < windowTop ) {
-                                jQuery('.scroll').css({ position: 'fixed', top: 55 });
+                                jQuery('.scroll').css({ position: 'fixed', top: 65 });
                                 jQuery('.showup').hide();
                             }
 
