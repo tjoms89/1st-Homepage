@@ -47,45 +47,7 @@
                     <br><br>
                 </div>
             </div>
-            
-            
-            <hr>
-            <div class="row">
-                <div class="col-md-4">
-                    <br>
-                    <div id="picture" class="user"></div>
-                    <a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/mpibp.jpg" width="300" height="200" class="alignnone size-thumbnail " /></a>
-                    <br>
-                </div>
-                <div class="col-md-8">
-                    <br><br><br>
-                    <h2>Max-Planck-Institut für Biophysik</h2>
-                    »Hier fehlt text«
-                    <br><br>
-                    <b>
-                        - </b>                     
-                    <br><br>
-                </div>
-            </div>
-            <hr>   
-           <div class="row">
-                <div class="col-md-4">
-                    <br>
-                    <div id="picture" class="user"></div>
-                    <a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/FUBerlin.jpg" width="600" height="160" class="alignnone size-thumbnail " /></a>
-                    <br>
-                </div>
-                <div class="col-md-8">
-                    <br><br><br>
-                    <h2>Freie Universität Berlin</h2>
-                    »Hier fehlt text«
-                    <br><br>
-                    <b>
-                        - </b>                     
-                    <br><br>
-                </div>
-            </div>
-            
+           
             <hr>
             <div class="row">
                 <div class="col-md-4">
@@ -122,6 +84,40 @@
                     <br><br>
                 </div>
             </div>
+                        
+            <hr>
+            <div class="row">
+                <div class="col-md-4">
+                    <br>
+                    <div id="picture" class="user"></div>
+                    <a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/mpibp.jpg" width="300" height="200" class="alignnone size-thumbnail " /></a>
+                    <br>
+                </div>
+                <div class="col-md-8">
+                    <br><br><br>
+                    <h2>Max-Planck-Institut für Biophysik</h2>
+                    <br><br>
+                    <b></b>                     
+                    <br><br>
+                </div>
+            </div>
+            <hr>   
+           <div class="row">
+                <div class="col-md-4">
+                    <br>
+                    <div id="picture" class="user"></div>
+                    <a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/FUBerlin.jpg" width="600" height="160" class="alignnone size-thumbnail " /></a>
+                    <br>
+                </div>
+                <div class="col-md-8">
+                    <br><br><br>
+                    <h2>Freie Universität Berlin</h2>
+                    <br><br>
+                    <b></b>                     
+                    <br><br>
+                </div>
+            </div>
+            
 
         </div>
 
