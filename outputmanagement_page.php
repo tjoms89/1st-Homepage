@@ -22,7 +22,7 @@ Template Name: Outputmanagement Template
     
                     <ul class="content-navigation" >
                         <li id="0"><a href="<?php echo get_permalink(get_page_by_path('leistungen/outputmanagement')); ?>#inhalt">Allgemein</a></li>
-                        <li id="1"><a href="<?php echo get_permalink(get_page_by_path('leistungen/outputmanagement/rechenzentrum')); ?>#inhalt">Rechenzentrumsdienste</a></li>
+                        <li id="1"><a href="<?php echo get_permalink(get_page_by_path('leistungen/outputmanagement/order-management-system')); ?>#inhalt">Order Management System</a></li>
                     </ul>
                 </div>
         </div>

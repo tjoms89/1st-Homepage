@@ -39,7 +39,7 @@
 
                 <div class="row">
                     <br>
-                    <div class="col-sm-4 col-md-4">	 	 
+                    <div class="col-sm-3 col-md-3">	 	 
                         <div class="thumbnail">	 	 
                             <img style="border: 1px solid;" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/jan_ipsen.jpg" alt="BILD" width="150" height="100" class="alignnone size-thumbnail ">		 	 
                             <div class="caption">	 	 
@@ -53,22 +53,8 @@
                                 <p><a href="mailto:jan.ipsen@it-power.org">jan.ipsen@it-power.org</a></p>
                                 <br><br>
                             </div></div></div>	 
-                    <!--
-                    <div class="col-sm-3 col-md-3">	 	
-                        <div class="thumbnail">	 	 
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/ingo_sack.jpg" alt="BILD" width="150" height="100" class="alignnone size-thumbnail ">		 	 
-                            <div class="caption">	 	 
-                                <h3>Ingo Sack</h3>	 	 
-                                <p style="font-weight: bold;">Leiter Consulting</p>
-                                <br>
-                                <p>Tel.: +49  461 487-3434</p>
-                                <p>Fax: +49  461 487-2424</p>
-                                <p>Mobil: +49  170/4504409</p>
-                                <p><a href="mailto:ingo.sack@it-power.org">ingo.sack@it-power.org</a></p>
-                                <br><br>
-                            </div></div></div>	 -->
                     
-                    <div class="col-sm-4 col-md-4">	 	
+                    <div class="col-sm-3 col-md-3">	 	
                         <div class="thumbnail">
                             <img style="border: 1px solid;" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/karsten.png" alt="BILD" width="145" height="96" class="alignnone size-thumbnail ">		 	 
                             <div class="caption">	<br>
@@ -82,7 +68,7 @@
                                 <br><br><br>
                             </div></div></div>
                                         
-                    <div class="col-sm-4 col-md-4">	 	 
+                    <div class="col-sm-3 col-md-3">	 	 
                         <div class="thumbnail">	 	 
                             <img style="border: 1px solid;" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/lisa.png" alt="BILD" width="145" height="96" class="alignnone size-thumbnail ">		 	 
                             <div class="caption">	 	 
@@ -94,6 +80,20 @@
                                 <p>Fax: +49  461 487-2434</p>
                                 <p>Mobil: +49  151/14044583</p>
                                 <p><a href="mailto:lisa.dubbert@it-power.org">lisa.dubbert@it-power.org</a></p>
+                                <br><br>
+                            </div></div></div>	
+                    
+                                       
+                    <div class="col-sm-3 col-md-3">	 	
+                        <div class="thumbnail">	 	 
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/frederic.jpg" alt="BILD" width="150" height="100" class="alignnone size-thumbnail ">		 	 
+                            <div class="caption">	 	 
+                                <h3>Frederic M. Thordsen</h3>	 	 
+                                <p style="font-weight: bold;">Vertrieb</p>
+                                <br>
+                                <p>Tel.: +49  461/487-3434</p>
+                                <p>Fax: +49  461/487-2424</p>
+                                <p><a href="mailto:frederic.thordsen@it-power.org">frederic.thordsen@it-power.org</a></p>
                                 <br><br>
                             </div></div></div>	
 
