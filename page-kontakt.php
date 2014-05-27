@@ -56,7 +56,7 @@
                     
                     <div class="col-sm-3 col-md-3">	 	
                         <div class="thumbnail">
-                            <img style="border: 1px solid; min-height: 180px; max-height: 180px;" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/karsten.png" alt="BILD" width="145" height="96" class="alignnone size-thumbnail ">		 	 
+                            <img style="border: 1px solid; min-height: 150px; max-height: 150px; margin-top: 30px;" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/karsten.png" alt="BILD" width="145" height="96" class="alignnone size-thumbnail ">		 	 
                             <div class="caption">	<br>
                                 <h3>Karsten Milewsky</h3>	 	 
                                 <p style="font-weight: bold;">Leiter Output Management</p>
@@ -94,7 +94,7 @@
                                 <p>Tel.: +49  461/487-3434</p>
                                 <p>Fax: +49  461/487-2424</p>
                                 <p><a href="mailto:frederic.thordsen@it-power.org">frederic.thordsen@it-power.org</a></p>
-                                <br><br><br>
+                                <br><br><br><br>
                             </div></div></div>	
 
                 </div>
