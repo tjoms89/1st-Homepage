@@ -848,9 +848,7 @@ p {
 @media (min-width: 570px){
     
 
-    body .scroll{
-        visibility: visible;
-    }
+
     body #posts, .width1
     {
            margin-left: 20% !important;
@@ -893,7 +891,9 @@ p {
 @media (min-width: 768px){
 
 
-
+    body .scroll{
+        visibility: visible;
+    }
     body #foot
     {
     height: 400px;
