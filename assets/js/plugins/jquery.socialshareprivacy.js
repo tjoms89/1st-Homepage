@@ -52,8 +52,6 @@
 
         return encodeURIComponent(title);
     }
-    
-
 
     // build URI from rel="canonical" or document.location
     function getURI() {
@@ -83,6 +81,8 @@
 
     // extend jquery with our plugin function
     $.fn.socialSharePrivacy = function (settings) {
+        var templateUrl = '<?= get_bloginfo("template_url"); ?>';
+        
         var defaults = {
             'services' : {
                 'facebook' : {
@@ -94,11 +94,13 @@
                     'layout'            : 'button_count',
                     'sharer'            : {
                         'status'        : 'off',
-                        'img'           : 'socialshareprivacy/images/dummy_facebook_share_active_de.png'
+                        'dummy_img'     : templateUrl + 'socialshareprivacy/images/dummy_facebook_share_de.png',
+                        'img'           : templateUrl + 'socialshareprivacy/images/dummy_facebook_share_active_de.png'
                     }
                 },
                 'twitter' : {
                     'status'            : 'on',
+                    'dummy_img'         : templateUrl + 'socialshareprivacy/images/dummy_twitter.png',
                     'perma_option'      : 'on',
                     'referrer_track'    : '',
                     'tweet_text'        : getTweetText,
@@ -106,6 +108,7 @@
                 },
                 'gplus' : {
                     'status'            : 'on',
+                    'dummy_img'         : templateUrl + 'socialshareprivacy/images/dummy_gplus.png',
                     'perma_option'      : 'on',
                     'referrer_track'    : '',
                     'size'              : 'medium'
