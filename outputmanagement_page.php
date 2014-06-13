@@ -35,7 +35,8 @@ Template Name: Outputmanagement Template
                 <br>
                              <br>
                 <input id="btntest" type="button" value="drucken" style="height: 25px; border:none;  background-color: #2d438e; color: #FFFFFF;"/>
-                <div id="socialshareprivacy"></div>
+                <!--<div id="socialshareprivacy"></div> -->
+                <br>
                 <br>
                 <br>
             
