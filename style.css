@@ -710,7 +710,11 @@ p {
 }
 
 
+/* Scrolled Sidebar */
 
+    body .scroll{
+        visibility: hidden;
+    }
 
 /* news sidebar */ 
 
@@ -844,7 +848,9 @@ p {
 @media (min-width: 570px){
     
 
-    
+    body .scroll{
+        visibility: visible;
+    }
     body #posts, .width1
     {
            margin-left: 20% !important;

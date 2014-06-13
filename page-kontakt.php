@@ -56,7 +56,7 @@
                     
                     <div class="col-sm-3 col-md-3">	 	
                         <div class="thumbnail">
-                            <img style="border: 1px solid; min-height: 180px; max-height: 180px;" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/karsten.jpg" alt="BILD" width="145" height="96" class="alignnone size-thumbnail ">		 	 
+                            <img style="border: 1px solid; min-height: 180px; max-height: 180px;" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/karsten.png" alt="BILD" width="145" height="96" class="alignnone size-thumbnail ">		 	 
                             <div class="caption">	<br>
                                 <h3>Karsten Milewsky</h3>	 	 
                                 <p style="font-weight: bold;">Leiter Output Management</p>
