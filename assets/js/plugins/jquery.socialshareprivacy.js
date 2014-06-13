@@ -54,20 +54,20 @@
     }
     
     function getFbImg() {
-        var template = get_stylesheet_directory_uri();
+        var template = get_template_directory_uri();
         var link = template + '/assets/js/plugins/images/dummy_facebook_share_de.png';
 
         return link;
     }
     function getGImg() {
-        var template = get_stylesheet_directory_uri();
+        var template = get_template_directory_uri();
         var link = template + '/assets/js/plugins/images/dummy_gplus.png';
 
         return link;
     }
     function getTwitImg() {
-        var template = get_stylesheet_directory_uri();
-        var link = template +'/assets/js/plugins/images/dummy_twitter.png';
+        var template = get_template_directory_uri();
+        var link = template + '/assets/js/plugins/images/dummy_twitter.png';
 
         return link;
     }
