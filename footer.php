@@ -83,8 +83,8 @@ function add_this_script_footer() {
         
         jQuery(document).ready(function(jQuery) {
 
-                  if($('#socialshareprivacy').length > 0){
-                     $('#socialshareprivacy').socialSharePrivacy({
+                  if(jQuery('#socialshareprivacy').length > 0){
+                     jQuery('#socialshareprivacy').socialSharePrivacy({
                     "css_path"  : "<?php echo get_stylesheet_directory_uri(); ?>/assets/js/plugins/socialshareprivacy/socialshareprivacy.css",
                     "lang_path" : "<?php echo get_stylesheet_directory_uri(); ?>/assets/js/plugins/socialshareprivacy/lang/",
                     "language"  : "de"
