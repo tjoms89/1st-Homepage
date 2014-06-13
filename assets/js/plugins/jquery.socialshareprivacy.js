@@ -52,6 +52,25 @@
 
         return encodeURIComponent(title);
     }
+    
+    function getFbImg() {
+        var template = get_stylesheet_directory_uri();
+        var link = template + '/assets/js/plugins/images/dummy_facebook_share_de.png';
+
+        return link;
+    }
+    function getGImg() {
+        var template = get_stylesheet_directory_uri();
+        var link = template + '/assets/js/plugins/images/dummy_gplus.png';
+
+        return link;
+    }
+    function getTwitImg() {
+        var template = get_stylesheet_directory_uri();
+        var link = template +'/assets/js/plugins/images/dummy_twitter.png';
+
+        return link;
+    }
 
     // build URI from rel="canonical" or document.location
     function getURI() {
@@ -92,7 +111,7 @@
                     'layout'            : 'button_count',
                     'sharer'            : {
                         'status'        : 'off',
-                        'dummy_img'     : 'socialshareprivacy/images/dummy_facebook_share_de.png',
+                        'dummy_img'     : getFbImg,
                         'img'           : 'socialshareprivacy/images/dummy_facebook_share_active_de.png'
                     }
                 },
@@ -101,12 +120,12 @@
                     'dummy_img'         : 'socialshareprivacy/images/dummy_twitter.png',
                     'perma_option'      : 'on',
                     'referrer_track'    : '',
-                    'tweet_text'        : getTweetText,
+                    'tweet_text'        : getTwitImg,
                     'count'             : 'horizontal'
                 },
                 'gplus' : {
                     'status'            : 'on',
-                    'dummy_img'         : 'socialshareprivacy/images/dummy_gplus.png',
+                    'dummy_img'         : getGImg,
                     'perma_option'      : 'on',
                     'referrer_track'    : '',
                     'size'              : 'medium'
