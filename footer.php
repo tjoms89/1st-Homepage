@@ -83,6 +83,13 @@ function add_this_script_footer() {
         
         jQuery(document).ready(function(jQuery) {
 
+                  if($('#socialshareprivacy').length > 0){
+                     $('#socialshareprivacy').socialSharePrivacy({
+                    "css_path"  : "<?php echo get_stylesheet_directory_uri(); ?>/assets/js/plugins/socialshareprivacy/socialshareprivacy.css",
+                    "lang_path" : "<?php echo get_stylesheet_directory_uri(); ?>/assets/js/plugins/socialshareprivacy/lang/",
+                    "language"  : "de"
+                    }   );
+                    }
             // insert pictures with backstretch
             // 
             //jQuery(".schiff").backstretch("<?php echo get_stylesheet_directory_uri(); ?>/assets/img/schiff2.jpg");

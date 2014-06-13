@@ -9,9 +9,8 @@
 
 </div>
 <div class="row width2">
-
+        
         <div id="sidebar">
-            
             <?php get_sidebar(); ?>
         </div>
 
