@@ -915,14 +915,7 @@ p {
 
 @media (min-width: 890px){
 
-          body #posts, .width1
-    {
-           margin-left: 20% !important;
 
-    }
-    body .scroll{
-        visibility: visible;
-    }
     .navbar .nav > li > a
     {
     font-size: 14px;
@@ -947,7 +940,14 @@ p {
     #intro h1, #intro-small h1{   
         top: 170px;
     }
+              body #posts, .width1
+    {
+           margin-left: 20% !important;
 
+    }
+    body .scroll{
+        visibility: visible;
+    }
 
 } 
 @media (min-width: 1000px){
