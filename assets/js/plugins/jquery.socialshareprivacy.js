@@ -53,21 +53,23 @@
         return encodeURIComponent(title);
     }
     
-    var templateUrl = '<?= get_bloginfo("template_url"); ?>';
+    
     
     function getFbImg() {
+        var templateUrl = '<?= get_template_directory_uri(); ?>';
         var link = templateUrl + '/assets/js/plugins/images/dummy_facebook_share_de.png';
 
         return link;
     }
     function getGImg() {
-
+        var templateUrl = '<?= get_template_directory_uri(); ?>';
         var link = templateUrl + '/assets/js/plugins/images/dummy_gplus.png';
 
         return link;
     }
     function getTwitImg() {
-        var template = get_template_directory_uri();        var link = templateUrl + '/assets/js/plugins/images/dummy_twitter.png';
+        var templateUrl = '<?= get_template_directory_uri(); ?>';
+        var link = templateUrl + '/assets/js/plugins/images/dummy_twitter.png';
 
         return link;
     }
