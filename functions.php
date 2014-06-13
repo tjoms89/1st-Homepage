@@ -4,8 +4,7 @@ function load_scripts()
 {  
 	// register scripts 
 	
-        wp_localize_script('mylib', 'WPURLS', array( 'siteurl' => get_option('siteurl') ));
-        
+
         wp_register_script( 'custom-script', get_stylesheet_directory_uri() . '/assets/js/bootstrap.js', array( 'jquery' ) );
         wp_enqueue_script( 'custom-script' );
         
