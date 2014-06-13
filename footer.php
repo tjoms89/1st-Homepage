@@ -88,7 +88,7 @@ function add_this_script_footer() {
                     "css_path"  : "<?php echo get_stylesheet_directory_uri(); ?>/assets/js/plugins/socialshareprivacy/socialshareprivacy.css",
                     "lang_path" : "<?php echo get_stylesheet_directory_uri(); ?>/assets/js/plugins/socialshareprivacy/lang/",
                     "language"  : "de"
-                    }   );
+                    });
                     }
             // insert pictures with backstretch
             // 

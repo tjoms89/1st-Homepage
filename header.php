@@ -27,12 +27,6 @@
         <?php wp_enqueue_script("jquery"); ?> 
         <?php wp_head(); ?>
             
-  <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/assets/js/plugins/jquery.socialshareprivacy.js"></script>
-  <script type="text/javascript">
-    jQuery(document).ready(function($){
-
-    });
-  </script>
 
     </head>
 

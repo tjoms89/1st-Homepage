@@ -21,6 +21,9 @@ function load_scripts()
         
         wp_register_script( 'html5', get_stylesheet_directory_uri() . '/assets/js/html5shiv.js');
         wp_enqueue_script( 'html5' );
+        
+        wp_register_script( 'social', get_stylesheet_directory_uri() . '/assets/js/plugins/jquery.socialshareprivacy.js', 'jquery');
+        wp_enqueue_script( 'social' );
 
 
 }
