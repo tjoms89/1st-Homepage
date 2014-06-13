@@ -887,14 +887,7 @@ p {
 @media (min-width: 768px){
 
 
-      body #posts, .width1
-    {
-           margin-left: 20% !important;
 
-    }
-    body .scroll{
-        visibility: visible;
-    }
 
     body #foot
     {
@@ -922,7 +915,14 @@ p {
 
 @media (min-width: 890px){
 
-    
+          body #posts, .width1
+    {
+           margin-left: 20% !important;
+
+    }
+    body .scroll{
+        visibility: visible;
+    }
     .navbar .nav > li > a
     {
     font-size: 14px;
