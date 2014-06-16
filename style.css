@@ -850,7 +850,10 @@ p {
     
 
 
-  
+         
+    #inner2 {
+    font-size: 14px;
+    }
         body #posts, .width2
     {
            width: 60%;
@@ -889,7 +892,9 @@ p {
 
 
 
-
+     #inner2 {
+        font-size: 11px;
+    }
     body #foot
     {
     height: 400px;
@@ -938,9 +943,7 @@ p {
     }*/
     
     
-    #inner2 {
-    font-size: 14px;
-    }
+
 
     #intro h1, #intro-small h1{   
         top: 170px;
@@ -976,6 +979,10 @@ p {
         visibility: hidden;
         width: 0px;
         height: 0px;
+    }
+    
+    #inner2 {
+    font-size: 14px;
     }
 }
 @media (min-width: 1300px){    
