@@ -850,10 +850,7 @@ p {
     
 
 
-         
-    #inner2 {
-    font-size: 14px;
-    }
+       
         body #posts, .width2
     {
            width: 60%;
@@ -890,11 +887,6 @@ p {
 
 @media (min-width: 768px){
 
-
-
-     #inner2 {
-        font-size: 11px;
-    }
     body #foot
     {
     height: 400px;
@@ -958,6 +950,12 @@ p {
         font-size: 18px;
 
     }
+    
+    #inner2 {
+        font-size: 14px;
+    }
+    
+    
     body #foot
     {
     height: 350px;
@@ -981,9 +979,7 @@ p {
         height: 0px;
     }
     
-    #inner2 {
-    font-size: 14px;
-    }
+
 }
 @media (min-width: 1300px){    
     .navbar-collapse > ul{ margin-right:120px;}
