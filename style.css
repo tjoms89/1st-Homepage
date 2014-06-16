@@ -970,7 +970,7 @@ p {
 
 }
 
-@media (max-width: 1200px){
+@media (min-width: 1200px){
     #inner2 {
         font-size: 14px;
     }
