@@ -179,9 +179,6 @@ a{
     border-bottom: 1px solid !important; 
     border-color: #2d438e !important;
 }
-.navbar-default {
-  max-height: 51px; 
-}
 
 .navbar-collapse {
   max-height: none; 
