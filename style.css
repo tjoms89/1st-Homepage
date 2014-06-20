@@ -180,16 +180,6 @@ a{
     border-color: #2d438e !important;
 }
 
-.navbar-collapse {
-  max-height: none; 
-}
-
-@media (max-width: 768px){
-  .navbar-default {
-    max-height: none;
-  }
-}
-
 .navbar .nav > li > a
 {
     color: #2d438e;
