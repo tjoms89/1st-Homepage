@@ -106,7 +106,8 @@ function add_this_script_footer() {
             jQuery(".meer").backstretch("<?php echo get_stylesheet_directory_uri(); ?>/assets/img/meer.jpg");
 
         }); 
-                // choose height for #intro
+        
+        // choose height for #intro
         if(jQuery("#intro").height() > jQuery(window).height()) {
             jQuery("#intro").css('height', jQuery("#intro").height());
         }
