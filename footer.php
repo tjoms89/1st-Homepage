@@ -83,13 +83,6 @@ function add_this_script_footer() {
         
         jQuery(document).ready(function(jQuery) {
 
-                  if(jQuery('#socialshareprivacy').length > 0){
-                     jQuery('#socialshareprivacy').socialSharePrivacy({
-                    "css_path"  : "<?php echo get_stylesheet_directory_uri(); ?>/assets/js/plugins/socialshareprivacy/socialshareprivacy.css",
-                    "lang_path" : "<?php echo get_stylesheet_directory_uri(); ?>/assets/js/plugins/socialshareprivacy/lang/",
-                    "language"  : "de"
-                    });
-                    }
             // insert pictures with backstretch
             // 
             //jQuery(".schiff").backstretch("<?php echo get_stylesheet_directory_uri(); ?>/assets/img/schiff2.jpg");
@@ -112,7 +105,14 @@ function add_this_script_footer() {
             //jQuery(".mainpic").backstretch("<?php echo get_stylesheet_directory_uri(); ?>/assets/img/main.jpg");           
             jQuery(".meer").backstretch("<?php echo get_stylesheet_directory_uri(); ?>/assets/img/meer.jpg");
 
-        });   
+        }); 
+                // choose height for #intro
+        if(jQuery("#intro").height() > jQuery(window).height()) {
+            jQuery("#intro").css('height', jQuery("#intro").height());
+        }
+        else {
+            jQuery("#intro").css('height', jQuery(window).height() - 150);
+        }
 
         /* carousel - not used
         jQuery('.carousel').carousel({
@@ -139,10 +139,6 @@ function add_this_script_footer() {
         }); */
         
        
-
-
- 
-
         // height for post-page
         jQuery(function() {
             var totalHeight = 0;
@@ -209,13 +205,7 @@ function add_this_script_footer() {
             }
         });
         
-        // choose height for #intro
-        if(jQuery("#intro").height() > jQuery(window).height()) {
-            jQuery("#intro").css('height', jQuery("#intro").height());
-        }
-        else {
-            jQuery("#intro").css('height', jQuery(window).height() - 150);
-        }
+
         
         // ticker for post-page
         jQuery(function(){
