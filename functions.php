@@ -21,7 +21,18 @@ function load_scripts()
         
         wp_register_script( 'html5', get_stylesheet_directory_uri() . '/assets/js/html5shiv.js');
         wp_enqueue_script( 'html5' );
+        
 }
+
+function my_login_logo() { ?>
+    <style type="text/css">
+        body.login div#login h1 a {
+            background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/img/itplogon.png);
+            padding-bottom: 30px;
+        }
+    </style>
+    
+add_action( 'login_enqueue_scripts', 'my_login_logo' );
 
 function add_parent_class_nav( $css_class, $page, $depth, $args )
 {
