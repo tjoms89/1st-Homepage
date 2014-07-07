@@ -110,7 +110,7 @@
                     Tel.: +49 461/487 - 3434  <br>
                     Fax: +49 461/487 - 2434  <br>
                     <a href="mailto:service@it-power.org">service@it-power.org</a></h4>  <br>	 
-                <h3>Kontaktformular: </h3>
+                <h3></h3>
                 <div class="form"><?php the_content(); ?></div>
             </div>
             <div class="col-md-6">
