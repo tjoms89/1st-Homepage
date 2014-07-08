@@ -34,7 +34,7 @@
                 <div class="col-md-4">
                     <br>
                     <div id="picture" class="user"></div>
-                    <a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/vodafone.png" width="300" height="200" class="alignnone size-thumbnail " /></a>
+                    <a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/vodafone.jpg" width="300" height="200" class="alignnone size-thumbnail " /></a>
                     <br>
                 </div>
                 <div class="col-md-8">
