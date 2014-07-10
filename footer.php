@@ -1,5 +1,5 @@
 
-</body>
+
 <footer style="z-index: 10;">
 <div id="foot" >
 
@@ -72,11 +72,13 @@
 
 </div>
 </div> 
+</footer>
 
 <?php
-wp_enqueue_script("jquery"); 
+
 // javascript functions for the frontend 
 function add_this_script_footer() {
+ 
     ?>
 
 
@@ -108,118 +110,7 @@ function add_this_script_footer() {
             jQuery(".meer").backstretch("<?php echo get_stylesheet_directory_uri(); ?>/assets/img/meer.jpg");
 
         }); 
-        
-        // choose height for #intro
-        if(jQuery("#intro").height() > jQuery(window).height()) {
-            jQuery("#intro").css('height', jQuery("#intro").height());
-        }
-        else {
-            jQuery("#intro").css('height', jQuery(window).height() - 150);
-        }
 
-        /* carousel - not used
-        jQuery('.carousel').carousel({
-            interval: 3000, cycle: true, pause: "hover"
-        }); */
-        
-        // hoverpic for icons - not working properly 
-        jQuery('.changer').on('mouseenter', function() {
-                jQuery(this).find('.nonhoverpic').hide();
-                jQuery(this).find('.hoverpic').show();
-        });
-        jQuery('.changer').on('mouseleave', function() {
-                jQuery('.hoverpic').hide();
-                jQuery('.nonhoverpic').show();
-        });
-        /*
-        jQuery('.nonhoverpic').on('mouseenter', function() {
-            jQuery(this).hide();
-            jQuery(this).next('.hoverpic').show();
-        });
-        jQuery('.hoverpic').on('mouseleave', function() {
-            jQuery('.hoverpic').hide();
-            jQuery('.nonhoverpic').show();
-        }); */
-        
-       
-        // height for post-page
-        jQuery(function() {
-            var totalHeight = 0;
-            jQuery("#posts > div").each(function() {
-                totalHeight += jQuery(this).height();
-            });
-            jQuery('#posts').css('height', totalHeight + 50);
-        });
-
-        // script for second navigation layer´
-        jQuery(function() {
-
-                if (jQuery(window).width() < 765) {
-                        jQuery('.expand').children('.children').css('height','35');
-                        jQuery('.expand').children('.children').css('line-height','1');
-                        jQuery('.navbar').css('height','auto');         
-                }
-                
-                jQuery('.expand').on('mouseenter', function() {
-
-                    if (jQuery(window).width() > 765) {
-                        // hide all other sub menus
-                        //jQuery(this).siblings(this).find('ul').hide();
-                        jQuery(this).addClass('hover');
-                        // show sub nav
-                        jQuery('#subnav').css('height', '72');
-                        jQuery('.navbar').css('height', '122');
-                        jQuery(this).children('.children').css('height','70');
-                        jQuery(this).children('.children').css('line-height','36');
-
-                    }
-                    if (jQuery(window).width() > 980) {
-                        jQuery('#subnav').css('height', '36');
-                        jQuery('.navbar').css('height', '86');
-                        
-                        jQuery(this).children('.children').css('height','35');
-                    }
-                    
-            });
-            
-                jQuery('.expand').on('mouseleave', function() {
-                    
-                    if (jQuery(window).width() > 765) {
-
-                                jQuery('.expand').removeClass('hover');
-                                jQuery('#subnav').css('height', '4');
-                                jQuery('.navbar').css('height', '50');
-                                //jQuery(this).children('.children').hide();
-                                jQuery(this).children('.children').css('height','0');
-                                jQuery(this).children('.children').css('line-height','0');
-                    }
-                    
-                  }); 
-           
-
-
-            });
-
-        function isTouchDevice(){
-                        return true === ("ontouchstart" in window || window.DocumentTouch && document instanceof DocumentTouch);
-        };
-        
-        // load fonts
-        WebFont.load({
-            google: {
-                families: ['Quicksand', 'Lato', 'Roboto', 'Quattrocento Sans']
-            }
-        });
-        
-
-        
-        // ticker for post-page
-        jQuery(function(){
-            setInterval(function(){
-                jQuery('#ticker li:first').animate({'opacity':0}, 200, function () { jQuery(this).appendTo(jQuery('#ticker')).css('opacity', 1);});
-        }, 5000);
-        });
-        
         // print function              
         jQuery(function(){
                     
@@ -296,6 +187,5 @@ add_action('wp_footer', 'add_this_script_footer', 20);
 wp_footer();
 ?>
 
-
-</footer>
+</body>
 </html>
