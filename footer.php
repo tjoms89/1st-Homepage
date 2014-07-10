@@ -1,6 +1,8 @@
 
+</body>
+<footer style="z-index: 10;">
 <div id="foot" >
-     <footer style="z-index: 10;">
+
          <div class="row">
         <div class="col-sm-6 col-md-3" >
             <ul class="ulfooter">
@@ -67,7 +69,7 @@
              <?php get_search_form(); ?>
              </div>
          </div>
-    </footer>
+
 </div>
 </div> 
 
@@ -295,5 +297,5 @@ wp_footer();
 ?>
 
 
-</body>
+</footer>
 </html>

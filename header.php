@@ -24,7 +24,6 @@
                 .navbar { top: 28px !important; }
             </style>
         <?php } ?>
-
         <?php wp_head(); ?>
 
     </head>
