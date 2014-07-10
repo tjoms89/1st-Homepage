@@ -72,7 +72,7 @@
 </div> 
 
 <?php
-
+wp_enqueue_script("jquery"); 
 // javascript functions for the frontend 
 function add_this_script_footer() {
     ?>
