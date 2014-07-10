@@ -18,6 +18,9 @@
         <link rel="apple-touch-icon" href="<?php echo get_template_directory_uri(); ?>/assets/img/apple-touch-icon-144x144-precomposed.png"/>
         <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/assets/img/favicon.ico" type="image/x-icon">
 
+        <script type="text/javascript">
+            var templateDir = "<?php bloginfo('template_directory') ?>";
+        </script>
         <!-- check if adminbar is showing and do some padding if its showing -->
         <?php if (is_admin_bar_showing()) { ?>
             <style>
