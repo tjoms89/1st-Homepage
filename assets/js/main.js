@@ -24,7 +24,41 @@
             jQuery(".meer").backstretch(templateDir + "/assets/img/meer.jpg");
 
         }); 
-        
+                // print function              
+        jQuery(function(){
+                    
+                     jQuery('#btntest').on('click', function() {
+
+                             
+                         var escaped = php.replace(/\\n/g, "")
+                                      .replace(/\\'/g, "")
+                                      .replace(/\\"/g, '')
+                                      .replace(/\\&/g, "")
+                                      .replace(/\\r/g, "")
+                                      .replace(/\\t/g, "")
+                                      .replace(/\\b/g, "")
+                                      .replace(/\\f/g, "")
+                                      .replace('"', '')
+                                      .replace(/<a\b[^>]*>/i,"")
+                                      .replace(/<\/a>/i, "");
+                              
+                         escaped = escaped.substring(0, escaped.length - 1);
+                         
+                         var kontakt = 'E-Mail: service@it-power.org - Tel.:+49  461 487-3434';
+                  
+                         var escaped = escaped.concat(kontakt);
+
+                        myWindow=window.open('','','width=auto,height=auto,scrollbars=1');
+                        myWindow.document.write('<div style="width:80%; margin-left:auto; margin-right:auto;">');
+                        myWindow.document.write('<img src="'+ templateDir +'/assets/img/itplogo2.png" alt="logo" width="235" height="30" class="alignnew"/>');
+                        myWindow.document.write(escaped);
+                        myWindow.document.write('</div>');
+                        myWindow.document.close();
+                        myWindow.focus();
+                        myWindow.print(); 
+                    });
+                         
+           });
         // choose height for #intro
         if(jQuery("#intro").height() > jQuery(window).height()) {
             jQuery("#intro").css('height', jQuery("#intro").height());

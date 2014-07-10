@@ -69,96 +69,26 @@
              <?php get_search_form(); ?>
              </div>
          </div>
+         
+            <script type="text/javascript">
+            var php = JSON.stringify(
+            <?php
+                 $string = array();
+                 $string[content] = apply_filters('the_content', get_the_content());
+
+                 echo json_encode($string[content]);
+            ?>
+            );
+                
+            var templateDir = "<?php bloginfo('template_directory') ?>";
+
+            </script>
 
 </div>
 </div> 
 </footer>
 
 <?php
-
-// javascript functions for the frontend 
-function add_this_script_footer() {
- 
-    ?>
-
-
-    
-    <script type="text/javascript">
-
-
-        // print function              
-        jQuery(function(){
-                    
-                     jQuery('#btntest').on('click', function() {
-                        var php = JSON.stringify(
-                                                    <?php
-                                                        $string = array();
-                                                        $string[content] = apply_filters('the_content', get_the_content());
-
-                                                        echo json_encode($string[content]);
-                                                    ?>
-                         );
-                             
-                         var escaped = php.replace(/\\n/g, "")
-                                      .replace(/\\'/g, "")
-                                      .replace(/\\"/g, '')
-                                      .replace(/\\&/g, "")
-                                      .replace(/\\r/g, "")
-                                      .replace(/\\t/g, "")
-                                      .replace(/\\b/g, "")
-                                      .replace(/\\f/g, "")
-                                      .replace('"', '')
-                                      .replace(/<a\b[^>]*>/i,"")
-                                      .replace(/<\/a>/i, "");
-                              
-                         escaped = escaped.substring(0, escaped.length - 1);
-                         
-                         var kontakt = 'E-Mail: service@it-power.org - Tel.:+49  461 487-3434';
-                  
-                         var escaped = escaped.concat(kontakt);
-
-                        myWindow=window.open('','','width=auto,height=auto,scrollbars=1');
-                        myWindow.document.write('<div style="width:80%; margin-left:auto; margin-right:auto;">');
-                        myWindow.document.write('<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/itplogo2.png" alt="logo" width="235" height="30" class="alignnew"/>');
-                        myWindow.document.write(escaped);
-                        myWindow.document.write('</div>');
-                        myWindow.document.close();
-                        myWindow.focus();
-                        myWindow.print(); 
-                    });
-                          if (jQuery(".scroll").length){
-                            stickyTop = jQuery('.scroll').offset().top; // returns number   
-                            stickybot = jQuery('#foot').height();
-
-                            jQuery(window).scroll(function(){ // scroll event
- 
-                            var windowTop = jQuery(window).scrollTop() + 80; // returns number
-             
-                            if (stickybot < windowTop ) {
-                            jQuery('.scroll').css({ position: 'fixed' });
-
-                            if (stickyTop < windowTop ) {
-                                jQuery('.scroll').css({ position: 'fixed', top: 80 });
-                                jQuery('.showup').hide();
-                            }
-
-                            else {
-                                jQuery('.scroll').css('position','static');
-                            }   
-                            }
-                            else {
-                                jQuery('.scroll').css('position','static');
-                                jQuery('.showup').show();
-                            }
-                            });}
-           });
-
-    </script>
-    <?php
-}
-
-add_action('wp_footer', 'add_this_script_footer', 20);
-
 wp_footer();
 ?>
 
