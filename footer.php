@@ -179,7 +179,7 @@ function add_this_script_footer() {
                     }
                     
             });
-
+            
                 jQuery('.expand').on('mouseleave', function() {
                     
                     if (jQuery(window).width() > 765) {
@@ -193,11 +193,14 @@ function add_this_script_footer() {
                     }
                     
                   }); 
-                    
+           
 
 
             });
 
+        function isTouchDevice(){
+                        return true === ("ontouchstart" in window || window.DocumentTouch && document instanceof DocumentTouch);
+        };
         
         // load fonts
         WebFont.load({
