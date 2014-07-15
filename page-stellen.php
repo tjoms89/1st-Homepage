@@ -20,7 +20,7 @@
     
         <?php endwhile;
     else: ?>  
-        <p><br><b><?php _e('Derzeit haben wir keine konkreten Stellenangebote ausgeschrieben. Falls ihr jedoch der Meinung sind besonders gut zu uns passen, freuen wir uns immer über eine Initiativbewerbung an Sven Ladewig'); ?></b></p>
+        <p><br><b><?php _e('Derzeit haben wir keine konkreten Stellenangebote ausgeschrieben. Falls Sie jedoch der Meinung sind, besonders gut zu uns passen, freuen wir uns immer über eine Initiativbewerbung an Sven Ladewig'); ?></b></p>
 <?php endif; ?>
        
 </div>

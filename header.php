@@ -7,7 +7,6 @@
 
         <title>IT-Power</title>
         <meta name="description" content="IT-Power Homepage"></meta>
-        <meta name="author" content="Thomas Kleinert"></meta>
 
         <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/assets/css/bootstrap.min.css"></link>
         <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/assets/css/bootstrap-theme.min.css"></link>
