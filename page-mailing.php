@@ -5,7 +5,7 @@
         <div id="intro-small" class="news">
         </div>
         
-        <div id="main" class=" width2">        
+        <div id="main">        
             <div class="row">
                 <br>
                 <div class="col-md-12">
