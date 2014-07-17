@@ -1,4 +1,12 @@
+/*! © 2014 by IT-Power GmbH (http://www.it-power.org); All rights reserved */
 
+/**
+ * Main.js
+ *
+ * @author Thomas Kleinert <thomas.kleinert@it-power.org>
+ * @since 12/24/2014
+ * @version @===version===@
+ */ 
 ;(function(window, document){
     
     jQuery(document).ready(function(jQuery) {

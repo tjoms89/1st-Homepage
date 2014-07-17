@@ -1,4 +1,14 @@
-<?php get_header(); ?>
+<?php 
+/*! © 2014 by IT-Power GmbH (http://www.it-power.org); All rights reserved */
+
+/**
+ * Karriere
+ *
+ * @author Thomas Kleinert <thomas.kleinert@it-power.org>
+ * @since 12/24/2014
+ * @version @===version===@
+ */
+get_header(); ?>
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
 
@@ -19,8 +29,7 @@
                 <br><br>
                 <div class="col-md-12"><p>
                     Wir sind immer daran interessiert, motivierte und gut ausgebildete Mitarbeiter zu finden. <br>
-                    Wenn Sie gerne bei IT-Power arbeiten möchten, können Sie sich jederzeit bewerben. <br>
-                    Senden Sie bitte in diesem Falle Ihre Bewerbungsunterlagen mit Ihrer Gehaltsvorstellung und dem frühestmöglichen Eintrittstermin an Herrn Sven Ladewig.
+                    Wenn Sie ein Teil unseres Teams werden möchten, freuen wir uns auf Ihre Bewerbung. Senden Sie diese inklusive Ihrer Gehaltsvorstellung und dem frühestmöglichen Eintrittstermin gerne an Sven Ladewig.
                     </p>
                 </div>
                 <br><br>

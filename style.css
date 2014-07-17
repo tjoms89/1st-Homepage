@@ -183,7 +183,7 @@ a{
 .navbar .nav > li > a
 {
     color: #2d438e;
-    font-size: 9px;
+    font-size: 12px;
     transition:  all 0.5s;
     -webkit-transition:  all 0.5s;
     -moz-transition:  all 0.5s;
@@ -240,10 +240,12 @@ a{
     overflow: hidden;
 
     z-index: 1032;
+    line-height: 3 !important;
     transition:  all 0.5s;
     -webkit-transition:  all 0.5s;
     -moz-transition:  all 0.5s;
     -o-transition:  all 0.5s;
+    font-size: 12px;
 
 }
 
@@ -260,18 +262,34 @@ a{
 
 .navbar .nav > li .children > li > a{
     color: #818ebb;
-    padding: 0 12px;  
+    padding: 0 10px;  
     background: #FFFFFF;
     z-index: 1032;
-    font-size: 10px;
+    font-size: 12px;
+
     transition:  all 0.5s;
     -webkit-transition:  all 0.5s;
     -moz-transition:  all 0.5s;
     -o-transition:  all 0.5s;
 }
+@media (max-width: 1023px){
+.navbar-default .navbar-collapse
+{
+    height: 500px !important;
+    max-height: 500px !important; 
+}
 
+#mainnav > li .children {
 
-@media (min-width: 765px){
+    height: auto !important;
+}
+#mainnav > li .children > li {
+
+        display: inline-block;
+}
+
+}
+@media (min-width: 1024px){
 #mainnav > li .children {
 
     position: fixed;   

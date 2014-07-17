@@ -1,4 +1,14 @@
-<?php $search_terms = htmlspecialchars( $_GET["s"] ); ?>
+<?php 
+/*! © 2014 by IT-Power GmbH (http://www.it-power.org); All rights reserved */
+
+/**
+ * Searchform
+ *
+ * @author Thomas Kleinert <thomas.kleinert@it-power.org>
+ * @since 12/24/2014
+ * @version @===version===@
+ */
+$search_terms = htmlspecialchars( $_GET["s"] ); ?>
 
 <form role="form" action="<?php bloginfo('url'); ?>/" id="searchform" method="get">
     <label for="s" class="sr-only">Suche</label>

@@ -1,4 +1,14 @@
-<?php get_header(); ?>
+<?php 
+/*! © 2014 by IT-Power GmbH (http://www.it-power.org); All rights reserved */
+
+/**
+ * Infrastruktur Template
+ *
+ * @author Thomas Kleinert <thomas.kleinert@it-power.org>
+ * @since 12/24/2014
+ * @version @===version===@
+ */
+get_header(); ?>
 <?php /*
 Template Name: Infrastruktur Template
 */

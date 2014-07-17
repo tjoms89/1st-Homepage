@@ -1,5 +1,14 @@
 <!DOCTYPE html>     
+<?php 
+/*! © 2014 by IT-Power GmbH (http://www.it-power.org); All rights reserved */
 
+/**
+ * Wordpress Template Header
+ *
+ * @author Thomas Kleinert <thomas.kleinert@it-power.org>
+ * @since 12/24/2014
+ * @version @===version===@
+ */ ?>
 <html class="no-js"> 
     <head>
         <meta charset="utf-8"></meta>
