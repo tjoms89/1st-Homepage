@@ -272,7 +272,7 @@ a{
     -moz-transition:  all 0.5s;
     -o-transition:  all 0.5s;
 }
-@media (max-width: 1023px){
+@media (max-width: 764px){
 .navbar-default .navbar-collapse
 {
     height: 500px !important;
@@ -289,7 +289,7 @@ a{
 }
 
 }
-@media (min-width: 1024px){
+@media (min-width: 765px){
 #mainnav > li .children {
 
     position: fixed;   
