@@ -16,6 +16,7 @@ get_header(); ?>
         </div>
     </div>
 </div>
+<br>
 <div class="row">
 <div class="col-md-9">
 <div id="posts">
@@ -42,8 +43,8 @@ get_header(); ?>
     <div class="col-md-3 ">
 
          <?php get_sidebar("consulting"); ?>
-
-   </div>
+        
+    </div><br>
 </div>
 
 
