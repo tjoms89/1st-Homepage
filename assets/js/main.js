@@ -25,7 +25,7 @@
             jQuery(".gras").backstretch(templateDir + "/assets/img/gras.jpg");
             jQuery(".pust").backstretch(templateDir + "/assets/img/pust.jpg");
             //jQuery(".boat").backstretch(templateDir + "/assets/img/boat.jpg");             
-            jQuery(".mill").backstretch(templateDir + "/assets/img/mill.png");            
+            jQuery(".mill").backstretch(templateDir + "/assets/img/mill.jpg");            
             jQuery(".hamburg").backstretch(templateDir + "/assets/img/hamburg.jpg");            
             jQuery(".solar").backstretch(templateDir + "/assets/img/solar.jpg");           
             //jQuery(".mainpic").backstretch(templateDir + "/assets/img/main.jpg");           

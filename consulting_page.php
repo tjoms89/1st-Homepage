@@ -40,6 +40,7 @@ Template Name: Consulting Template
                         <li id="2"><a href="<?php echo get_permalink(get_page_by_path('leistungen/consulting/geschaftsprozessmanagement')); ?>#inhalt">Geschäftsprozessmanagement</a></li>
                         <li id="3"><a href="<?php echo get_permalink(get_page_by_path('leistungen/consulting/requirements-engineering')); ?>#inhalt">Requirements Engineering</a></li>
                         <li id="4"><a href="<?php echo get_permalink(get_page_by_path('leistungen/consulting/change-management')); ?>#inhalt">Change Management</a></li>
+                    
                     </ul>
             </div>
             <div class="col-md-6"  style="padding: 10px 0 !important;"> 

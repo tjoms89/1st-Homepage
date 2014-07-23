@@ -19,7 +19,7 @@ get_header(); ?>
             <div class="row">
                 <br>
                 <div class="col-md-12">
-                                <?php the_content(); ?>
+                <?php the_content(); ?>
             </div>
         </div>
         </div>

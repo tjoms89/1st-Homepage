@@ -85,7 +85,7 @@
             <?php
                  $string = array();
                  $string[content] = apply_filters('the_content', get_the_content());
-
+                    
                  echo json_encode($string[content]);
             ?>
             );
