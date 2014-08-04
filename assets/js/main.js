@@ -13,7 +13,7 @@
 
             // insert pictures with backstretch
 
-            jQuery(".kurs").backstretch(templateDir + "/assets/img/kurs.jpg");
+            jQuery(".kurs").backstretch(templateDir + "/assets/img/kursmin.jpg");
             jQuery(".ice").backstretch(templateDir + "/assets/img/ice.jpg");
             jQuery(".eis").backstretch(templateDir + "/assets/img/eis.jpg");
             jQuery(".water2").backstretch(templateDir + "/assets/img/water2.jpg");
