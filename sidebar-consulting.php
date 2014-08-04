@@ -19,9 +19,9 @@
                                 <p style="font-weight: bold;">Leiter Consulting  <p>
                                     <br>
          
-                                <p>Tel.: +49  461 487-3424</p>
-                                <p>Fax: +49  461 487-2424</p>
-                                <p>Mobil: +49  171/5533629</p>
+                                <p>Tel.: +49 461 487-3424</p>
+                                <p>Fax: +49 461 487-2424</p>
+                                <p>Mobil: +49 171/5533629</p>
                                 <p><a href="mailto:sven.ladewig@it-power.org">sven.ladewig@it-power.org</a></p>
                                 <br>
                             </div></div>

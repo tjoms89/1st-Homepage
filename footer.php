@@ -45,7 +45,7 @@
             </div>
             <div class="row">
             <ul class="ulfooter2"> 	 	 	 
-                <li><a href="tel:+494614873434">Tel.: +49  461 487-3434</a></li><br>
+                <li><a href="tel:+494614873434">Tel.: +49 461 487-3434</a></li><br>
                 <li><a href="mailto:service@it-power.org">service@it-power.org</a></li>
             </ul>
             </div>
