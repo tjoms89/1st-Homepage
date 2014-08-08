@@ -105,7 +105,7 @@ get_header(); ?>
                                 <p>Fax: +49  461/487-2424</p>
                                 <p>Mobil: +49 170/7828153</p>
                                 <p><a href="mailto:frederic.thordsen@it-power.org">frederic.thordsen@it-power.org</a></p>
-                                <br><br><br>
+                                <br><br>
                             </div></div></div>	
 
                 </div>
