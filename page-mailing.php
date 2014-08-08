@@ -13,11 +13,11 @@ get_header(); ?>
 
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
         <div id="intro-small" class="news">
-           <!--<div class="row">
+           <div class="row">
                 <div class="background5">
-                    <h1> Test-Überschrift </h1>
+                    <h1> Kontakt </h1>
                 </div> 
-            </div> -->
+            </div>
         </div>
         
         <div id="main" style="width:90%;">        

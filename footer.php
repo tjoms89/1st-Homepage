@@ -81,6 +81,8 @@
          </div>
          
             <script type="text/javascript">
+                
+            
             var php = JSON.stringify(
             <?php
                  $string = array();
@@ -91,6 +93,7 @@
             );
                 
             var templateDir = "<?php bloginfo('template_directory') ?>";
+
 
             </script>
 

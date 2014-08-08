@@ -1,4 +1,16 @@
 <!DOCTYPE html>     
+<blockquote>
+<!--[if IE 5]>
+<p><br><br><br><br>Ihr Browser ist veraltet. Bitte Browser updaten.</p>
+<![endif]-->
+<!--[if IE 6]>
+<p><br><br><br><br>Ihr Browser ist veraltet. Bitte Browser updaten.</p>
+<![endif]-->
+<!--[if IE 7]>
+<p><br><br><br><br>Ihr Browser ist veraltet. Bitte Browser updaten.</p>
+<![endif]-->
+</blockquote>
+        
 <?php 
 /*! © 2014 by IT-Power GmbH (http://www.it-power.org); All rights reserved */
 
@@ -11,6 +23,8 @@
  */ ?>
 <html class="no-js"> 
     <head>
+
+
         <meta charset="utf-8"></meta>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
 
@@ -79,6 +93,7 @@
                         'walker' => ''
                         
                     );
+          
                     
                     wp_list_pages( $args );
                     ?>
