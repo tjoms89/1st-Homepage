@@ -17,7 +17,7 @@ get_header(); ?>
                 <div class="row" style="padding-top:70px">	 
                     <div class="col-sm-6 col-md-6">	 	 
                         <div class="thumbnail">	 	 
-                            <img style="border: 1px solid;" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/sven_ladewig.jpg" alt="BILD" width="150" height="100" class="alignnone size-thumbnail ">		 	 
+                            <img style="border: 1px solid;  max-width: 150px; max-height: 180px;" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/sven_ladewig.jpg" alt="BILD" width="150" height="100" class="alignnone size-thumbnail ">		 	 
                             <div class="caption">	 	 
                                 <h3>Sven Ladewig</h3>	 	 
                                 <p style="font-weight: bold;">Geschäftsführer</p>
@@ -35,7 +35,7 @@ get_header(); ?>
 
                     <div class="col-sm-6 col-md-6">	 	 
                         <div class="thumbnail">	 	 
-                            <img style="border: 1px solid;" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/render.png" alt="BILD" width="128" height="82" class="alignnone size-thumbnail ">	 	 
+                            <img style="border: 1px solid;  max-width: 150px; max-height: 180px;" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/render.png" alt="BILD" width="128" height="82" class="alignnone size-thumbnail ">	 	 
                             <div class="caption">	 	 
                                 <h3>Maik Render</h3>	 	 
                                 <p style="font-weight: bold;" >Geschäftsführer</p>
@@ -51,7 +51,7 @@ get_header(); ?>
                     <br>
                     <div class="col-sm-3 col-md-3">	 	 
                         <div class="thumbnail">	 	 
-                            <img style="border: 1px solid;" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/jan_ipsen.jpg" alt="BILD" width="150" height="100" class="alignnone size-thumbnail ">		 	 
+                            <img style="border: 1px solid;  max-width: 150px; max-height: 180px;" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/jan_ipsen.jpg" alt="BILD" width="150" height="100" class="alignnone size-thumbnail ">		 	 
                             <div class="caption">	 	 
                                 <h3>Jan Ipsen</h3>	 	 
                                 <p style="font-weight: bold;">Leiter IT-Infrastruktur</p>
@@ -66,8 +66,8 @@ get_header(); ?>
                     
                     <div class="col-sm-3 col-md-3">	 	
                         <div class="thumbnail">
-                            <img style="border: 1px solid; min-height: 180px; max-height: 180px;" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/karsten.png" alt="BILD" width="145" height="96" class="alignnone size-thumbnail ">		 	 
-                            <div class="caption">	<br>
+                            <img style="border: 1px solid; max-width: 150px; max-height: 180px;" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/karsten.png" alt="BILD" width="145" height="96" class="alignnone size-thumbnail ">		 	 
+                            <div class="caption">
                                 <h3>Karsten Milewsky</h3>	 	 
                                 <p style="font-weight: bold;">Leiter Output Management</p>
                                 <br>
@@ -80,7 +80,7 @@ get_header(); ?>
                                         
                     <div class="col-sm-3 col-md-3">	 	 
                         <div class="thumbnail">	 	 
-                            <img style="border: 1px solid; min-height: 180px; max-height: 180px;" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/lisa.png" alt="BILD" width="145" height="96" class="alignnone size-thumbnail ">		 	 
+                            <img style="border: 1px solid; max-width: 150px; max-height: 180px;" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/lisa.png" alt="BILD" width="145" height="96" class="alignnone size-thumbnail ">		 	 
                             <div class="caption">	 	 
                                 <h3>Lisa Dubbert</h3>	 	 
                                 <p style="font-weight: bold;">Leiterin Backoffice &</p>
@@ -96,7 +96,7 @@ get_header(); ?>
                                        
                     <div class="col-sm-3 col-md-3">	 	
                         <div class="thumbnail">	 	 
-                            <img style="border: 1px solid; min-height: 180px; max-height: 180px;" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/frederic.jpg" alt="BILD" width="145" height="96" class="alignnone size-thumbnail ">		 	 
+                            <img style="border: 1px solid; max-width: 150px; max-height: 180px;" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/frederic.jpg" alt="BILD" width="145" height="96" class="alignnone size-thumbnail ">		 	 
                             <div class="caption">	 	 
                                 <h3>Frederic M. Thordsen</h3>	 	 
                                 <p style="font-weight: bold;">Vertrieb</p>
@@ -111,6 +111,7 @@ get_header(); ?>
                 </div>
             </div>	 
         </div>	 	 
+
         <div id="kontakt"><br> 
             <h2>Treten Sie mit uns in Kontakt</h2><br>
             <div class="col-md-6">
