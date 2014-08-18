@@ -94,23 +94,7 @@
                 
             var templateDir = "<?php bloginfo('template_directory') ?>";
             
-            if(document.location.host !== 'localhost') {
-                
-            var pkBaseURL = (("https:" == document.location.protocol) ? "https://www.it-power.org/analytics/" : "http://www.it-power.org/analytics/");
-            document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
-
-            }
-
-            if(document.location.host !== 'localhost') {
-
-                try {
-                var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 1);
-                piwikTracker.trackPageView();
-                piwikTracker.enableLinkTracking();
-
-            } catch( err ) {}
-
-}
+          
 
 
             </script>
