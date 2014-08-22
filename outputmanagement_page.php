@@ -51,8 +51,8 @@ Template Name: Outputmanagement Template
                 <br>
             
             </div></div></div>
-    <div class="col-md-1"></div>
-    <div class="col-md-3 ">
+    <div class="col-md-1 hidden-sm"></div>
+    <div class="col-md-3 hidden-sm">
         <?php get_sidebar("output"); ?>
             </div>
 </div>
