@@ -9,6 +9,7 @@
  */ 
 ;(function(window, document){
     
+    jQuery( '.navbar-nav li:has(ul)' ).doubleTapToGo();
     jQuery(document).ready(function(jQuery) {
 
             // insert pictures with backstretch
@@ -205,7 +206,7 @@
                             });}
                         
 
-jQuery( '.navbar-nav li:has(ul)' ).doubleTapToGo();
+
                         
 
 
