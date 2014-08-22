@@ -94,7 +94,19 @@
                 
             var templateDir = "<?php bloginfo('template_directory') ?>";
             
-          
+              var _paq = _paq || [];
+              (function() {
+                var u=(("https:" == document.location.protocol) ? "https" : "http") + "://www.it-power.org/analytics/";
+                _paq.push(["setSiteId", "1"]);
+                _paq.push(["setTrackerUrl", u+'js/']);
+                _paq.push(['setVisitorCookieTimeout','604800']);
+                _paq.push(['setSessionCookieTimeout','0']);
+                _paq.push(['trackPageView']);
+                _paq.push(['enableLinkTracking']);
+
+                var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+                g.defer=true; g.async=true; g.src=u+"js/"; s.parentNode.insertBefore(g,s);
+              })();
 
 
             </script>
