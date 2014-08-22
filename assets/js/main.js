@@ -204,5 +204,11 @@
                             }
                             });}
                         
+
+jQuery( '.navbar-nav li:has(ul)' ).doubleTapToGo();
+                        
+
+
+
 })(this);
        

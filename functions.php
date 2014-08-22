@@ -28,7 +28,10 @@ function load_scripts()
         wp_register_script( 'modern', get_stylesheet_directory_uri() . '/assets/js/respond.js');
         wp_enqueue_script( 'modern' );
         
-        wp_register_script( 'main', get_stylesheet_directory_uri() . '/assets/js/main.js', array('jquery', 'backstretch', 'fonts' ), '1.0', true);
+        wp_register_script( 'double', get_stylesheet_directory_uri() . '/assets/js/doubletap.js', array('jquery'), '1.0', true);
+        wp_enqueue_script( 'double' );
+        
+        wp_register_script( 'main', get_stylesheet_directory_uri() . '/assets/js/main.js', array('jquery', 'backstretch', 'fonts', 'double' ), '1.0', true);
         wp_enqueue_script( 'main' );
         
         
