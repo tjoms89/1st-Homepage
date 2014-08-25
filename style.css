@@ -159,6 +159,7 @@ a{
     padding-top: 13px;
     padding-left: 10px;
     height: 50px;
+ 
 }
 
 .navbar-default .navbar-brand:hover{
@@ -603,6 +604,11 @@ body #intro-small .row {
     margin-right: auto;
 }
 
+.alignnew{
+    width: 200px;
+}
+
+
 .background1{
     background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAFUlEQVQImWNgQAK6zn3/SeUwMDAAAAk5B/UaXbqNAAAAAElFTkSuQmCC);
     margin-top: 50px;
@@ -954,6 +960,10 @@ p {
     {
         font-size: 18px;
 
+    }
+    
+    .alignnew{
+        width: 245px;
     }
     
 

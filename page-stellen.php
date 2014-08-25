@@ -40,7 +40,7 @@ get_header(); ?>
        
 </div>
 </div>
-    <div class="col-md-3 ">
+    <div class="col-md-3 hidden-sm">
 
          <?php get_sidebar("consulting"); ?>
         
