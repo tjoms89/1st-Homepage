@@ -51,7 +51,7 @@ get_header(); ?>
                     <br>
                     <div class="col-sm-3 col-md-3">	 	 
                         <div class="thumbnail">	 	 
-                            <img style="border: 1px solid;  max-width: 150px; max-height: 180px;" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/jan.jpg" alt="BILD" width="150" height="100" class="alignnone size-thumbnail ">		 	 
+                            <img style="border: 1px solid;  max-width: 150px; max-height: 180px;" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/Jan.jpg" alt="BILD" width="150" height="100" class="alignnone size-thumbnail ">		 	 
                             <div class="caption">	 	 
                                 <h3>Jan Ipsen</h3>	 	 
                                 <p style="font-weight: bold;">Leiter IT-Infrastruktur</p>
@@ -66,7 +66,7 @@ get_header(); ?>
                     
                     <div class="col-sm-3 col-md-3">	 	
                         <div class="thumbnail">
-                            <img style="border: 1px solid; max-width: 150px; max-height: 180px;" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/Karsten.png" alt="BILD" width="150" height="100" class="alignnone size-thumbnail ">		 	 
+                            <img style="border: 1px solid; max-width: 150px; max-height: 180px;" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/karsten.png" alt="BILD" width="150" height="100" class="alignnone size-thumbnail ">		 	 
                             <div class="caption">
                                 <h3>Karsten Milewsky</h3>	 	 
                                 <p style="font-weight: bold;">Leiter Output Management</p>
