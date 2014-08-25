@@ -102,7 +102,7 @@ get_header(); ?>
                                 <p style="font-weight: bold;">Vertrieb</p>
                                 <br>
                                 <p>Tel.: +49  461/487-3430</p>
-                                <p>Fax: +49  461/487-2424</p>
+                                <p>Fax: +49  461/487-2434</p>
                                 <p>Mobil: +49 170/7828153</p>
                                 <p><a href="mailto:frederic.thordsen@it-power.org">frederic.thordsen@it-power.org</a></p>
                                 <br><br><br>
