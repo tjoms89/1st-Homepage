@@ -9,6 +9,7 @@
  * @since 12/24/2014
  * @version @===version===@
  */
+
 get_header(); ?>
 
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
@@ -32,8 +33,7 @@ get_header(); ?>
                  <br>
                   <br>
         </div>
-    <?php endwhile;
-else: ?>
+    <?php endwhile; else: ?>
     <p><?php _e('Tut uns Leid. Die Seite existiert nicht.'); ?></p>
 <?php endif; ?>
 

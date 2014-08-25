@@ -17,7 +17,7 @@ get_header(); ?>
                 <div class="row" style="padding-top:70px">	 
                     <div class="col-sm-6 col-md-6">	 	 
                         <div class="thumbnail">	 	 
-                            <img style="border: 1px solid;  max-width: 150px; max-height: 180px;" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/sven_ladewig.jpg" alt="BILD" width="150" height="100" class="alignnone size-thumbnail ">		 	 
+                            <img style="border: 1px solid;  max-width: 150px; max-height: 180px;" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/sven.jpg" alt="BILD" width="150" height="100" class="alignnone size-thumbnail ">		 	 
                             <div class="caption">	 	 
                                 <h3>Sven Ladewig</h3>	 	 
                                 <p style="font-weight: bold;">Geschäftsführer</p>
@@ -35,7 +35,7 @@ get_header(); ?>
 
                     <div class="col-sm-6 col-md-6">	 	 
                         <div class="thumbnail">	 	 
-                            <img style="border: 1px solid;  max-width: 150px; max-height: 180px;" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/render.png" alt="BILD" width="128" height="82" class="alignnone size-thumbnail ">	 	 
+                            <img style="border: 1px solid;  max-width: 150px; max-height: 180px;" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/render.png" alt="BILD" width="150" height="100" class="alignnone size-thumbnail ">	 	 
                             <div class="caption">	 	 
                                 <h3>Maik Render</h3>	 	 
                                 <p style="font-weight: bold;" >Geschäftsführer</p>
@@ -51,7 +51,7 @@ get_header(); ?>
                     <br>
                     <div class="col-sm-3 col-md-3">	 	 
                         <div class="thumbnail">	 	 
-                            <img style="border: 1px solid;  max-width: 150px; max-height: 180px;" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/jan_ipsen.jpg" alt="BILD" width="150" height="100" class="alignnone size-thumbnail ">		 	 
+                            <img style="border: 1px solid;  max-width: 150px; max-height: 180px;" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/jan.jpg" alt="BILD" width="150" height="100" class="alignnone size-thumbnail ">		 	 
                             <div class="caption">	 	 
                                 <h3>Jan Ipsen</h3>	 	 
                                 <p style="font-weight: bold;">Leiter IT-Infrastruktur</p>
@@ -66,7 +66,7 @@ get_header(); ?>
                     
                     <div class="col-sm-3 col-md-3">	 	
                         <div class="thumbnail">
-                            <img style="border: 1px solid; max-width: 150px; max-height: 180px;" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/karsten.png" alt="BILD" width="145" height="96" class="alignnone size-thumbnail ">		 	 
+                            <img style="border: 1px solid; max-width: 150px; max-height: 180px;" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/Karsten.png" alt="BILD" width="150" height="100" class="alignnone size-thumbnail ">		 	 
                             <div class="caption">
                                 <h3>Karsten Milewsky</h3>	 	 
                                 <p style="font-weight: bold;">Leiter Output Management</p>
@@ -75,12 +75,12 @@ get_header(); ?>
                                 <p>Fax: +49  461 487-2434</p>
                                 <p>Mobil: +49  175/4384772</p>
                                 <p><a href="mailto:karsten.milewsky@it-power.org">karsten.milewsky@it-power.org</a></p>
-                                <br><br>
+                                <br><br><br>
                             </div></div></div>
                                         
                     <div class="col-sm-3 col-md-3">	 	 
                         <div class="thumbnail">	 	 
-                            <img style="border: 1px solid; max-width: 150px; max-height: 180px;" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/lisa.png" alt="BILD" width="145" height="96" class="alignnone size-thumbnail ">		 	 
+                            <img style="border: 1px solid; max-width: 150px; max-height: 180px;" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/lisa.jpg" alt="BILD" width="150" height="100" class="alignnone size-thumbnail ">		 	 
                             <div class="caption">	 	 
                                 <h3>Lisa Dubbert</h3>	 	 
                                 <p style="font-weight: bold;">Leiterin Backoffice &</p>
@@ -105,7 +105,7 @@ get_header(); ?>
                                 <p>Fax: +49  461/487-2424</p>
                                 <p>Mobil: +49 170/7828153</p>
                                 <p><a href="mailto:frederic.thordsen@it-power.org">frederic.thordsen@it-power.org</a></p>
-                                <br><br>
+                                <br><br><br>
                             </div></div></div>	
 
                 </div>
