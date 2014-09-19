@@ -604,6 +604,10 @@ body #intro-small .row {
 
 /* diverse hintergründe */
 
+.thumbnail{
+    margin-bottom: 0px !important;
+}
+
 .alignnew, .nonhoverpic, .hoverpic, .size-thumbnail{
     margin-left: auto;
     margin-right: auto;

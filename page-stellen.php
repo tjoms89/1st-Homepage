@@ -19,11 +19,11 @@ get_header(); ?>
 <br>
 <div class="row">
 <div class="col-md-9">
-<div id="posts">
+<div id="posts" style="min-height: 400px;">
 
     <?php query_posts('category_name=work'); ?>
     <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-    <div class="row">
+    <div class="row" >
             <div class="col-md-12">
                 <h2><a href="<?php the_permalink(); ?>">
                         <div class="title"><?php the_title(); ?></div></a>

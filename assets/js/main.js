@@ -182,6 +182,7 @@
                           if (jQuery(".scroll").length){
                             stickyTop = jQuery('.scroll').offset().top; // returns number   
                             stickybot = jQuery('#foot').height();
+                            stickybot = stickybot + 100; 
 
                             jQuery(window).scroll(function(){ // scroll event
  
