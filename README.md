@@ -1,4 +1,4 @@
-IT-Power Wordpress Theme
+1st Wordpress Theme
 ========
 
 this is a Bootstrap 3 Wordpress Theme. Just bootstrap 3, some js and css to for Customization. 
